@@ -1702,5 +1702,449 @@
 				"description" : "No privileges"
 			}
         }
-    }
+    },
+	"0x003" : {
+		"name" : "SCE_ERROR_FACILITY_KERNEL_EXT",
+		"errors" : {}
+	},
+	"0x004" : {
+		"name" : "SCE_ERROR_FACILITY_KERNEL_S",
+		"errors" : {}
+	},
+	"0x005" : {
+		"name" : "SCE_ERROR_FACILITY_KERNEL_SEXT",
+		"errors" : {}
+	},
+	"0x006" : {
+		"name" : "SCE_ERROR_FACILITY_KERNEL_B",
+		"errors" : {}
+	},
+	"0x007" : {
+		"name" : "SCE_ERROR_FACILITY_KERNEL_BEXT",
+		"errors" : {}
+	},
+	"0x008" : {
+		"name" : "SCE_ERROR_FACILITY_DECI_USR",
+		"errors" : {}
+	},
+	"0x009" : {
+		"name" : "SCE_ERROR_FACILITY_DECI_SYS",
+		"errors" : {}
+	},
+	"0x00A" : {
+		"name" : "SCE_ERROR_FACILITY_COREDUMP",
+		"errors" : {}
+	},
+	"0x00C" : {
+		"name" : "SCE_ERROR_FACILITY_REGISTRY",
+		"errors" : {}
+	},
+	"0x00D" : {
+		"name" : "SCE_ERROR_FACILITY_REGISTRY_KERNEL",
+		"errors" : {}
+	},
+	"0x00F" : {
+		"name" : "SCE_ERROR_FACILITY_SBL",
+		"errors" : {}
+	},
+	"0x010" : {
+		"name" : "SCE_ERROR_FACILITY_VSH",
+		"errors" : {}
+	},
+	"0x011" : {
+		"name" : "SCE_ERROR_FACILITY_UTILITY",
+		"errors" : {}
+	},
+	"0x012" : {
+		"name" : "SCE_ERROR_FACILITY_SYSFILE",
+		"errors" : {}
+	},
+	"0x013" : {
+		"name" : "SCE_ERROR_FACILITY_MSAPP",
+		"errors" : {}
+	},
+	"0x014" : {
+		"name" : "SCE_ERROR_FACILITY_PFS",
+		"errors" : {}
+	},
+	"0x018" : {
+		"name" : "SCE_ERROR_FACILITY_UPDATER",
+		"errors" : {}
+	},
+	"0x019" : {
+		"name" : "SCE_ERROR_FACILITY_SAFEMODE",
+		"errors" : {}
+	},
+	"0x01A" : {
+		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"errors" : {}
+	},
+	"0x01B" : {
+		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"errors" : {}
+	},
+	"0x01C" : {
+		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"errors" : {}
+	},
+	"0x01D" : {
+		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"errors" : {}
+	},
+	"0x01E" : {
+		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"errors" : {}
+	},
+	"0x01F" : {
+		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"errors" : {}
+	},
+	"0x020" : {
+		"name" : "SCE_ERROR_FACILITY_SHAREDFB",
+		"errors" : {}
+	},
+	"0x022" : {
+		"name" : "SCE_ERROR_FACILITY_MEMSTICK",
+		"errors" : {}
+	},
+	"0x023" : {
+		"name" : "SCE_ERROR_FACILITY_IDSTORAGE",
+		"errors" : {}
+	},
+	"0x024" : {
+		"name" : "SCE_ERROR_FACILITY_USB",
+		"errors" : {}
+	},
+	"0x025" : {
+		"name" : "SCE_ERROR_FACILITY_SYSCON",
+		"errors" : {}
+	},
+	"0x026" : {
+		"name" : "SCE_ERROR_FACILITY_AUDIO",
+		"errors" : {}
+	},
+	"0x027" : {
+		"name" : "SCE_ERROR_FACILITY_LFLASH",
+		"errors" : {}
+	},
+	"0x028" : {
+		"name" : "SCE_ERROR_FACILITY_LFATFS",
+		"errors" : {}
+	},
+	"0x029" : {
+		"name" : "SCE_ERROR_FACILITY_DISPLAY",
+		"errors" : {}
+	},
+	"0x02A" : {
+		"name" : "SCE_ERROR_FACILITY_UMASS",
+		"errors" : {}
+	},
+	"0x02B" : {
+		"name" : "SCE_ERROR_FACILITY_POWER",
+		"errors" : {}
+	},
+	"0x2C" : {
+		"name" : "SCE_ERROR_FACILITY_AUDIOROUTING",
+		"errors" : {}
+	},
+	"0x2D" : {
+		"name" : "SCE_ERROR_FACILITY_MEDIASYNC",
+		"errors" : {}
+	},
+	"0x2E" : {
+		"name" : "SCE_ERROR_FACILITY_CAMERA",
+		"errors" : {}
+	},
+	"0x02F" : {
+		"name" : "SCE_ERROR_FACILITY_BT",
+		"errors" : {}
+	},
+	"0x032" : {
+		"name" : "SCE_ERROR_FACILITY_SDIF",
+		"errors" : {}
+	},
+	"0x033" : {
+		"name" : "SCE_ERROR_FACILITY_BBMC",
+		"errors" : {}
+	},
+	"0x034" : {
+		"name" : "SCE_ERROR_FACILITY_CTRL",
+		"errors" : {}
+	},
+	"0x035" : {
+		"name" : "SCE_ERROR_FACILITY_TOUCH",
+		"errors" : {}
+	},
+	"0x036" : {
+		"name" : "SCE_ERROR_FACILITY_MOTION",
+		"errors" : {}
+	},
+	"0x037" : {
+		"name" : "SCE_ERROR_FACILITY_HDMI",
+		"errors" : {}
+	},
+	"0x039" : {
+		"name" : "SCE_ERROR_FACILITY_GPS",
+		"errors" : {}
+	},
+	"0x03A" : {
+		"name" : "SCE_ERROR_FACILITY_AVCONFIG",
+		"errors" : {}
+	},
+	"0x03B" : {
+		"name" : "SCE_ERROR_FACILITY_HID",
+		"errors" : {}
+	},
+	"0x03D" : {
+		"name" : "SCE_ERROR_FACILITY_MSIF",
+		"errors" : {}
+	},
+	"0x03E" : {
+		"name" : "SCE_ERROR_FACILITY_USBAUDIO",
+		"errors" : {}
+	},
+	"0x03F" : {
+		"name" : "SCE_ERROR_FACILITY_PERIPH",
+		"errors" : {}
+	},
+	"0x041" : {
+		"name" : "SCE_ERROR_FACILITY_NETWORK",
+		"errors" : {}
+	},
+	"0x042" : {
+		"name" : "SCE_ERROR_FACILITY_SAS",
+		"errors" : {}
+	},
+	"0x043" : {
+		"name" : "SCE_ERROR_FACILITY_HTTP",
+		"errors" : {}
+	},
+	"0x044" : {
+		"name" : "SCE_ERROR_FACILITY_WAVE",
+		"errors" : {}
+	},
+	"0x045" : {
+		"name" : "SCE_ERROR_FACILITY_SND",
+		"errors" : {}
+	},
+	"0x046" : {
+		"name" : "SCE_ERROR_FACILITY_FONT",
+		"errors" : {}
+	},
+	"0x047" : {
+		"name" : "SCE_ERROR_FACILITY_P3DA",
+		"errors" : {}
+	},
+	"0x048" : {
+		"name" : "SCE_ERROR_FACILITY_HASH",
+		"errors" : {}
+	},
+	"0x049" : {
+		"name" : "SCE_ERROR_FACILITY_PRNG",
+		"errors" : {}
+	},
+	"0x04A" : {
+		"name" : "SCE_ERROR_FACILITY_NGS",
+		"errors" : {}
+	},
+	"0x04B" : {
+		"name" : "SCE_ERROR_FACILITY_ECHO",
+		"errors" : {}
+	},
+	"0x04C" : {
+		"name" : "SCE_ERROR_FACILITY_GPU",
+		"errors" : {}
+	},
+	"0x04D" : {
+		"name" : "SCE_ERROR_FACILITY_SULPHA",
+		"errors" : {}
+	},
+	"0x04E" : {
+		"name" : "SCE_ERROR_FACILITY_VOICE",
+		"errors" : {}
+	},
+	"0x04F" : {
+		"name" : "SCE_ERROR_FACILITY_HEAP",
+		"errors" : {}
+	},
+	"0x050" : {
+		"name" : "SCE_ERROR_FACILITY_MAGICGATE",
+		"errors" : {}
+	},
+	"0x052" : {
+		"name" : "SCE_ERROR_FACILITY_OPENPSID",
+		"errors" : {}
+	},
+	"0x053" : {
+		"name" : "SCE_ERROR_FACILITY_DNAS",
+		"errors" : {}
+	},
+	"0x054" : {
+		"name" : "SCE_ERROR_FACILITY_MTP",
+		"errors" : {}
+	},
+	"0x055" : {
+		"name" : "SCE_ERROR_FACILITY_NP",
+		"errors" : {}
+	},
+	"0x056" : {
+		"name" : "SCE_ERROR_FACILITY_COMPRESSION",
+		"errors" : {}
+	},
+	"0x057" : {
+		"name" : "SCE_ERROR_FACILITY_DBGFONT",
+		"errors" : {}
+	},
+	"0x058" : {
+		"name" : "SCE_ERROR_FACILITY_PERF",
+		"errors" : {}
+	},
+	"0x059" : {
+		"name" : "SCE_ERROR_FACILITY_FIBER",
+		"errors" : {}
+	},
+	"0x05A" : {
+		"name" : "SCE_ERROR_FACILITY_SYSMODULE",
+		"errors" : {}
+	},
+	"0x05B" : {
+		"name" : "SCE_ERROR_FACILITY_GXM",
+		"errors" : {}
+	},
+	"0x05C" : {
+		"name" : "SCE_ERROR_FACILITY_CES",
+		"errors" : {}
+	},
+	"0x05D" : {
+		"name" : "SCE_ERROR_FACILITY_GXT",
+		"errors" : {}
+	},
+	"0x05F" : {
+		"name" : "SCE_ERROR_FACILITY_LIBRARY",
+		"errors" : {}
+	},
+	"0x060" : {
+		"name" : "SCE_ERROR_FACILITY_CODECENGINE",
+		"errors" : {}
+	},
+	"0x061" : {
+		"name" : "SCE_ERROR_FACILITY_MPEG",
+		"errors" : {}
+	},
+	"0x062" : {
+		"name" : "SCE_ERROR_FACILITY_AVC",
+		"errors" : {}
+	},
+	"0x063" : {
+		"name" : "SCE_ERROR_FACILITY_ATRAC",
+		"errors" : {}
+	},
+	"0x064" : {
+		"name" : "SCE_ERROR_FACILITY_ASF",
+		"errors" : {}
+	},
+	"0x065" : {
+		"name" : "SCE_ERROR_FACILITY_JPEG",
+		"errors" : {}
+	},
+	"0x066" : {
+		"name" : "SCE_ERROR_FACILITY_AVI",
+		"errors" : {}
+	},
+	"0x067" : {
+		"name" : "SCE_ERROR_FACILITY_MP3",
+		"errors" : {}
+	},
+	"0x068" : {
+		"name" : "SCE_ERROR_FACILITY_G729",
+		"errors" : {}
+	},
+	"0x069" : {
+		"name" : "SCE_ERROR_FACILITY_PNG",
+		"errors" : {}
+	},
+	"0x06A" : {
+		"name" : "SCE_ERROR_FACILITY_AVPLAYER",
+		"errors" : {}
+	},
+	"0x077" : {
+		"name" : "SCE_ERROR_FACILITY_RUDP",
+		"errors" : {}
+	},
+	"0x07F" : {
+		"name" : "SCE_ERROR_FACILITY_CODEC",
+		"errors" : {}
+	},
+	"0x080" : {
+		"name" : "SCE_ERROR_FACILITY_APPMGR",
+		"errors" : {}
+	},
+	"0x081" : {
+		"name" : "SCE_ERROR_FACILITY_ULT",
+		"errors" : {}
+	},
+	"0x082" : {
+		"name" : "SCE_ERROR_FACILITY_FIOS",
+		"errors" : {}
+	},
+	"0x083" : {
+		"name" : "SCE_ERROR_FACILITY_BASE64",
+		"errors" : {}
+	},
+	"0x084" : {
+		"name" : "SCE_ERROR_FACILITY_INIFILE",
+		"errors" : {}
+	},
+	"0x085" : {
+		"name" : "SCE_ERROR_FACILITY_XML",
+		"errors" : {}
+	},
+	"0x086" : {
+		"name" : "SCE_ERROR_FACILITY_AUDIOENC",
+		"errors" : {}
+	},
+	"0x087" : {
+		"name" : "SCE_ERROR_FACILITY_NPDRM",
+		"errors" : {}
+	},
+	"0x088" : {
+		"name" : "SCE_ERROR_FACILITY_PHYSICSEFFECTS",
+		"errors" : {}
+	},
+	"0x089" : {
+		"name" : "SCE_ERROR_FACILITY_SYSTEM_GESTURE",
+		"errors" : {}
+	},
+	"0x08A" : {
+		"name" : "SCE_ERROR_FACILITY_SBL_GCAUTH",
+		"errors" : {}
+	},
+	"0x08B" : {
+		"name" : "SCE_ERROR_FACILITY_FACE",
+		"errors" : {}
+	},
+	"0x08D" : {
+		"name" : "SCE_ERROR_FACILITY_EXFATFS",
+		"errors" : {}
+	},
+	"0x08F" : {
+		"name" : "SCE_ERROR_FACILITY_PSMKDC",
+		"errors" : {}
+	},
+	"0x091" : {
+		"name" : "SCE_ERROR_FACILITY_QUICK",
+		"errors" : {}
+	},
+	"0x092" : {
+		"name" : "SCE_ERROR_FACILITY_JSON",
+		"errors" : {}
+	},
+	"0x0A0" : {
+		"name" : "SCE_ERROR_FACILITY_KRM",
+		"errors" : {}
+	},
+	"0x0AF" : {
+		"name" : "SCE_ERROR_FACILITY_PAF",
+		"errors" : {}
+	}
 }
