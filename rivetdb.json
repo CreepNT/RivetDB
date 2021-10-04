@@ -2052,15 +2052,15 @@
 				"name" : "SCE_IME_ERROR_INVALID_MAX_TEXT_LENGTH",
 				"description" : "maxTextLength value is invalid."
 			},
-			"0x071a" : {
+			"0x071A" : {
 				"name" : "SCE_IME_ERROR_INVALID_INPUT_TEXT_BUFFER",
 				"description" : "inputTextBuffer value is invalid."
 			},
-			"0x071b" : {
+			"0x071B" : {
 				"name" : "SCE_IME_ERROR_INVALID_RESERVED",
 				"description" : "reserved value is invalid."
 			},
-			"0x071c" : {
+			"0x071C" : {
 				"name" : "SCE_IME_ERROR_INVALID_ENTER_LABEL",
 				"description" : "enterLabel value is invalid."
 			},
@@ -2247,6 +2247,14 @@
 			"0x12FF" : {
 				"name" : "SCE_LOCATION_ERROR_FATAL_ERROR",
 				"description" : "Other fatal error"
+			},
+			"0x1801" : {
+				"name" : "SCE_SHELLUTIL_UKETORNE_NOT_INITIALIZED",
+				"description" : "ShellUtilUketorne library has not been initialized"
+			},
+			"0x1802" : {
+				"name" : "SCE_SHELLUTIL_UKETORNE_ALREADY_INITIALIZED",
+				"description" : "ShellUtilUketorne library has already been initialized"
 			},
 			"0x1a01" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_PARAM",
@@ -8325,6 +8333,14 @@
 	"0x080" : {
 		"name" : "SCE_ERROR_FACILITY_APPMGR",
 		"errors" : {
+			"0x0001" : {
+				"name" : "Unknown error (0x0001)",
+				"description" : "Returned when a parameter is NULL"
+			},
+			"0x1042" : {
+				"name" : "SCE_APPMGR_INVALID_PARAM_ID",
+				"description" : "paramId passed to sceAppMgrAppParamGetInt is invalid"
+			},
 			"0x2000" : {
 				"name" : "SCE_APPMGR_ERROR_BUSY",
 				"description" : "Busy"
@@ -8350,6 +8366,10 @@
 			"0x201E" : {
 				"name" : "SCE_APPMGR_ERROR_INVALID_SELF_PATH",
 				"description" : "Invalid SELF file path"
+			},
+			"0x201F" : {
+				"name" : "SCE_APPMGR_ERROR_APP_NOT_ALLOWED",
+				"description" : "App is not allowed to call this routine - generally a IsSceShell/IsRootApp/IsSIEApp check fail"
 			},
 			"0x3000" : {
 				"name" : "SCE_APPMGR_ERROR_BGM_PORT_BUSY",
