@@ -8878,7 +8878,12 @@
 	},
 	"0x0AF" : {
 		"name" : "SCE_ERROR_FACILITY_PAF",
-		"errors" : {}
+		"errors" : {
+            "0x0702": {
+                "name" : "SCE_PAF_ERROR_THREAD_ALREADY_STARTED",
+                "description" : "The thread you're trying has already been started once."
+            }
+        }
 	},
 	"0x100" : {
 		"name" : "SCE_ERROR_FACILITY_SCREAM",
