@@ -1,15 +1,15 @@
 {
     "0x001" :{
         "name" : "SCE_ERROR_FACILITY_ERRNO",
-        "description" : "Errno facility",
+        "description" : "errno facility - standard C errno values",
         "errors" : {
 			"0x0001" : {
 				"name" : "SCE_ERROR_ERRNO_EPERM",
-				"description" : "No execute permission"
+				"description" : "Operation not permitted"
 			},
 			"0x0002" : {
 				"name" : "SCE_ERROR_ERRNO_ENOENT",
-				"description" : "No such file"
+				"description" : "No such file or directory"
 			},
 			"0x0003" : {
 				"name" : "SCE_ERROR_ERRNO_ESRCH",
@@ -17,11 +17,11 @@
 			},
 			"0x0004" : {
 				"name" : "SCE_ERROR_ERRNO_EINTR",
-				"description" : "Function call interrupted"
+				"description" : "System call interrupted"
 			},
 			"0x0005" : {
 				"name" : "SCE_ERROR_ERRNO_EIO",
-				"description" : "l/O error"
+				"description" : "I/O error"
 			},
 			"0x0006" : {
 				"name" : "SCE_ERROR_ERRNO_ENXIO",
@@ -33,7 +33,7 @@
 			},
 			"0x0008" : {
 				"name" : "SCE_ERROR_ERRNO_ENOEXEC",
-				"description" : "Execution format error"
+				"description" : "Executable format error"
 			},
 			"0x0009" : {
 				"name" : "SCE_ERROR_ERRNO_EBADF",
@@ -49,11 +49,11 @@
 			},
 			"0x000C" : {
 				"name" : "SCE_ERROR_ERRNO_ENOMEM",
-				"description" : "Cannot allocate needed memory"
+				"description" : "Insufficient memory"
 			},
 			"0x000D" : {
 				"name" : "SCE_ERROR_ERRNO_EACCES",
-				"description" : "No access privileges"
+				"description" : "Permission denied"
 			},
 			"0x000E" : {
 				"name" : "SCE_ERROR_ERRNO_EFAULT",
@@ -73,7 +73,7 @@
 			},
 			"0x0012" : {
 				"name" : "SCE_ERROR_ERRNO_EXDEV",
-				"description" : "Multiple devices specified"
+				"description" : "Multiple devices (cross-device link) specified"
 			},
 			"0x0013" : {
 				"name" : "SCE_ERROR_ERRNO_ENODEV",
@@ -93,7 +93,7 @@
 			},
 			"0x0017" : {
 				"name" : "SCE_ERROR_ERRNO_ENFILE",
-				"description" : "Too many open files"
+				"description" : "File table overflow"
 			},
 			"0x0018" : {
 				"name" : "SCE_ERROR_ERRNO_EMFILE",
@@ -181,7 +181,7 @@
 			},
 			"0x002D" : {
 				"name" : "SCE_ERROR_ERRNO_EDEADLK",
-				"description" : "Deadlock"
+				"description" : "Ressource deadlock would occur"
 			},
 			"0x002E" : {
 				"name" : "SCE_ERROR_ERRNO_ENOLCK",
@@ -233,7 +233,7 @@
 			},
 			"0x003D" : {
 				"name" : "SCE_ERROR_ERRNO_ENODATA",
-				"description" : "No data (for no delay io)"
+				"description" : "No data available (for no delay I/O)"
 			},
 			"0x003E" : {
 				"name" : "SCE_ERROR_ERRNO_ETIME",
@@ -489,27 +489,27 @@
 			},
 			"0x0089" : {
 				"name" : "SCE_ERROR_ERRNO_ECASECLASH",
-				"description" : "Clash"
+				"description" : "Filename exists with different case"
 			},
 			"0x008A" : {
 				"name" : "SCE_ERROR_ERRNO_EILSEQ",
-				"description" : "ILSEQ"
+				"description" : "Illegal byte sequence"
 			},
 			"0x008B" : {
 				"name" : "SCE_ERROR_ERRNO_EOVERFLOW",
-				"description" : "Overflow"
+				"description" : "Value too large for defined data type"
 			},
 			"0x008C" : {
 				"name" : "SCE_ERROR_ERRNO_ECANCELED",
-				"description" : "Canceled"
+				"description" : "Operation canceled"
 			},
 			"0x008D" : {
 				"name" : "SCE_ERROR_ERRNO_ENOTRECOVERABLE",
-				"description" : "Not recoverable"
+				"description" : "State not recoverable"
 			},
 			"0x008E" : {
 				"name" : "SCE_ERROR_ERRNO_EOWNERDEAD",
-				"description" : "Owner does not exist"
+				"description" : "Owner died"
 			},
 			"0x008F" : {
 				"name" : "SCE_ERROR_ERRNO_EICV",
@@ -519,7 +519,7 @@
     },
     "0x002" : {
         "name" : "SCE_ERROR_FACILITY_KERNEL",
-        "description" : "Kernel facility",
+        "description" : "Kernel core facility",
         "errors" : {
             "0x0001":{
                 "name" : "SCE_KERNEL_ERROR_ERROR",
@@ -539,15 +539,15 @@
             },
             "0x0005":{
                 "name" : "SCE_KERNEL_ERROR_INVALID_ARGUMENT",
-                "description" : "Provided argument is invalid"
+                "description" : "Invalid argument provided"
             },
             "0x0006" : {
                 "name" : "SCE_KERNEL_ERROR_ILLEGAL_ADDR",
-                "description" : "Incorrect address specification"
+                "description" : "Incorrect address specified"
             },
             "0x0007" : {
                 "name" : "SCE_KERNEL_ERROR_ILLEGAL_ALIGNMENT",
-                "description" : "Incorrect alignment"
+                "description" : "Incorrect alignment specified"
             },
             "0x0008" : {
                 "name" : "SCE_KERNEL_ERROR_ILLEGAL_PERMISSION",
@@ -555,11 +555,11 @@
             },
             "0x0009" : {
                 "name" : "SCE_KERNEL_ERROR_INVALID_ARGUMENT_SIZE",
-                "description" : "Size of provided argument is invalid"
+                "description" : "Invalid argument size"
             },
             "0x000A" : {
                 "name" : "SCE_KERNEL_ERROR_INVALID_FLAGS",
-                "description" : "Flag setting of provided argument is invalid"
+                "description" : "Specified flags are invalid"
             },
             "0x000B" : {
                 "name" : "SCE_KERNEL_ERROR_ILLEGAL_SIZE",
@@ -599,47 +599,47 @@
 			},
 			"0x0403" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_ARGUMENT",
-				"description" : "Parameter error"
+				"description" : "Invalid argument specified"
 			},
 			"0x0404" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_RUNNING",
-				"description" : "Called during a period other than SCE_COMMON_DIALOG_STATUS_RUNNING"
+				"description" : "Common Dialog not in status SCE_COMMON_DIALOG_STATUS_RUNNING"
 			},
 			"0x0405" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_SUPPORTED",
-				"description" : "Called in an operation mode not supported by the API"
+				"description" : "Operation mode not supported by API"
 			},
 			"0x0406" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_ILLEGAL_CALLER_THREAD",
-				"description" : "The API was called by an illegal thread."
+				"description" : "Illegal thread called API"
 			},
 			"0x0407" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_CONFIGURED",
-				"description" : "Initialization failed due to a Common Dialog internal error"
+				"description" : "Initialization failure due to a Common Dialog internal error"
 			},
 			"0x0410" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_FINISHED",
-				"description" : "Called during a period other than SCE_COMMON_DIALOG_STATUS_FINISHED"
+				"description" : "Common dialog not in status SCE_COMMON_DIALOG_STATUS_FINISHED"
 			},
 			"0x0411" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_IN_USE",
-				"description" : "The Common Dialog concerned is not currently in use (call sce*DialogInit() first)"
+				"description" : "Concerned Common Dialog not currently in use - call sce*DialogInit() first"
 			},
 			"0x0420" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_COLOR_FORMAT",
-				"description" : "Invalid color format was specified"
+				"description" : "Invalid color format specified"
 			},
 			"0x0421" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_RESOLUTION",
-				"description" : "Invalid surface resolution is specified"
+				"description" : "Invalid surface resolution specified"
 			},
 			"0x0422" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_STRIDE",
-				"description" : "Invalid surface stride is specified"
+				"description" : "Invalid surface stride specified"
 			},
 			"0x0423" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_TYPE",
-				"description" : "Invalid surface type is specified"
+				"description" : "Invalid surface type specified"
 			},
 			"0x0424" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_WITHIN_SCENE",
@@ -651,23 +651,23 @@
 			},
 			"0x0431" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_LANGUAGE",
-				"description" : "Invalid language was specified"
+				"description" : "Invalid language specified"
 			},
 			"0x0432" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_ENTER_BUTTON_ASSIGN",
-				"description" : "Invalid Enter button was specified"
+				"description" : "Invalid Enter button specified"
 			},
 			"0x0433" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_INFOBAR_PARAM",
-				"description" : "Invalid info bar parameter was specified"
+				"description" : "Invalid info bar parameter specified"
 			},
 			"0x0434" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_BG_COLOR",
-				"description" : "Invalid background color was specified"
+				"description" : "Invalid background color specified"
 			},
 			"0x0435" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_DIMMER_COLOR",
-				"description" : "Invalid dimmer color was specified"
+				"description" : "Invalid dimmer color specified"
 			},
 			"0x0436" : {
 				"name" : "SCE_COMMON_DIALOG_ERROR_GXM_IS_UNINITIALIZED",
@@ -679,19 +679,19 @@
 			},
             "0x1000" : {
                 "name" : "SCE_KERNEL_ERROR_DEBUG_ERROR",
-                "description" : "Error occurred with debug service"
+                "description" : "Debug service error occurred"
             },
             "0x1001" : {
                 "name" : "SCE_KERNEL_ERROR_ILLEGAL_DIPSW_NUMBER",
-                "description" : "Invalid value of DIPSW number"
+                "description" : "DIPSW number value is invalid"
             },
             "0x2000" : {
                 "name" : "SCE_KERNEL_ERROR_CPU_ERROR",
-                "description" : "Error occurred with CPU service"
+                "description" : "CPU service error occurred"
             },
             "0x2001" : {
                 "name" : "SCE_KERNEL_ERROR_MMU_ILLEGAL_L1_TYPE",
-                "description" : "Value of page table entry of MMU Leve1l is invalid"
+                "description" : "Invalid page table entry MMU Leve1l value"
             },
             "0x2002" : {
                 "name" : "SCE_KERNEL_ERROR_MMU_L2_INDEX_OVERFLOW",
@@ -703,7 +703,7 @@
             },
             "0x2004" : {
                 "name" : "SCE_KERNEL_ERROR_INVALID_CPU_AFFINITY",
-                "description" : "Setting of processor number is invalid"
+                "description" : "Provided processor affinity is invalid"
             },
             "0x2005" : {
                 "name" : "SCE_KERNEL_ERROR_INVALID_MEMORY_ACCESS",
@@ -727,7 +727,7 @@
             },
             "0x4000" : {
                 "name" : "SCE_KERNEL_ERROR_SYSMEM_ERROR",
-                "description" : "Memory manager error"
+                "description" : "System Memory Manager error occured"
             },
             "0x4001" : {
                 "name" : "SCE_KERNEL_ERROR_INVALID_PROCESS_CONTEXT",
@@ -735,11 +735,11 @@
             },
             "0x4002" : {
                 "name" : "SCE_KERNEL_ERROR_UID_NAME_TOO_LONG",
-                "description" : "UID name exceeds size limit"
+                "description" : "Provided UID name exceeds size limit"
             },
             "0x4003" : {
                 "name" : "SCE_KERNEL_ERROR_VARANGE_IS_NOT_PHYSICAL_CONTINUOUS",
-                "description" : "Virtual address range is not physical continuous memory"
+                "description" : "Virtual address range is not physically continuous memory"
             },
             "0x4100" : {
                 "name" : "SCE_KERNEL_ERROR_PHYADDR_ERROR",
@@ -815,7 +815,7 @@
 			},
 			"0x4500" : {
 				"name" : "SCE_KERNEL_ERROR_UID_ERROR",
-				"description" : "Resource identifier manager error"
+				"description" : "Resource Identifier manager error occurred"
 			},
 			"0x4501" : {
 				"name" : "SCE_KERNEL_ERROR_INVALID_UID",
@@ -927,7 +927,7 @@
 			},
 			"0x4903" : {
 				"name" : "SCE_KERNEL_ERROR_HEAPLIB_NOMEM",
-				"description" : "Heap has no available memory"
+				"description" : "Insufficient memory in heap"
 			},
 			"0x4A00" : {
 				"name" : "SCE_KERNEL_ERROR_SYSMEM_ADDRESS_SPACE_ERROR",
@@ -1027,7 +1027,7 @@
 			},
 			"0x7000" : {
 				"name" : "SCE_KERNEL_ERROR_EXCPMGR_ERROR",
-				"description" : "Error occurred with exception handler manager"
+				"description" : "Exception handler manager error occurred"
 			},
 			"0x7001" : {
 				"name" : "SCE_KERNEL_ERROR_ILLEGAL_EXCPCODE",
@@ -1095,7 +1095,7 @@
 			},
 			"0x7200" : {
 				"name" : "SCE_KERNEL_ERROR_DMACMGR_ERROR",
-				"description" : "Error occurred with DMA service"
+				"description" : "DMA service error occurred"
 			},
 			"0x7201" : {
 				"name" : "SCE_KERNEL_ERROR_ALREADY_QUEUED",
@@ -1147,7 +1147,7 @@
 			},
 			"0x8000" : {
 				"name" : "SCE_KERNEL_ERROR_THREADMGR_ERROR",
-				"description" : "General error of the thread manager"
+				"description" : "Thread manager error occurred"
 			},
 			"0x8001" : {
 				"name" : "SCE_KERNEL_ERROR_UNKNOWN_UID",
@@ -1567,11 +1567,11 @@
 			},
 			"0x9000" : {
 				"name" : "SCE_KERNEL_ERROR_PROCESSMGR_ERROR",
-				"description" : "Process manager error"
+				"description" : "Process manager error occurred"
 			},
 			"0x9001" : {
 				"name" : "SCE_KERNEL_ERROR_INVALID_PID",
-				"description" : "Provided process identifier is invalid"
+				"description" : "Invalid process identifier provided"
 			},
 			"0x9002" : {
 				"name" : "SCE_KERNEL_ERROR_INVALID_PROCESS_TYPE",
@@ -1595,11 +1595,11 @@
 			},
 			"0x9007" : {
 				"name" : "SCE_KERNEL_ERROR_INVALID_BUDGET_SIZE",
-				"description" : "Size of budget is invalid"
+				"description" : "Invalid budget size"
 			},
 			"0x9008" : {
 				"name" : "SCE_KERNEL_ERROR_CP14_DISABLED",
-				"description" : "CP14 is disabled"
+				"description" : "Debug Coprocessor CP14 is disabled"
 			},
 			"0x9009" : {
 				"name" : "SCE_KERNEL_ERROR_EXCEEDED_MAX_PROCESSES",
@@ -1619,7 +1619,7 @@
 			},
 			"0xA000" : {
 				"name" : "SCE_KERNEL_ERROR_IOFILEMGR_ERROR",
-				"description" : "I/O file manager error"
+				"description" : "I/O file manager error occurred"
 			},
 			"0xA001" : {
 				"name" : "SCE_KERNEL_ERROR_IO_NAME_TOO_LONG",
@@ -1655,11 +1655,11 @@
 			},
 			"0xD003" : {
 				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_LIB",
-				"description" : "Library does not exist"
+				"description" : "Non-existent library"
 			},
 			"0xD004" : {
 				"name" : "SCE_KERNEL_ERROR_MODULEMGR_SYSCALL_REG",
-				"description" : "System call registration failed"
+				"description" : "Failed to register system call"
 			},
 			"0xD005" : {
 				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM_LIB",
@@ -1813,6 +1813,7 @@
 	},
 	"0x008" : {
 		"name" : "SCE_ERROR_FACILITY_DECI_USR",
+		"description" : "Userland DECI4p facility",
 		"errors" : {
 			"0x0800" : {
 				"name" : "SCE_KERNEL_ERROR_DECI4P_UNKNOWN",
@@ -1820,7 +1821,7 @@
 			},
 			"0x0801" : {
 				"name" : "SCE_KERNEL_ERROR_DECI4P_ALREADYUSE_PROTOCOL",
-				"description" : "Protocol number that is already used"
+				"description" : "Protocol number already in use"
 			},
 			"0x0802" : {
 				"name" : "SCE_KERNEL_ERROR_DECI4P_ILLEGAL_SID",
@@ -1876,15 +1877,15 @@
 			},
 			"0x080F" : {
 				"name" : "SCE_KERNEL_ERROR_DECI4P_HOST_PROCESS_DISABLED",
-				"description" : "This feature is disabled in development host computer"
+				"description" : "Feature disabled on development host computer"
 			},
 			"0x0810" : {
 				"name" : "SCE_KERNEL_ERROR_DECI4P_HOST_CREATE_PROCESS",
-				"description" : "Process creation in development host computer failed"
+				"description" : "Failed to create process on development host computer"
 			},
 			"0x0811" : {
 				"name" : "SCE_KERNEL_ERROR_DECI4P_HOST_TOOMANY_PROCESS",
-				"description" : "Number of processes being generated is too many"
+				"description" : "Too many processes are being generated"
 			}
 		}
 	},
@@ -1894,18 +1895,19 @@
 	},
 	"0x00A" : {
 		"name" : "SCE_ERROR_FACILITY_COREDUMP",
+		"description" : "COREDUMP facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_COREDUMP_ERROR_PARAM",
-				"description" : "Error in the parameters"
+				"description" : "Parameter error"
 			},
 			"0x0001" : {
 				"name" : "SCE_COREDUMP_ERROR_NOT_REGISTERED",
-				"description" : "A core dump handler is not registered"
+				"description" : "Core dump handler is not registered"
 			},
 			"0x0002" : {
 				"name" : "SCE_COREDUMP_ERROR_ALREADY_REGISTERED",
-				"description" : "A core dump handler is already registered"
+				"description" : "Core dump handler is already registered"
 			},
 			"0x0003" : {
 				"name" : "SCE_COREDUMP_ERROR_NOT_IN_COREDUMP_HANDLER",
@@ -1927,6 +1929,7 @@
 	},
 	"0x010" : {
 		"name" : "SCE_ERROR_FACILITY_VSH",
+		"description" : "Visual SHell facility",
 		"errors" : {
 			"0x0600" : {
 				"name" : "SCE_APPUTIL_ERROR_PARAMETER",
@@ -1950,7 +1953,7 @@
 			},
 			"0x0605" : {
 				"name" : "SCE_APPUTIL_ERROR_NO_PERMISSION",
-				"description" : "Permission for calling the function is not given (No APIs of the current SDK version return this error)"
+				"description" : "No permission to call this function (No APIs of the current SDK version return this error)"
 			},
 			"0x0606" : {
 				"name" : "SCE_APPUTIL_ERROR_PASSCODE_MISMATCH",
@@ -2095,6 +2098,10 @@
 			"0x0F05" : {
 				"name" : "SCE_NP_PROFILE_DIALOG_ERROR_LACK_OF_LIBSSL_POOL_SIZE",
 				"description" : "Remaining amount of the libssl memory pool is insufficient"
+			},
+			"0x1100" : {
+				"name" : "Unknown error (0x1100)",
+				"description" : "Unknown ScePromoterUtil error"
 			},
 			"0x1200" : {
 				"name" : "SCE_LOCATION_INFO_UNDETERMINED_LOCATION",
@@ -2256,97 +2263,97 @@
 				"name" : "SCE_SHELLUTIL_UKETORNE_ALREADY_INITIALIZED",
 				"description" : "ShellUtilUketorne library has already been initialized"
 			},
-			"0x1a01" : {
+			"0x1A01" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_PARAM",
 				"description" : "Parameter error"
 			},
-			"0x1a02" : {
+			"0x1A02" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_FILE_NOT_FOUND",
 				"description" : "File does not exist"
 			},
-			"0x1a03" : {
+			"0x1A03" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_CONTENT_FULL",
 				"description" : "Maximum content size has been exceeded"
 			},
-			"0x1a04" : {
+			"0x1A04" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_NO_MEMORY",
 				"description" : "Out of memory"
 			},
-			"0x1a05" : {
+			"0x1A05" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_SERVER_DOWN",
 				"description" : "Server is down"
 			},
-			"0x1a06" : {
+			"0x1A06" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_TOO_MANY_CLIENT",
 				"description" : "Maximum number of connected servers has been exceeded"
 			},
-			"0x1a07" : {
+			"0x1A07" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_MEDIA_FULL",
 				"description" : "Out of storage capacity"
 			},
-			"0x1a08" : {
+			"0x1A08" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_CREATE_FILE",
 				"description" : "Temporary file creation error"
 			},
-			"0x1a09" : {
+			"0x1A09" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_NOT_SUPPORTED_FORMAT",
 				"description" : "Invalid file format"
 			},
-			"0x1a0a" : {
+			"0x1A0A" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_DECODE_FAILED",
 				"description" : "Content decode error"
 			},
-			"0x1a0b" : {
+			"0x1A0B" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_CANCELED",
 				"description" : "User performed cancel operation"
 			},
-			"0x1a0c" : {
+			"0x1A0C" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_INTERNAL",
 				"description" : "Other internal error"
 			},
-			"0x1a0d" : {
+			"0x1A0D" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_MEDIA_NOT_EXIST",
 				"description" : "Memory card does not exist"
 			},
-			"0x1a0e" : {
+			"0x1A0E" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_DB_CORRUPTED",
 				"description" : "DB corruption error"
 			},
-			"0x1a0f" : {
+			"0x1A0F" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_INVALID_PATH",
 				"description" : "Invalid path name"
 			},
-			"0x1a10" : {
+			"0x1A10" : {
 				"name" : "SCE_PHOTO_EXPORT_ERROR_INVALID_DATA",
 				"description" : "Invalid data"
 			},
-			"0x1e01" : {
+			"0x1E01" : {
 				"name" : "SCE_NP_FRIENDLIST_DIALOG_ERROR_INVALID_PARAM",
 				"description" : "Invalid value was set"
 			},
-			"0x1e02" : {
+			"0x1E02" : {
 				"name" : "SCE_NP_FRIENDLIST_DIALOG_ERROR_REQUIRED_MODULES_NOT_LOADED",
 				"description" : "Necessary module is not loaded"
 			},
-			"0x1e03" : {
+			"0x1E03" : {
 				"name" : "SCE_NP_FRIENDLIST_DIALOG_ERROR_NOT_SIGNED_IN",
 				"description" : "Not signed in"
 			},
-			"0x1f01" : {
+			"0x1F01" : {
 				"name" : "SCE_NP_PROFILE_DIALOG_ERROR_INVALID_PARAM",
 				"description" : "Invalid value was set"
 			},
-			"0x1f02" : {
+			"0x1F02" : {
 				"name" : "SCE_NP_PROFILE_DIALOG_ERROR_REQUIRED_MODULES_NOT_LOADED",
 				"description" : "Necessary module is not loaded"
 			},
-			"0x1f03" : {
+			"0x1F03" : {
 				"name" : "SCE_NP_PROFILE_DIALOG_ERROR_NOT_SIGNED_IN",
 				"description" : "Not signed in"
 			},
 			"0x2001" : {
 				"name" : "SCE_IME_DIALOG_ERROR_PARAM",
-				"description" : "Parameter error"
+				"description" : "Invalid parameter"
 			},
 			"0x2002" : {
 				"name" : "SCE_IME_DIALOG_ERROR_INTERNAL",
@@ -2384,55 +2391,55 @@
 				"name" : "SCE_NP_TROPHY_SETUP_DIALOG_ERROR_PARAM",
 				"description" : "Invalid Trophy Setup Dialog parameters"
 			},
-			"0x2f01" : {
+			"0x2F01" : {
 				"name" : "SCE_SCREENSHOT_ERROR_INVALID_ARGUMENT",
-				"description" : "Parameter error"
+				"description" : "Invalid parameter"
 			},
-			"0x2f02" : {
+			"0x2F02" : {
 				"name" : "SCE_SCREENSHOT_ERROR_NO_MEMORY",
 				"description" : "Insufficient memory"
 			},
-			"0x2f03" : {
+			"0x2F03" : {
 				"name" : "SCE_SCREENSHOT_ERROR_FILE_NOT_FOUND",
 				"description" : "File not found"
 			},
-			"0x2f04" : {
+			"0x2F04" : {
 				"name" : "SCE_SCREENSHOT_ERROR_NOT_SUPPORTED_FORMAT",
 				"description" : "Invalid file format"
 			},
-			"0x2f05" : {
+			"0x2F05" : {
 				"name" : "SCE_SCREENSHOT_ERROR_MEDIA_FULL",
 				"description" : "Insufficient storage capacity"
 			},
-			"0x2f06" : {
+			"0x2F06" : {
 				"name" : "SCE_SCREENSHOT_ERROR_INTERNAL",
-				"description" : "Other internal error"
+				"description" : "Internal error"
 			},
-			"0x2f07" : {
+			"0x2F07" : {
 				"name" : "SCE_SCREENSHOT_ERROR_SCREENSHOT_DISABLED",
 				"description" : "Screenshot feature disabled"
 			},
-			"0x2f08" : {
+			"0x2F08" : {
 				"name" : "SCE_SCREENSHOT_ERROR_CAPTURE_FAILED",
-				"description" : "Capturing failed"
+				"description" : "Failed to capture"
 			},
-			"0x2f09" : {
+			"0x2F09" : {
 				"name" : "SCE_SCREENSHOT_ERROR_CAPTURE_BUSY",
 				"description" : "Other capture in progress"
 			},
-			"0x2f0a" : {
+			"0x2F0A" : {
 				"name" : "SCE_SCREENSHOT_ERROR_CAPTURE_CANCELED",
 				"description" : "Canceled by user"
 			},
-			"0x2f0b" : {
+			"0x2F0B" : {
 				"name" : "SCE_SCREENSHOT_ERROR_MEDIA_NOT_EXIST",
 				"description" : "No memory card"
 			},
-			"0x2f0c" : {
+			"0x2F0C" : {
 				"name" : "SCE_SCREENSHOT_ERROR_CONTENT_FULL",
 				"description" : "Content exceeds limit"
 			},
-			"0x2f0d" : {
+			"0x2F0D" : {
 				"name" : "SCE_SCREENSHOT_ERROR_NOT_SUPPORTED_DATA",
 				"description" : "Invalid data"
 			},
@@ -2472,15 +2479,15 @@
 				"name" : "SCE_LIVEAREA_ERROR_XML_SIZE",
 				"description" : "Size of XML exceeds the maximum value"
 			},
-			"0x400a" : {
+			"0x400A" : {
 				"name" : "SCE_LIVEAREA_ERROR_FRAME_NOT_FOUND",
 				"description" : "frameId does not exist"
 			},
-			"0x400b" : {
+			"0x400B" : {
 				"name" : "SCE_LIVEAREA_ERROR_DIRPATH",
 				"description" : "Cannot access the directory path"
 			},
-			"0x40ff" : {
+			"0x40FF" : {
 				"name" : "SCE_LIVEAREA_ERROR_INTERNAL",
 				"description" : "Unexpected error occurred on the system side"
 			},
@@ -2648,23 +2655,23 @@
 				"name" : "SCE_MUSIC_EXPORT_ERROR_NOT_SUPPORTED_FORMAT",
 				"description" : "Invalid file format"
 			},
-			"0x530a" : {
+			"0x530A" : {
 				"name" : "SCE_MUSIC_EXPORT_ERROR_CANCELED",
 				"description" : "User performed cancel operation"
 			},
-			"0x530b" : {
+			"0x530B" : {
 				"name" : "SCE_MUSIC_EXPORT_ERROR_INTERNAL",
-				"description" : "Other internal error"
+				"description" : "Internal error"
 			},
-			"0x530c" : {
+			"0x530C" : {
 				"name" : "SCE_MUSIC_EXPORT_ERROR_MEDIA_NOT_EXIST",
 				"description" : "Memory card does not exist"
 			},
-			"0x530d" : {
+			"0x530D" : {
 				"name" : "SCE_MUSIC_EXPORT_ERROR_DB_CORRUPTED",
 				"description" : "DB corruption error"
 			},
-			"0x530e" : {
+			"0x530E" : {
 				"name" : "SCE_MUSIC_EXPORT_ERROR_INVALID_PATH",
 				"description" : "Invalid path name"
 			},
@@ -2728,123 +2735,123 @@
 				"name" : "SCE_CROSS_CONTROLLER_DIALOG_ERROR_NEED_UPDATE_PS3_APP",
 				"description" : "PlayStation®3 title update required"
 			},
-			"0x7d01" : {
+			"0x7D01" : {
 				"name" : "SCE_TW_DIALOG_ERROR_PARAM",
-				"description" : "Parameter error"
+				"description" : "Invalid parameter"
 			},
-			"0x7d03" : {
+			"0x7D03" : {
 				"name" : "SCE_TW_DIALOG_ERROR_NET_UNLOADED",
 				"description" : "Net-related modules are not loaded"
 			},
-			"0x7e01" : {
+			"0x7E01" : {
 				"name" : "SCE_NEAR_DIALOG_ERROR_PARAM",
 				"description" : "Invalid parameter"
 			},
-			"0x7e02" : {
+			"0x7E02" : {
 				"name" : "SCE_NEAR_DIALOG_ERROR_MODE",
 				"description" : "The required module is not loaded"
 			},
-			"0x7e03" : {
+			"0x7E03" : {
 				"name" : "SCE_NEAR_DIALOG_ERROR_INVALID_MODE",
 				"description" : "Invalid mode"
 			},
-			"0x7e04" : {
+			"0x7E04" : {
 				"name" : "SCE_NEAR_DIALOG_ERROR_INVALID_SDK_VERSION",
 				"description" : "Invalid SDK"
 			},
-			"0x7e05" : {
+			"0x7E05" : {
 				"name" : "SCE_NEAR_DIALOG_ERROR_INVALID_GIFT_STATUS",
 				"description" : "Invalid Gift status"
 			},
-			"0x7e06" : {
+			"0x7E06" : {
 				"name" : "SCE_NEAR_DIALOG_ERROR_IN_USE",
 				"description" : "near Dialog feature is in use"
 			},
-			"0x7e3f" : {
+			"0x7E3F" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_SEND_OK",
 				"description" : "Transmission was successful but whether reception succeeded or failed is unknown"
 			},
-			"0x7e10" : {
+			"0x7E10" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_NOT_SIGNIN",
 				"description" : "near function cannot be used because the user is not signed in"
 			},
-			"0x7e11" : {
+			"0x7E11" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_ALREADY_UPDATING",
 				"description" : "Updating"
 			},
-			"0x7e12" : {
+			"0x7E12" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_LAUNCH_NEAR_NEED_INITIALIZATION",
 				"description" : "near application launch was selected (because of incomplete initialization)"
 			},
-			"0x7e13" : {
+			"0x7E13" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_LAUNCH_NEAR_NEED_GIFT_DOWNLOAD",
 				"description" : "near application launch was selected (because download is in progress)"
 			},
-			"0x7e14" : {
+			"0x7E14" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_LAUNCH_NEAR_NEED_USER_AGREEMENT",
 				"description" : "near application launch was selected (because EULA not agreed to)"
 			},
-			"0x7e15" : {
+			"0x7E15" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_LAUNCH_NEAR_NEED_UPDATE_PERMISSION",
 				"description" : "near application launch was selected (because Do not ask my permission again is set to off)"
 			},
-			"0x7e16" : {
+			"0x7E16" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_LAUNCH_NEAR_NEED_SHARED_USERID",
 				"description" : "near application launch was selected (because ID is not shared)"
 			},
-			"0x7e17" : {
+			"0x7E17" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_LAUNCH_NEAR_NEED_SHARED_CONTENT",
 				"description" : "near application launch was selected (because of privacy content)"
 			},
-			"0x7e18" : {
+			"0x7E18" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_LOCATION_NOT_PERMITTED",
 				"description" : "Location data cannot be used"
 			},
-			"0x7e19" : {
+			"0x7E19" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_LOCATION_CANCELED",
 				"description" : "Location calculation canceled"
 			},
-			"0x7e1a" : {
+			"0x7E1A" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_WIFI_OFF",
 				"description" : "Wi-Fi setting off"
 			},
-			"0x7e1b" : {
+			"0x7E1B" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_SEND_CANCELED",
 				"description" : "Transmission canceled"
 			},
-			"0x7e1c" : {
+			"0x7E1C" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_SERVER_MAINTENANCE",
 				"description" : "near server error (undergoing maintenance)"
 			},
-			"0x7e1d" : {
+			"0x7E1D" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_SERVER_END",
 				"description" : "near server error (service end)"
 			},
-			"0x7e1e" : {
+			"0x7E1E" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_DOWNLOAD_CANCELED",
 				"description" : "Download canceled"
 			},
-			"0x7e1f" : {
+			"0x7E1F" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_GIFT_NOT_FOUND",
 				"description" : "Gifts not found"
 			},
-			"0x7e20" : {
+			"0x7E20" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_GIFT_CORRUPTED",
 				"description" : "Downloaded data is corrupted"
 			},
-			"0x7e21" : {
+			"0x7E21" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_GIFT_EXPIRED",
 				"description" : "Gift expired"
 			},
-			"0x7e22" : {
+			"0x7E22" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_BGPROC_DISCONNECTED",
 				"description" : "Communication with background process was disconnected"
 			},
-			"0x7e23" : {
+			"0x7E23" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_MEMORY_CARD_NOT_INSERTED",
 				"description" : "Memory card not inserted"
 			},
-			"0x7e24" : {
+			"0x7E24" : {
 				"name" : "SCE_NEAR_DIALOG_RESULT_UPDATE_RETRY",
 				"description" : "Update retry was selected"
 			},
@@ -3372,18 +3379,19 @@
 	},
 	"0x025" : {
 		"name" : "SCE_ERROR_FACILITY_SYSCON / SCE_ERROR_FACILITY_RTC?",
+		"description" : "SYStem CONtroller / Real-Time Clock facility",
 		"errors" : {
 			"0x1000" : {
 				"name" : "SCE_RTC_ERROR_INVALID_VALUE",
-				"description" : "A value in the arguments is invalid"
+				"description" : "Invalid value in arguments"
 			},
 			"0x1001" : {
 				"name" : "SCE_RTC_ERROR_INVALID_POINTER",
-				"description" : "The pointer passed in is invalid."
+				"description" : "Invalid pointer provided"
 			},
 			"0x1002" : {
 				"name" : "SCE_RTC_ERROR_NOT_INITIALIZED",
-				"description" : "Library has not yet been initialized."
+				"description" : "Library not initialized"
 			},
 			"0x1003" : {
 				"name" : "SCE_RTC_ERROR_ALREADY_REGISTERD",
@@ -3391,7 +3399,7 @@
 			},
 			"0x1004" : {
 				"name" : "SCE_RTC_ERROR_NOT_FOUND",
-				"description" : "Not registered "
+				"description" : "Not registered"
 			},
 			"0x1080" : {
 				"name" : "SCE_RTC_ERROR_BAD_PARSE",
@@ -3429,6 +3437,7 @@
 	},
 	"0x026" : {
 		"name" : "SCE_ERROR_FACILITY_AUDIO",
+		"description" : "Audio Input/Output facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_AUDIO_OUT_ERROR_NOT_OPENED",
@@ -3530,46 +3539,47 @@
 	},
 	"0x029" : {
 		"name" : "SCE_ERROR_FACILITY_DISPLAY",
+		"description" : "Display facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_DISPLAY_ERROR_INVALID_HEAD",
-				"description" : "invalid display head argument"
+				"description" : "Invalid display head argument"
 			},
 			"0x0001" : {
 				"name" : "SCE_DISPLAY_ERROR_INVALID_VALUE",
-				"description" : "invalid argument"
+				"description" : "Invalid argument"
 			},
 			"0x0002" : {
 				"name" : "SCE_DISPLAY_ERROR_INVALID_ADDR",
-				"description" : "invalid address argument"
+				"description" : "Invalid address"
 			},
 			"0x0003" : {
 				"name" : "SCE_DISPLAY_ERROR_INVALID_PIXELFORMAT",
-				"description" : "invalid pixel format argument"
+				"description" : "Invalid pixel format argument"
 			},
 			"0x0004" : {
 				"name" : "SCE_DISPLAY_ERROR_INVALID_PITCH",
-				"description" : "invalid pitch argument"
+				"description" : "Invalid pitch argument"
 			},
 			"0x0005" : {
 				"name" : "SCE_DISPLAY_ERROR_INVALID_RESOLUTION",
-				"description" : "invalid width,height argument"
+				"description" : "Invalid width,height argument"
 			},
 			"0x0006" : {
 				"name" : "SCE_DISPLAY_ERROR_INVALID_UPDATETIMING",
-				"description" : "invalid update timing argument"
+				"description" : "Invalid update timing argument"
 			},
 			"0x0007" : {
 				"name" : "SCE_DISPLAY_ERROR_NO_FRAME_BUFFER",
-				"description" : "this process has no frame buffer"
+				"description" : "Current process has no frame buffer"
 			},
 			"0x0008" : {
 				"name" : "SCE_DISPLAY_ERROR_NO_PIXEL_DATA",
-				"description" : "this process's frame buffer has no pixel data"
+				"description" : "Current process's frame buffer has no pixel data"
 			},
 			"0x0009" : {
 				"name" : "SCE_DISPLAY_ERROR_NO_OUTPUT_SIGNAL",
-				"description" : "the head does not output any signal"
+				"description" : "Head doesn't output any signal"
 			}	
 		}
 	},
@@ -3591,10 +3601,11 @@
 	},
 	"0x02E" : {
 		"name" : "SCE_ERROR_FACILITY_CAMERA",
+		"description" : "Camera facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_CAMERA_ERROR_PARAM",
-				"description" : "Parameter is invalid"
+				"description" : "Invalid parameter"
 			},
 			"0x0002" : {
 				"name" : "SCE_CAMERA_ERROR_NOT_INIT",
@@ -3602,11 +3613,11 @@
 			},
 			"0x0003" : {
 				"name" : "SCE_CAMERA_ERROR_ALREADY_OPEN",
-				"description" : "Camera is already open"
+				"description" : "Camera already open"
 			},
 			"0x0004" : {
 				"name" : "SCE_CAMERA_ERROR_NOT_OPEN",
-				"description" : "Camera is not open"
+				"description" : "Camera not open"
 			},
 			"0x0005" : {
 				"name" : "SCE_CAMERA_ERROR_ALREADY_START",
@@ -3660,26 +3671,30 @@
 	},
 	"0x02F" : {
 		"name" : "SCE_ERROR_FACILITY_BT",
+		"description" : "BlueTooth® facility",
 		"errors" : {}
 	},
 	"0x032" : {
 		"name" : "SCE_ERROR_FACILITY_SDIF",
+		"description" : "SD/MMC InterFace facility",
 		"errors" : {}
 	},
 	"0x033" : {
 		"name" : "SCE_ERROR_FACILITY_BBMC",
+		"description" : "BroadBand Modem Controller facility",
 		"errors" : {}
 	},
 	"0x034" : {
 		"name" : "SCE_ERROR_FACILITY_CTRL",
+		"description" : "Control (button input) facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_CTRL_ERROR_INVALID_ARG",
-				"description" : "Invalid argument specified"
+				"description" : "Invalid argument"
 			},
 			"0x0002" : {
 				"name" : "SCE_CTRL_ERROR_PRIV_REQUIRED",
-				"description" : "Access with invalid privilege"
+				"description" : "Invalid privileges"
 			},
 			"0x0021" : {
 				"name" : "SCE_CTRL_ERROR_NOT_SUPPORTED",
@@ -3697,14 +3712,15 @@
 	},
 	"0x035" : {
 		"name" : "SCE_ERROR_FACILITY_TOUCH",
+		"description" : "Touchscreen facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_TOUCH_ERROR_INVALID_ARG",
-				"description" : "Invalid argument specified"
+				"description" : "Invalid argument"
 			},
 			"0x0002" : {
 				"name" : "SCE_TOUCH_ERROR_PRIV_REQUIRED",
-				"description" : "Access with invalid privilege"
+				"description" : "Invalid privileges"
 			},
 			"0x00FF" : {
 				"name" : "SCE_TOUCH_ERROR_FATAL",
@@ -3714,10 +3730,11 @@
 	},
 	"0x036" : {
 		"name" : "SCE_ERROR_FACILITY_MOTION",
+		"description" : "Motion facility",
 		"errors" : {
 			"0x0200" : {
 				"name" : "SCE_MOTION_ERROR_DATA_INVALID",
-				"description" : "The argument was outside the range or was invalid"
+				"description" : "Invalid argument"
 			},
 			"0x0201" : {
 				"name" : "SCE_MOTION_ERROR_READING",
@@ -3775,6 +3792,7 @@
 	},
 	"0x03D" : {
 		"name" : "SCE_ERROR_FACILITY_MSIF",
+		"description" : "Memory Stick InterFace facility",
 		"errors" : {}
 	},
 	"0x03E" : {
@@ -3787,6 +3805,7 @@
 	},
 	"0x041" : {
 		"name" : "SCE_ERROR_FACILITY_NETWORK",
+		"description" : "Network facility",
 		"errors" : {
 			"0x0102" : {
 				"name" : "SCE_NET_ERROR_ENOENT"
@@ -4261,6 +4280,7 @@
 	},
 	"0x042" : {
 		"name" : "SCE_ERROR_FACILITY_SAS",
+		"description" : "SAS audio library facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_SAS_ERROR_NSMPL",
@@ -4354,6 +4374,7 @@
 	},
 	"0x043" : {
 		"name" : "SCE_ERROR_FACILITY_HTTP",
+		"description" : "HTTP facility",
 		"errors" : {
 			"0x1001" : {
 				"name" : "SCE_HTTP_ERROR_BEFORE_INIT"
@@ -4532,6 +4553,7 @@
 	},
 	"0x045" : {
 		"name" : "SCE_ERROR_FACILITY_SND",
+		"description" : "SNDP facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_SNDP_ERROR_NOTINIT",
@@ -4613,6 +4635,7 @@
 	},
 	"0x046" : {
 		"name" : "SCE_ERROR_FACILITY_FONT",
+		"description" : "Font facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_FONT_ERROR_NOMEMORY",
@@ -4682,7 +4705,7 @@
 	},
 	"0x048" : {
 		"name" : "SCE_ERROR_FACILITY_HASH",
-		"decription" : "Hashing functions library",
+		"decription" : "Hash function facility",
 		"errors" : {
 			"0x0100" : {
 				"name" : "SCE_MD5_ERROR_INVALID_POINTER",
@@ -4750,7 +4773,7 @@
 	},
 	"0x049" : {
 		"name" : "SCE_ERROR_FACILITY_PRNG",
-		"description" : "Pseudo-Random Number Generators library",
+		"description" : "Pseudo-Random Number Generator facility",
 		"errors" : {
 			"0x0100" : {
 				"name" : "SCE_MT19937_ERROR_INVALID_POINTER"
@@ -4822,10 +4845,11 @@
 	},
 	"0x04A" : {
 		"name" : "SCE_ERROR_FACILITY_NGS",
+		"description" : "Next-Generation Sound facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_NGS_ERROR",
-				"description" : "Error"
+				"description" : "Unspecified error"
 			},
 			"0x0002" : {
 				"name" : "SCE_NGS_ERROR_INVALID_PARAM",
@@ -4903,6 +4927,7 @@
 	},
 	"0x04B" : {
 		"name" : "SCE_ERROR_FACILITY_ECHO",
+		"description" : "?libecho facility?",
 		"errors" : {}
 	},
 	"0x04C" : {
@@ -4915,6 +4940,7 @@
 	},
 	"0x04E" : {
 		"name" : "SCE_ERROR_FACILITY_VOICE",
+		"description" : "Voice facility",
 		"errors" : {
 			"0x0801" : {
 				"name" : "SCE_VOICE_ERROR_LIBVOICE_NOT_INIT",
@@ -4992,7 +5018,7 @@
 	},
 	"0x04F" : {
 		"name" : "SCE_ERROR_FACILITY_HEAP",
-		"description" : "libheap - Heap manager",
+		"description" : "Heap manager facility",
 		"blacklist" : [
 			{
 				"min" : "0x0002",
@@ -5028,6 +5054,7 @@
 	},
 	"0x055" : {
 		"name" : "SCE_ERROR_FACILITY_NP",
+		"description" : "PlayStation® Network facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_NP_ERROR_ALREADY_INITIALIZED",
@@ -7120,6 +7147,7 @@
 	},
 	"0x056" : {
 		"name" : "SCE_ERROR_FACILITY_COMPRESSION",
+		"description" : "Compressed file libraries facility",
 		"errors" : {
 			"0x0100" : {
 				"name" : "SCE_DEFLATE_ERROR_INVALID_FORMAT",
@@ -7145,6 +7173,7 @@
 	},
 	"0x057" : {
 		"name" : "SCE_ERROR_FACILITY_DBGFONT",
+		"description" : "Debug Font library facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_DBGFONT_ERROR_NOT_INIT",
@@ -7182,6 +7211,7 @@
 	},
 	"0x058" : {
 		"name" : "SCE_ERROR_FACILITY_PERF",
+		"description" : "Performance tracing library facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_PERF",
@@ -7223,6 +7253,7 @@
 	},
 	"0x059" : {
 		"name" : "SCE_ERROR_FACILITY_FIBER",
+		"description" : "Fiber facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_FIBER_ERROR_NULL",
@@ -7256,14 +7287,15 @@
 	},
 	"0x05A" : {
 		"name" : "SCE_ERROR_FACILITY_SYSMODULE",
+		"description" : "System modules facility",
 		"errors" : {
 			"0x1000" : {
 				"name" : "SCE_SYSMODULE_ERROR_INVALID_VALUE",
-				"description" : "Tried to load an unknown PRX"
+				"description" : "Unknown PRX specified"
 			},
 			"0x1001" : {
 				"name" : "SCE_SYSMODULE_ERROR_UNLOADED",
-				"description" : "PRX is not loaded"
+				"description" : "Specified PRX is not loaded"
 			},
 			"0x10FF" : {
 				"name" : "SCE_SYSMODULE_ERROR_FATAL",
@@ -7273,6 +7305,7 @@
 	},
 	"0x05B" : {
 		"name" : "SCE_ERROR_FACILITY_GXM",
+		"description" : "SceGxm facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_GXM_ERROR_UNINITIALIZED",
@@ -7504,18 +7537,19 @@
 	},
 	"0x05D" : {
 		"name" : "SCE_ERROR_FACILITY_GXT",
+		"description" : "GXM Texture facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_GXT_ERROR_INVALID_VALUE",
-				"description" : "The call failed because a parameter has an invalid value."
+				"description" : "Invalid parameter"
 			},
 			"0x0001" : {
 				"name" : "SCE_GXT_ERROR_INVALID_POINTER",
-				"description" : "The call failed because a pointer has an invalid value."
+				"description" : "Invalid pointer"
 			},
 			"0x0002" : {
 				"name" : "SCE_GXT_ERROR_INVALID_ALIGNMENT",
-				"description" : "The call failed because a parameter is incorrectly aligned."
+				"description" : "Invalid aligment"
 			}
 		}
 	},
@@ -7525,6 +7559,7 @@
 	},
 	"0x060" : {
 		"name" : "SCE_ERROR_FACILITY_CODECENGINE",
+		"description" : "CodecEngine facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_CODECENGINE_ERROR_INVALID_POINTER",
@@ -7586,6 +7621,7 @@
 	},
 	"0x062" : {
 		"name" : "SCE_ERROR_FACILITY_AVC",
+		"description" : "Audio/Video codec facility",
 		"errors" : {
 			"0x0002" : {
 				"name" : "SCE_AVCDEC_ERROR_INVALID_PARAM",
@@ -7710,6 +7746,7 @@
 	},
 	"0x063" : {
 		"name" : "SCE_ERROR_FACILITY_ATRAC",
+		"description" : "Adaptive TRansform Acoustic Coding facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_ATRAC_ERROR_INVALID_POINTER",
@@ -7823,6 +7860,7 @@
 	},
 	"0x065" : {
 		"name" : "SCE_ERROR_FACILITY_JPEG",
+		"description" : "JPEG facility",
 		"errors" : {
 			"0x0003" : {
 				"name" : "SCE_JPEG_ERROR_IMAGE_EMPTY",
@@ -8032,10 +8070,12 @@
 	},
 	"0x066" : {
 		"name" : "SCE_ERROR_FACILITY_AVI",
+		"description" : "AVI facility",
 		"errors" : {}
 	},
 	"0x067" : {
 		"name" : "SCE_ERROR_FACILITY_MP3",
+		"description" : "MP3 faciltiy",
 		"errors" : {}
 	},
 	"0x068" : {
@@ -8044,6 +8084,7 @@
 	},
 	"0x069" : {
 		"name" : "SCE_ERROR_FACILITY_PNG",
+		"description" : "PNG facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_PNG_ERROR_INVALID_FORMAT",
@@ -8065,11 +8106,12 @@
 	},
 	"0x06A" : {
 		"name" : "SCE_ERROR_FACILITY_AVPLAYER",
+		"description" : "Audio/Video player facility",
 		"errors" : {}
 	},
 	"0x077" : {
 		"name" : "SCE_ERROR_FACILITY_RUDP",
-		"description" : "librudp - Reliable UDP",
+		"description" : "Reliable UDP facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_RUDP_ERROR_NOT_INITIALIZED",
@@ -8227,6 +8269,7 @@
 	},
 	"0x07F" : {
 		"name" : "SCE_ERROR_FACILITY_CODEC",
+		"description" : "Coding/Decoding facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_AUDIODEC_ERROR_API_FAIL",
@@ -8332,6 +8375,7 @@
 	},
 	"0x080" : {
 		"name" : "SCE_ERROR_FACILITY_APPMGR",
+		"description" : "Application manager facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "Unknown error (0x0001)",
@@ -8379,34 +8423,35 @@
 	},
 	"0x081" : {
 		"name" : "SCE_ERROR_FACILITY_ULT",
+		"description" : "User-Level Threading facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_ULT_ERROR_NULL",
-				"description" : "The specified pointer is NULL"
+				"description" : "Specified NULL pointer"
 			},
 			"0x0002" : {
 				"name" : "SCE_ULT_ERROR_ALIGNMENT",
-				"description" : "The alignment restrictions are not met"
+				"description" : "Invalid alignement"
 			},
 			"0x0003" : {
 				"name" : "SCE_ULT_ERROR_RANGE",
-				"description" : "The specified value is out of range"
+				"description" : "Specified value out of range"
 			},
 			"0x0004" : {
 				"name" : "SCE_ULT_ERROR_INVALID",
-				"description" : "The specified argument value is invalid"
+				"description" : "Invalid parameter"
 			},
 			"0x0005" : {
 				"name" : "SCE_ULT_ERROR_PERMISSION",
-				"description" : "This is an unauthorized operation"
+				"description" : "Unauthorized operation"
 			},
 			"0x0006" : {
 				"name" : "SCE_ULT_ERROR_STATE",
-				"description" : "The current state does not allow application of this operation"
+				"description" : "Current state does not allow application of this operation"
 			},
 			"0x0007" : {
 				"name" : "SCE_ULT_ERROR_BUSY",
-				"description" : "The resource cannot be used"
+				"description" : "Resource cannot be used"
 			},
 			"0x0008" : {
 				"name" : "SCE_ULT_ERROR_AGAIN",
@@ -8414,12 +8459,13 @@
 			},
 			"0x0009" : {
 				"name" : "SCE_ULT_ERROR_FATAL",
-				"description" : "A fatal error occurred"
+				"description" : "Fatal error occurred"
 			}
 		}
 	},
 	"0x082" : {
 		"name" : "SCE_ERROR_FACILITY_FIOS",
+		"description" : "Flexible Input/Output System facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_FIOS_ERROR_CANT_ALLOCATE_OP / SCE_FIOS_KERNEL_ERROR_CANT_ALLOCATE_OP"
@@ -8503,6 +8549,7 @@
 	},
 	"0x083" : {
 		"name" : "SCE_ERROR_FACILITY_BASE64",
+		"description" : "Base64 facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_BASE64_ERROR_INVALID_FORMAT",
@@ -8516,14 +8563,17 @@
 	},
 	"0x084" : {
 		"name" : "SCE_ERROR_FACILITY_INIFILE",
+		"description" : "INI facility",
 		"errors" : {}
 	},
 	"0x085" : {
 		"name" : "SCE_ERROR_FACILITY_XML",
+		"description" : "XML facility",
 		"errors" : {}
 	},
 	"0x086" : {
 		"name" : "SCE_ERROR_FACILITY_AUDIOENC",
+		"description" : "Audio Encoding facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_AUDIOENC_ERROR_API_FAIL",
@@ -8597,10 +8647,12 @@
 	},
 	"0x087" : {
 		"name" : "SCE_ERROR_FACILITY_NPDRM",
+		"description" : "PlayStation® Network DRM facility",
 		"errors" : {}
 	},
 	"0x088" : {
 		"name" : "SCE_ERROR_FACILITY_PHYSICSEFFECTS",
+		"description" : "Physics effects facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_PFX_ERR_INVALID_VALUE"
@@ -8669,6 +8721,7 @@
 	},
 	"0x089" : {
 		"name" : "SCE_ERROR_FACILITY_SYSTEM_GESTURE",
+		"description" : "System gesture facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_SYSTEM_GESTURE_ERROR_INVALID_ARGUMENT",
@@ -8694,10 +8747,12 @@
 	},
 	"0x08A" : {
 		"name" : "SCE_ERROR_FACILITY_SBL_GCAUTH",
+		"description" : "Game Card Authentification facility",
 		"errors" : {}
 	},
 	"0x08B" : {
 		"name" : "SCE_ERROR_FACILITY_FACE",
+		"description" : "Face recognition facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_FACE_ERROR_NO_MEMORY",
@@ -8727,7 +8782,7 @@
 	},
 	"0x08C" : {
 		"name" : "SCE_ERROR_FACILITY_SMART",
-		"description" : "libsmart - AR library",
+		"description" : "libsmart/Augmented Reality facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_SMART_ERROR_UNINITIALIZED",
@@ -8797,14 +8852,17 @@
 	},
 	"0x08D" : {
 		"name" : "SCE_ERROR_FACILITY_EXFATFS",
+		"description" : "exFAT filesystem facility",
 		"errors" : {}
 	},
 	"0x08F" : {
 		"name" : "SCE_ERROR_FACILITY_PSMKDC",
+		"description" : "?maybe PlayStation® Mobile related?",
 		"errors" : {}
 	},
 	"0x091" : {
 		"name" : "SCE_ERROR_FACILITY_QUICK",
+		"description" : "QuickSynth facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_QUICK_SYNTH_ERROR_INVALID_PARAM",
@@ -8870,6 +8928,7 @@
 	},
 	"0x092" : {
 		"name" : "SCE_ERROR_FACILITY_JSON",
+		"description" : "JSON facility",
 		"errors" : {}
 	},
 	"0x0A0" : {
@@ -8878,15 +8937,17 @@
 	},
 	"0x0AF" : {
 		"name" : "SCE_ERROR_FACILITY_PAF",
+		"description" : "PlayStation® Application Framework facility",
 		"errors" : {
             "0x0702": {
                 "name" : "SCE_PAF_ERROR_THREAD_ALREADY_STARTED",
-                "description" : "The thread you're trying has already been started once."
+                "description" : "Thread already started"
             }
         }
 	},
 	"0x100" : {
 		"name" : "SCE_ERROR_FACILITY_SCREAM",
+		"description" : "SCREAM/989snd library facility - may also be NPTOOLKIT errors",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_SCREAM_SND_LOAD_ERROR_COULDNT_OPEN_FILE",
