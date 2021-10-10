@@ -1929,7 +1929,7 @@
 	},
 	"0x010" : {
 		"name" : "SCE_ERROR_FACILITY_VSH",
-		"description" : "Visual SHell facility",
+		"description" : "VSHell (SceShell) facility",
 		"errors" : {
 			"0x0600" : {
 				"name" : "SCE_APPUTIL_ERROR_PARAMETER",
@@ -7214,39 +7214,39 @@
 		"description" : "Performance tracing library facility",
 		"errors" : {
 			"0x0000" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_INVALID_ARGUMENT",
 				"description" : "Invalid argument"
 			},
 			"0x0002" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_BAD_TRACE_DATA",
 				"description" : "Invalid trace data"
 			},
 			"0x0003" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_POP_WITHOUT_PUSH",
 				"description" : "Attempting to pop an empty marker stack"
 			},
 			"0x0004" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_TOO_MANY_PUSHES",
 				"description" : "Attempting to push beyond the thread or fiber stack limit"
 			},
 			"0x0005" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_ALREADY_STARTED",
 				"description" : "Module is not initialized"
 			},
 			"0x0006" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_ALREADY_STARTED",
 				"description" : "Cannot start capture because host-side capture is already started"
 			},
 			"0x0007" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_CANNOT_START",
 				"description" : "Cannot start capture"
 			},
 			"0x0008" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_ALREADY_STOPPED",
 				"description" : "Cannot stop capture because host-side capture is already stopped"
 			},
 			"0x0009" : {
-				"name" : "SCE_PERF",
+				"name" : "SCE_PERF_ERROR_CANNOT_STOP",
 				"description" : "Cannot stop capture"
 			}
 		}
@@ -8647,7 +8647,7 @@
 	},
 	"0x087" : {
 		"name" : "SCE_ERROR_FACILITY_NPDRM",
-		"description" : "PlayStation® Network DRM facility",
+		"description" : "NPDRM facility",
 		"errors" : {}
 	},
 	"0x088" : {
