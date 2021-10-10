@@ -8381,6 +8381,10 @@
 				"name" : "Unknown error (0x0001)",
 				"description" : "Returned when a parameter is NULL"
 			},
+			"0x0015" : {
+				"name" : "SCE_APPMGR_INVALID_PARAM_FILE",
+				"description" : "Application's Param File (i.e. param.sfo) is malformed"
+			},
 			"0x1042" : {
 				"name" : "SCE_APPMGR_INVALID_PARAM_ID",
 				"description" : "paramId passed to sceAppMgrAppParamGetInt is invalid"
