@@ -1779,7 +1779,7 @@
 			},
 			"0xD082" : {
 				"name" : "SCE_KERNEL_ERROR_LIBRARYDB_NO_MOD",
-				"description" : "Module does not exist in library database"
+				"description" : "Module does not exist"
 			},
 			"0xF000" : {
 				"name" : "SCE_KERNEL_ERROR_AUTHFAIL",
