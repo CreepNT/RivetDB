@@ -1925,7 +1925,12 @@
 	},
 	"0x00F" : {
 		"name" : "SCE_ERROR_FACILITY_SBL",
-		"errors" : {}
+		"errors" : {
+			"0x0516" : {
+				"name": "SCE_SBL_ERROR_AM_EINVAL",
+				"description": "AuthManager - Invalid argument"
+			}
+		}
 	},
 	"0x010" : {
 		"name" : "SCE_ERROR_FACILITY_VSH",
