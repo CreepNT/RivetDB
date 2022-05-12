@@ -1925,6 +1925,7 @@
 	},
 	"0x00F" : {
 		"name" : "SCE_ERROR_FACILITY_SBL",
+		"description" : "Secure BLock facility",
 		"errors" : {
 			"0x0516" : {
 				"name": "SCE_SBL_ERROR_AM_EINVAL",
