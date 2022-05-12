@@ -3677,8 +3677,714 @@
 	},
 	"0x02F" : {
 		"name" : "SCE_ERROR_FACILITY_BT",
-		"description" : "BlueTooth® facility",
-		"errors" : {}
+		"description" : "Bluetooth® facility",
+		"errors" : {
+			"0x0101": {
+				"name": "SCE_BT_ERROR_REG_NOT_READY"
+			},
+			"0x0102": {
+				"name": "SCE_BT_ERROR_REG_DELETE_NO_ENTRY"
+			},
+			"0x0103": {
+				"name": "SCE_BT_ERROR_REG_UPDATE_CANNOT_SAVE"
+			},
+			"0x0105": {
+				"name": "SCE_BT_ERROR_REG_SET_HID_DESC_BAD_ARG"
+			},
+			"0x0106": {
+				"name": "SCE_BT_ERROR_REG_SET_HID_DESC_NO_REG"
+			},
+			"0x0107": {
+				"name": "SCE_BT_ERROR_REG_GET_HID_DESC_NO_REG"
+			},
+			"0x0108": {
+				"name": "SCE_BT_ERROR_REG_GET_HID_DESC_TOO_SHORT"
+			},
+			"0x0109": {
+				"name": "SCE_BT_ERROR_REG_DELETE_CONNECTING"
+			},
+			"0x010A": {
+				"name": "SCE_BT_ERROR_REG_CANNOT_LOAD"
+			},
+			"0x010B": {
+				"name": "SCE_BT_ERROR_REG_CANNOT_OPEN"
+			},
+			"0x010C": {
+				"name": "SCE_BT_ERROR_REG_CANNOT_READ"
+			},
+			"0x010D": {
+				"name": "SCE_BT_ERROR_REG_CANNOT_WRITE"
+			},
+			"0x0201": {
+				"name": "SCE_BT_ERROR_INQUIRY_START_BUSY"
+			},
+			"0x0202": {
+				"name": "SCE_BT_ERROR_CONNECT_START_NO_REG"
+			},
+			"0x0203": {
+				"name": "SCE_BT_ERROR_CONNECT_START_NOT_CONNECTABLE"
+			},
+			"0x0204": {
+				"name": "SCE_BT_ERROR_CONNECT_START_BUSY"
+			},
+			"0x0205": {
+				"name": "SCE_BT_ERROR_DISCONNECT_START_NOT_CONNECTED"
+			},
+			"0x0206": {
+				"name": "SCE_BT_ERROR_PIN_INVALID_LENGTH"
+			},
+			"0x0207": {
+				"name": "SCE_BT_ERROR_USER_CONFIRM_NOT_CONNECTED"
+			},
+			"0x0208": {
+				"name": "SCE_BT_ERROR_SDP_OPEN_NO_L2C"
+			},
+			"0x0209": {
+				"name": "SCE_BT_ERROR_CONNECT_START_REG_FULL"
+			},
+			"0x020A": {
+				"name": "SCE_BT_ERROR_CONNECT_START_CONNECTED"
+			},
+			"0x020D": {
+				"name": "SCE_BT_ERROR_CONNECT_START_TOO_MANY"
+			},
+			"0x020E": {
+				"name": "SCE_BT_ERROR_CONNECT_START_DELETING"
+			},
+			"0x0501": {
+				"name": "SCE_BT_ERROR_AVDTP_OPEN_NO_L2C"
+			},
+			"0x0502": {
+				"name": "SCE_BT_ERROR_AVDTP_CLOSE_BAD_SERV"
+			},
+			"0x0503": {
+				"name": "SCE_BT_ERROR_AVDTP_CLOSE_BAD_STATE"
+			},
+			"0x0504": {
+				"name": "SCE_BT_ERROR_AVDTP_START_BAD_SERV"
+			},
+			"0x0505": {
+				"name": "SCE_BT_ERROR_AVDTP_START_BAD_STATE"
+			},
+			"0x0506": {
+				"name": "SCE_BT_ERROR_AVDTP_STOP_BAD_SERV"
+			},
+			"0x0507": {
+				"name": "SCE_BT_ERROR_AVDTP_STOP_BAD_STATE"
+			},
+			"0x0508": {
+				"name": "SCE_BT_ERROR_AVDTP_SEND_BAD_STATE"
+			},
+			"0x0509": {
+				"name": "SCE_BT_ERROR_AVDTP_RECONF_BAD_SERV"
+			},
+			"0x050A": {
+				"name": "SCE_BT_ERROR_AVDTP_RECONF_BAD_STATE"
+			},
+			"0x0601": {
+				"name": "SCE_BT_ERROR_AVCTP_OPEN_NO_L2C"
+			},
+			"0x0603": {
+				"name": "SCE_BT_ERROR_AVCTP_SEND_NO_L2C"
+			},
+			"0x0604": {
+				"name": "SCE_BT_ERROR_AVCTP_NOT_CONNECTED"
+			},
+			"0x0605": {
+				"name": "SCE_BT_ERROR_AVCTP_SEND_BUSY"
+			},
+			"0x0606": {
+				"name": "SCE_BT_ERROR_AVCTP_SEND_NO_PRESS"
+			},
+			"0x0607": {
+				"name": "SCE_BT_ERROR_AVCTP_SEND_NO_RELEASE"
+			},
+			"0x0608": {
+				"name": "SCE_BT_ERROR_AVCTP_READ_NO_VOLUME"
+			},
+			"0x0609": {
+				"name": "SCE_BT_ERROR_AVCTP_SEND_NOT_RUBY"
+			},
+			"0x0901": {
+				"name": "SCE_BT_ERROR_HID_OPEN_NO_L2C"
+			},
+			"0x0902": {
+				"name": "SCE_BT_ERROR_HID_CLOSE_NO_L2C"
+			},
+			"0x0903": {
+				"name": "SCE_BT_ERROR_HID_SEND_NO_L2C"
+			},
+			"0x0904": {
+				"name": "SCE_BT_ERROR_HID_NOT_CONNECTED"
+			},
+			"0x0905": {
+				"name": "SCE_BT_ERROR_HID_NO_CAP"
+			},
+			"0x0906": {
+				"name": "SCE_BT_ERROR_HID_INVALID_REQUEST_TYPE"
+			},
+			"0x0907": {
+				"name": "SCE_BT_ERROR_HID_INVALID_BUFFER_ADDRESS"
+			},
+			"0x0908": {
+				"name": "SCE_BT_ERROR_HID_INVALID_PROTOCOL"
+			},
+			"0x0909": {
+				"name": "SCE_BT_ERROR_HID_INVALID_IDLE"
+			},
+			"0x090C": {
+				"name": "SCE_BT_ERROR_HID_NOT_YET"
+			},
+			"0x090D": {
+				"name": "SCE_BT_ERROR_HID_INVALID_LENGTH"
+			},
+			"0x090E": {
+				"name": "SCE_BT_ERROR_HID_INVALID_REPORT_ID"
+			},
+			"0x090F": {
+				"name": "SCE_BT_ERROR_HID_OVERWRITE_REQ"
+			},
+			"0x0B01": {
+				"name": "SCE_BT_ERROR_JUMBO_UNLOCK_NOT_OWNER"
+			},
+			"0x0B02": {
+				"name": "SCE_BT_ERROR_HCI_TX_OVERFLOW"
+			},
+			"0x0B03": {
+				"name": "SCE_BT_ERROR_ACL_TX_BUF_OVERFLOW"
+			},
+			"0x0B04": {
+				"name": "SCE_BT_ERROR_ACL_TX_CB_OVERFLOW"
+			},
+			"0x0B05": {
+				"name": "SCE_BT_ERROR_TIMER_CANCEL_BAD_ID"
+			},
+			"0x0B06": {
+				"name": "SCE_BT_ERROR_TIMER_CANCEL_NOT_INITIALIZED"
+			},
+			"0x0B07": {
+				"name": "SCE_BT_ERROR_TIMER_SET_NOT_INITIALIZED"
+			},
+			"0x0B08": {
+				"name": "SCE_BT_ERROR_TIMER_SET_NO_SPACE"
+			},
+			"0x0B09": {
+				"name": "SCE_BT_ERROR_COPYIN_FAILED"
+			},
+			"0x0B0A": {
+				"name": "SCE_BT_ERROR_COPYOUT_FAILED"
+			},
+			"0x0C01": {
+				"name": "SCE_BT_ERROR_GET_NAME_NO_DEVICE"
+			},
+			"0x0C02": {
+				"name": "SCE_BT_ERROR_CB_TOO_MANY"
+			},
+			"0x0C03": {
+				"name": "SCE_BT_ERROR_CB_NOT_REGISTERED"
+			},
+			"0x0C04": {
+				"name": "SCE_BT_ERROR_CB_OVERFLOW"
+			},
+			"0x0D01": {
+				"name": "SCE_BT_ERROR_AUDIO_START_NOT_CONNECTED"
+			},
+			"0x0D02": {
+				"name": "SCE_BT_ERROR_AUDIO_START_NO_CAP"
+			},
+			"0x0D03": {
+				"name": "SCE_BT_ERROR_AUDIO_STOP_NOT_CONNECTED"
+			},
+			"0x0D04": {
+				"name": "SCE_BT_ERROR_AUDIO_STOP_NO_CAP"
+			},
+			"0x0D05": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_NOT_CONNECTED"
+			},
+			"0x0D06": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_NOT_STARTED"
+			},
+			"0x0D07": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_INVALID_LENGTH"
+			},
+			"0x0D08": {
+				"name": "SCE_BT_ERROR_AUDIO_RECV_NOT_CONNECTED"
+			},
+			"0x0D09": {
+				"name": "SCE_BT_ERROR_AUDIO_RECV_NOT_STARTED"
+			},
+			"0x0D0A": {
+				"name": "SCE_BT_ERROR_AUDIO_RECV_INVALID_LENGTH"
+			},
+			"0x0D0B": {
+				"name": "SCE_BT_ERROR_AUDIO_START_INVALID_SERV"
+			},
+			"0x0D0C": {
+				"name": "SCE_BT_ERROR_AUDIO_STOP_INVALID_SERV"
+			},
+			"0x0D0D": {
+				"name": "SCE_BT_ERROR_AUDIO_START_SERV_FAILED"
+			},
+			"0x0D0E": {
+				"name": "SCE_BT_ERROR_AUDIO_STOP_SERV_FAILED"
+			},
+			"0x0D0F": {
+				"name": "SCE_BT_ERROR_AUDIO_FREQ_NOT_CONNECTED"
+			},
+			"0x0D10": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_NO_CP"
+			},
+			"0x0D11": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_BAD_TYPE"
+			},
+			"0x0D12": {
+				"name": "SCE_BT_ERROR_AUDIO_RECV_BAD_TYPE"
+			},
+			"0x0D16": {
+				"name": "SCE_BT_ERROR_AUDIO_COMBI_NOT_FOUND"
+			},
+			"0x0D17": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_NO_L2C"
+			},
+			"0x0D18": {
+				"name": "SCE_BT_ERROR_AUDIO_INTERNAL_1"
+			},
+			"0x0D19": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_BUSY"
+			},
+			"0x0D1A": {
+				"name": "SCE_BT_ERROR_AUDIO_RECV_BUSY"
+			},
+			"0x0D1B": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_NO_CAP"
+			},
+			"0x0D1C": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_SERV_FAILED"
+			},
+			"0x0D1D": {
+				"name": "SCE_BT_ERROR_AUDIO_RECV_NO_CAP"
+			},
+			"0x0D1E": {
+				"name": "SCE_BT_ERROR_AUDIO_RECV_SERV_FAILED"
+			},
+			"0x0E01": {
+				"name": "SCE_BT_ERROR_HID_RECV_NOT_CONNECTED"
+			},
+			"0x0E02": {
+				"name": "SCE_BT_ERROR_HID_RECV_INVALID_LENGTH"
+			},
+			"0x1201": {
+				"name": "SCE_BT_ERROR_AVRCP_TOO_LONG_TITLE"
+			},
+			"0x1202": {
+				"name": "SCE_BT_ERROR_AVRCP_INVALID_PLAY_STATUS"
+			},
+			"0x1501": {
+				"name": "SCE_BT_ERROR_CONF_NOT_READY"
+			},
+			"0x1502": {
+				"name": "SCE_BT_ERROR_CONF_INVALID_VALUE"
+			},
+			"0x1503": {
+				"name": "SCE_BT_ERROR_CONF_BT_INACTIVE"
+			},
+			"0x1504": {
+				"name": "SCE_BT_ERROR_CONF_TIMEOUT"
+			},
+			"0x1505": {
+				"name": "SCE_BT_ERROR_CONF_CARD_NOT_FOUND"
+			},
+			"0x1506": {
+				"name": "SCE_BT_ERROR_CONF_FUNCTION_NOT_FOUND"
+			},
+			"0x1507": {
+				"name": "SCE_BT_ERROR_CONF_CANT_ENABLE_FUNCTION"
+			},
+			"0x1508": {
+				"name": "SCE_BT_ERROR_CONF_CANT_DISABLE_FUNCTION"
+			},
+			"0x1509": {
+				"name": "SCE_BT_ERROR_CONF_REGISTER_SUBINTR_HANDLER"
+			},
+			"0x150A": {
+				"name": "SCE_BT_ERROR_CONF_RELEASE_SUBINTR_HANDLER"
+			},
+			"0x150B": {
+				"name": "SCE_BT_ERROR_CONF_ENABLE_SUBINTR"
+			},
+			"0x150C": {
+				"name": "SCE_BT_ERROR_CONF_DISABLE_SUBINTR"
+			},
+			"0x150D": {
+				"name": "SCE_BT_ERROR_CONF_ON_TIMEOUT"
+			},
+			"0x150E": {
+				"name": "SCE_BT_ERROR_CONF_OFF_TIMEOUT"
+			},
+			"0x150F": {
+				"name": "SCE_BT_ERROR_CONF_SUSPEND_TIMEOUT"
+			},
+			"0x1520": {
+				"name": "SCE_BT_ERROR_CONF_CANT_ENTER"
+			},
+			"0x2001": {
+				"name": "SCE_BT_ERROR_NOTIMP"
+			},
+			"0x2002": {
+				"name": "SCE_BT_ERROR_KPROC_CREATE"
+			},
+			"0x2003": {
+				"name": "SCE_BT_ERROR_SDIO_GET_FUNCTION"
+			},
+			"0x2004": {
+				"name": "SCE_BT_ERROR_SDIO_REGISTER_INTR_HANDLER"
+			},
+			"0x2005": {
+				"name": "SCE_BT_ERROR_SDIO_UNREGISTER_INTR_HANDLER"
+			},
+			"0x2006": {
+				"name": "SCE_BT_ERROR_SDIO_LOCK"
+			},
+			"0x2007": {
+				"name": "SCE_BT_ERROR_SDIO_UNLOCK"
+			},
+			"0x2008": {
+				"name": "SCE_BT_ERROR_SDIO_ENABLE_FUNCTION"
+			},
+			"0x2009": {
+				"name": "SCE_BT_ERROR_SDIO_DISABLE_FUNCTION"
+			},
+			"0x200A": {
+				"name": "SCE_BT_ERROR_SDIO_SET_BLOCK_LEN"
+			},
+			"0x200B": {
+				"name": "SCE_BT_ERROR_SDIO_SET_BUS_SPEED"
+			},
+			"0x200C": {
+				"name": "SCE_BT_ERROR_SDIO_READ_DIR"
+			},
+			"0x200D": {
+				"name": "SCE_BT_ERROR_SDIO_WRITE_DIR"
+			},
+			"0x200E": {
+				"name": "SCE_BT_ERROR_SDIO_READ_FIX"
+			},
+			"0x200F": {
+				"name": "SCE_BT_ERROR_SDIO_WRITE_FIX"
+			},
+			"0x2010": {
+				"name": "SCE_BT_ERROR_TSLEEP"
+			},
+			"0x2101": {
+				"name": "SCE_BT_ERROR_GET_DEBUG_INFO_INVALID_REQUEST"
+			},
+			"0x2102": {
+				"name": "SCE_BT_ERROR_SET_DEBUG_INFO_INVALID_REQUEST"
+			},
+			"0x2103": {
+				"name": "SCE_BT_ERROR_GET_DEBUG_INFO_INVALID_SIZE"
+			},
+			"0x2104": {
+				"name": "SCE_BT_ERROR_SET_DEBUG_INFO_INVALID_SIZE"
+			},
+			"0x2105": {
+				"name": "SCE_BT_ERROR_GET_DEBUG_INFO_INVALID_ARGUMENT"
+			},
+			"0x2106": {
+				"name": "SCE_BT_ERROR_SET_DEBUG_INFO_INVALID_ARGUMENT"
+			},
+			"0x2107": {
+				"name": "SCE_BT_ERROR_GET_DEBUG_INFO_INVALID_STATE"
+			},
+			"0x2108": {
+				"name": "SCE_BT_ERROR_SET_DEBUG_INFO_INVALID_STATE"
+			},
+			"0x2109": {
+				"name": "SCE_BT_ERROR_GET_DEBUG_INFO_NOT_CONNECTED"
+			},
+			"0x210A": {
+				"name": "SCE_BT_ERROR_SET_DEBUG_INFO_NOT_CONNECTED"
+			},
+			"0x2201": {
+				"name": "SCE_BT_ERROR_PIN_IS_LE"
+			},
+			"0x2202": {
+				"name": "SCE_BT_ERROR_CONNECT_START_IS_LE"
+			},
+			"0x2203": {
+				"name": "SCE_BT_ERROR_AVCTP_IS_LE"
+			},
+			"0x2204": {
+				"name": "SCE_BT_ERROR_HID_IS_LE"
+			},
+			"0x2205": {
+				"name": "SCE_BT_ERROR_AUDIO_START_IS_LE"
+			},
+			"0x2206": {
+				"name": "SCE_BT_ERROR_AUDIO_STOP_IS_LE"
+			},
+			"0x2207": {
+				"name": "SCE_BT_ERROR_AUDIO_SEND_IS_LE"
+			},
+			"0x2208": {
+				"name": "SCE_BT_ERROR_AUDIO_RECV_IS_LE"
+			},
+			"0x2209": {
+				"name": "SCE_BT_ERROR_AUDIO_FREQ_IS_LE"
+			},
+			"0x2300": {
+				"name": "SCE_BT_ERROR_ATT_BASE"
+			},
+			"0x2301": {
+				"name": "SCE_BT_ERROR_ATT_INVALID_HANDLE"
+			},
+			"0x2302": {
+				"name": "SCE_BT_ERROR_ATT_READ_NOT_PERMITTED"
+			},
+			"0x2303": {
+				"name": "SCE_BT_ERROR_ATT_WRITE_NOT_PERMITTED"
+			},
+			"0x2304": {
+				"name": "SCE_BT_ERROR_ATT_INVALID_PDU"
+			},
+			"0x2305": {
+				"name": "SCE_BT_ERROR_ATT_INSUFFICIENT_AUTHENTICATION"
+			},
+			"0x2306": {
+				"name": "SCE_BT_ERROR_ATT_REQUEST_NOT_SUPPORTED"
+			},
+			"0x2307": {
+				"name": "SCE_BT_ERROR_ATT_INVALID_OFFSET"
+			},
+			"0x2308": {
+				"name": "SCE_BT_ERROR_ATT_INSUFFICIENT_AUTHORIZATION"
+			},
+			"0x2309": {
+				"name": "SCE_BT_ERROR_ATT_PEPARE_QUEUE_FULL"
+			},
+			"0x230A": {
+				"name": "SCE_BT_ERROR_ATT_ATTRIBUTE_NOT_FOUND"
+			},
+			"0x230B": {
+				"name": "SCE_BT_ERROR_ATT_ATTRIBUTE_NOT_LONG"
+			},
+			"0x230C": {
+				"name": "SCE_BT_ERROR_ATT_INSUFFICIENT_ENCRYPTION_KEY_SIZE"
+			},
+			"0x230D": {
+				"name": "SCE_BT_ERROR_ATT_INVALID_ATTRIBUTE_VALUE_LENGTH"
+			},
+			"0x230E": {
+				"name": "SCE_BT_ERROR_ATT_UNLIKELY_ERROR"
+			},
+			"0x230F": {
+				"name": "SCE_BT_ERROR_ATT_INSUFFICIENT_ENCRYPTION"
+			},
+			"0x2310": {
+				"name": "SCE_BT_ERROR_ATT_UNSUPPORTED_GROUP_TYPE"
+			},
+			"0x2311": {
+				"name": "SCE_BT_ERROR_ATT_INSUFFICIENT_RESOURCES"
+			},
+			"0x2380": {
+				"name": "SCE_BT_ERROR_ATT_APPLICATION_ERROR_LO"
+			},
+			"0x23FF": {
+				"name": "SCE_BT_ERROR_ATT_APPLICATION_ERROR_HI"
+			},
+			"0x2401": {
+				"name": "SCE_BT_ERROR_GATT_INVALID_NO"
+			},
+			"0x2402": {
+				"name": "SCE_BT_ERROR_GATT_NOT_CONNECTED"
+			},
+			"0x2403": {
+				"name": "SCE_BT_ERROR_GATT_BUSY"
+			},
+			"0x2404": {
+				"name": "SCE_BT_ERROR_GATT_INVALID_HANDLE"
+			},
+			"0x2405": {
+				"name": "SCE_BT_ERROR_GATT_INVALID_FLAGS"
+			},
+			"0x2406": {
+				"name": "SCE_BT_ERROR_GATT_INVALID_SIZE"
+			},
+			"0x2407": {
+				"name": "SCE_BT_ERROR_GATT_NOT_LE"
+			},
+			"0x2408": {
+				"name": "SCE_BT_ERROR_GATT_TOO_BIG_RECORD"
+			},
+			"0x2409": {
+				"name": "SCE_BT_ERROR_GATT_NOT_YET"
+			},
+			"0x240A": {
+				"name": "SCE_BT_ERROR_GATT_DISCONNECT"
+			},
+			"0x240B": {
+				"name": "SCE_BT_ERROR_GATT_TSLEEP"
+			},
+			"0x240C": {
+				"name": "SCE_BT_ERROR_GATT_ENTER"
+			},
+			"0x240D": {
+				"name": "SCE_BT_ERROR_GATT_TOO_BIG_BUFFER"
+			},
+			"0x2501": {
+				"name": "SCE_BT_ERROR_SM_INVALID_KEY_LENGTH"
+			},
+			"0x2502": {
+				"name": "SCE_BT_ERROR_SM_NOT_DIGIT"
+			},
+			"0x2503": {
+				"name": "SCE_BT_ERROR_SM_NO_REQ"
+			},
+			"0x2504": {
+				"name": "SCE_BT_ERROR_SM_NOT_NEEDED_PIN"
+			},
+			"0x2505": {
+				"name": "SCE_BT_ERROR_SM_INVALID_CONFIRM_REPLY"
+			},
+			"0x2601": {
+				"name": "SCE_BT_ERROR_LE_SET_ADVERTISING_INVALID_REQ"
+			},
+			"0x2602": {
+				"name": "SCE_BT_ERROR_LE_SET_ADVERTISING_INVALID_LENGTH"
+			},
+			"0x2603": {
+				"name": "SCE_BT_ERROR_LE_SET_ADVERTISING_INVALID_INTERVAL_MIN"
+			},
+			"0x2604": {
+				"name": "SCE_BT_ERROR_LE_SET_ADVERTISING_INVALID_INTERVAL_MAX"
+			},
+			"0x2605": {
+				"name": "SCE_BT_ERROR_LE_SET_ADVERTISING_INVALID_OWN_ADDRESS_TYPE"
+			},
+			"0x2606": {
+				"name": "SCE_BT_ERROR_LE_SET_ADVERTISING_INVALID_DIRECT_ADDRESS_TYPE"
+			},
+			"0x2607": {
+				"name": "SCE_BT_ERROR_LE_SET_ADVERTISING_INVALID_DIRECT_ADDRESS"
+			},
+			"0x2701": {
+				"name": "SCE_BT_ERROR_LE_SET_SCAN_INVALID_REQ"
+			},
+			"0x2702": {
+				"name": "SCE_BT_ERROR_LE_SET_SCAN_INVALID_LENGTH"
+			},
+			"0x2703": {
+				"name": "SCE_BT_ERROR_LE_SET_SCAN_INVALID_INTERVAL"
+			},
+			"0x2704": {
+				"name": "SCE_BT_ERROR_LE_SET_SCAN_INVALID_WINDOW"
+			},
+			"0x2705": {
+				"name": "SCE_BT_ERROR_LE_SET_SCAN_INVALID_OWN_ADDRESS_TYPE"
+			},
+			"0x2801": {
+				"name": "SCE_BT_ERROR_LE_GET_ADVERTISING_NOT_FOUND"
+			},
+			"0x2901": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_INVALID_SCAN_INTERVAL"
+			},
+			"0x2902": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_INVALID_SCAN_WINDOW"
+			},
+			"0x2903": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_INVALID_PEER_ADDRESS"
+			},
+			"0x2904": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_INVALID_OWN_ADDRESS_TYPE"
+			},
+			"0x2905": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_INVALID_INTERVAL_MIN"
+			},
+			"0x2906": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_INVALID_INTERVAL_MAX"
+			},
+			"0x2907": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_INVALID_LATENCY"
+			},
+			"0x2908": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_INVALID_TIMEOUT"
+			},
+			"0x2909": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_REG_FULL"
+			},
+			"0x290A": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_REG_ERROR"
+			},
+			"0x290B": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_CONNECTED"
+			},
+			"0x290C": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_FULL"
+			},
+			"0x290D": {
+				"name": "SCE_BT_ERROR_LE_CREATE_CONNECTION_BUSY"
+			},
+			"0x2A01": {
+				"name": "SCE_BT_ERROR_ATT_READ_INVALID_NO"
+			},
+			"0x2A02": {
+				"name": "SCE_BT_ERROR_ATT_READ_INVALID_LENGTH"
+			},
+			"0x2A03": {
+				"name": "SCE_BT_ERROR_ATT_READ_INVALID_INTERNAL"
+			},
+			"0x2A04": {
+				"name": "SCE_BT_ERROR_ATT_WRITE_INVALID_NO"
+			},
+			"0x2A05": {
+				"name": "SCE_BT_ERROR_ATT_WRITE_INVALID_LENGTH"
+			},
+			"0x2A06": {
+				"name": "SCE_BT_ERROR_ATT_WRITE_INVALID_INTERNAL"
+			},
+			"0x2A07": {
+				"name": "SCE_BT_ERROR_ATT_NOT_YET"
+			},
+			"0x2B01": {
+				"name": "SCE_BT_ERROR_LE_NOT_SUPPORTED"
+			},
+			"0x3101": {
+				"name": "SCE_BT_ERROR_PAIRING_OOB_TIMEOUT"
+			},
+			"0x3102": {
+				"name": "SCE_BT_ERROR_PAIRING_OOB_FULL"
+			},
+			"0x3103": {
+				"name": "SCE_BT_ERROR_PAIRING_OOB_CAN_NOT_DISCONNECT"
+			},
+			"0x3104": {
+				"name": "SCE_BT_ERROR_PAIRING_OOB_INTERNAL_ERROR"
+			},
+			"0x3201": {
+				"name": "SCE_BT_ERROR_NOT_READY"
+			},
+			"0x3301": {
+				"name": "SCE_BT_ERROR_GET_JACK_STATUS_NOT_CONNECTED"
+			},
+			"0x3401": {
+				"name": "SCE_BT_ERROR_TOO_MANY_CONNECTION"
+			},
+			"0x3402": {
+				"name": "SCE_BT_ERROR_TOO_MANY_HID"
+			},
+			"0x3403": {
+				"name": "SCE_BT_ERROR_NOT_SUPPORTED_DEVICE"
+			},
+			"0x3501": {
+				"name": "SCE_BT_ERROR_JEDI_VOLUME_GAIN_NOT_CONNECTED"
+			},
+			"0x3601": {
+				"name": "SCE_BT_ERROR_JEDI_SNIFF_NOT_CONNECTED"
+			},
+			"0x3602": {
+				"name": "SCE_BT_ERROR_JEDI_SNIFF_NOT_JEDI"
+			}
+		}
 	},
 	"0x032" : {
 		"name" : "SCE_ERROR_FACILITY_SDIF",
