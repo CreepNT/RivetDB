@@ -1,7 +1,7 @@
 {
     "0x001" :{
         "name" : "SCE_ERROR_FACILITY_ERRNO",
-        "description" : "errno facility - standard C errno values",
+        "description" : "ERRNO facility",
         "errors" : {
 			"0x0001" : {
 				"name" : "SCE_ERROR_ERRNO_EPERM",
@@ -519,7 +519,7 @@
     },
     "0x002" : {
         "name" : "SCE_ERROR_FACILITY_KERNEL",
-        "description" : "Kernel core facility",
+        "description" : "Kernel error code facility",
         "errors" : {
             "0x0001":{
                 "name" : "SCE_KERNEL_ERROR_ERROR",
@@ -1793,27 +1793,32 @@
     },
 	"0x003" : {
 		"name" : "SCE_ERROR_FACILITY_KERNEL_EXT",
+		"dsecription" : "Kernel error code facility extension",
 		"errors" : {}
 	},
 	"0x004" : {
 		"name" : "SCE_ERROR_FACILITY_KERNEL_S",
+		"dsecription" : "Kernel error code facility extension",
 		"errors" : {}
 	},
 	"0x005" : {
 		"name" : "SCE_ERROR_FACILITY_KERNEL_SEXT",
+		"dsecription" : "Kernel error code facility extension",
 		"errors" : {}
 	},
 	"0x006" : {
 		"name" : "SCE_ERROR_FACILITY_KERNEL_B",
+		"dsecription" : "Kernel error code facility extension",
 		"errors" : {}
 	},
 	"0x007" : {
 		"name" : "SCE_ERROR_FACILITY_KERNEL_BEXT",
+		"dsecription" : "Kernel error code facility extension",
 		"errors" : {}
 	},
 	"0x008" : {
 		"name" : "SCE_ERROR_FACILITY_DECI_USR",
-		"description" : "Userland DECI4p facility",
+		"description" : "User DECI error code facility",
 		"errors" : {
 			"0x0800" : {
 				"name" : "SCE_KERNEL_ERROR_DECI4P_UNKNOWN",
@@ -1891,11 +1896,12 @@
 	},
 	"0x009" : {
 		"name" : "SCE_ERROR_FACILITY_DECI_SYS",
+		"description" : "System DECI error code facility",
 		"errors" : {}
 	},
 	"0x00A" : {
 		"name" : "SCE_ERROR_FACILITY_COREDUMP",
-		"description" : "COREDUMP facility",
+		"description" : "Coredump error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_COREDUMP_ERROR_PARAM",
@@ -1917,6 +1923,7 @@
 	},
 	"0x00C" : {
 		"name" : "SCE_ERROR_FACILITY_REGISTRY",
+		"description" : "Registry error code facility",
 		"errors" : {}
 	},
 	"0x00D" : {
@@ -1925,7 +1932,7 @@
 	},
 	"0x00F" : {
 		"name" : "SCE_ERROR_FACILITY_SBL",
-		"description" : "Secure BLock facility",
+		"description" : "Secure Block error code facility",
 		"errors" : {
 			"0x0516" : {
 				"name": "SCE_SBL_ERROR_AM_EINVAL",
@@ -1935,7 +1942,7 @@
 	},
 	"0x010" : {
 		"name" : "SCE_ERROR_FACILITY_VSH",
-		"description" : "VSHell (SceShell) facility",
+		"description" : "VShell error code facility",
 		"errors" : {
 			"0x0600" : {
 				"name" : "SCE_APPUTIL_ERROR_PARAMETER",
@@ -3321,58 +3328,72 @@
 	},
 	"0x011" : {
 		"name" : "SCE_ERROR_FACILITY_UTILITY",
+		"description" : "Utility error code facility",
 		"errors" : {}
 	},
 	"0x012" : {
 		"name" : "SCE_ERROR_FACILITY_SYSFILE",
+		"description" : "SYSFILE error code facility",
 		"errors" : {}
 	},
 	"0x013" : {
 		"name" : "SCE_ERROR_FACILITY_MSAPP",
+		"description" : "Memory Stick Application error code facility",
 		"errors" : {}
 	},
 	"0x014" : {
 		"name" : "SCE_ERROR_FACILITY_PFS",
+		"description" : "PFS error code facility",
 		"errors" : {}
 	},
 	"0x018" : {
 		"name" : "SCE_ERROR_FACILITY_UPDATER",
+		"description" : "Updater error code facility (reserved)",
 		"errors" : {}
 	},
 	"0x019" : {
 		"name" : "SCE_ERROR_FACILITY_SAFEMODE",
+		"description" : "Updater error code facility (reserved)",
 		"errors" : {}
 	},
 	"0x01A" : {
 		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"description" : "Updater error code facility (reserved)",
 		"errors" : {}
 	},
 	"0x01B" : {
 		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"description" : "Updater error code facility (reserved)",
 		"errors" : {}
 	},
 	"0x01C" : {
 		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"description" : "Updater error code facility (reserved)",
 		"errors" : {}
 	},
 	"0x01D" : {
 		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"description" : "Updater error code facility (reserved)",
 		"errors" : {}
 	},
 	"0x01E" : {
 		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"description" : "Updater error code facility (reserved)",
 		"errors" : {}
 	},
 	"0x01F" : {
 		"name" : "SCE_ERROR_FACILITY_UPDATER_RSV",
+		"description" : "Updater error code facility (reserved)",
 		"errors" : {}
 	},
 	"0x020" : {
 		"name" : "SCE_ERROR_FACILITY_SHAREDFB",
+		"description" : "Shared Framebuffer error code facility",
 		"errors" : {}
 	},
 	"0x022" : {
 		"name" : "SCE_ERROR_FACILITY_MEMSTICK",
+		"description" : "Memory Stick error code facility",
 		"errors" : {}
 	},
 	"0x023" : {
@@ -3381,11 +3402,12 @@
 	},
 	"0x024" : {
 		"name" : "SCE_ERROR_FACILITY_USB",
+		"description" : "USB error code facility",
 		"errors" : {}
 	},
 	"0x025" : {
-		"name" : "SCE_ERROR_FACILITY_SYSCON / SCE_ERROR_FACILITY_RTC?",
-		"description" : "SYStem CONtroller / Real-Time Clock facility",
+		"name" : "SCE_ERROR_FACILITY_SYSCON",
+		"description" : "System Controller error code facility",
 		"errors" : {
 			"0x1000" : {
 				"name" : "SCE_RTC_ERROR_INVALID_VALUE",
@@ -3443,7 +3465,7 @@
 	},
 	"0x026" : {
 		"name" : "SCE_ERROR_FACILITY_AUDIO",
-		"description" : "Audio Input/Output facility",
+		"description" : "Audio input/output error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_AUDIO_OUT_ERROR_NOT_OPENED",
@@ -3537,15 +3559,17 @@
 	},
 	"0x027" : {
 		"name" : "SCE_ERROR_FACILITY_LFLASH",
+		"description" : "Logical Flash error code facility",
 		"errors" : {}
 	},
 	"0x028" : {
 		"name" : "SCE_ERROR_FACILITY_LFATFS",
+		"description" : "Flash FAT error code facility",
 		"errors" : {}
 	},
 	"0x029" : {
 		"name" : "SCE_ERROR_FACILITY_DISPLAY",
-		"description" : "Display facility",
+		"description" : "Display error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_DISPLAY_ERROR_INVALID_HEAD",
@@ -3595,19 +3619,22 @@
 	},
 	"0x02B" : {
 		"name" : "SCE_ERROR_FACILITY_POWER",
+		"description" : "Power Control error code facility",
 		"errors" : {}
 	},
 	"0x02C" : {
 		"name" : "SCE_ERROR_FACILITY_AUDIOROUTING",
+		"description" : "Audio routine error code facility",
 		"errors" : {}
 	},
 	"0x02D" : {
 		"name" : "SCE_ERROR_FACILITY_MEDIASYNC",
+		"description" : "Media Sync error code facility",
 		"errors" : {}
 	},
 	"0x02E" : {
 		"name" : "SCE_ERROR_FACILITY_CAMERA",
-		"description" : "Camera facility",
+		"description" : "Camera error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_CAMERA_ERROR_PARAM",
@@ -3677,7 +3704,7 @@
 	},
 	"0x02F" : {
 		"name" : "SCE_ERROR_FACILITY_BT",
-		"description" : "Bluetooth® facility",
+		"description" : "Bluetooth® error code facility",
 		"errors" : {
 			"0x0101": {
 				"name": "SCE_BT_ERROR_REG_NOT_READY"
@@ -4388,17 +4415,17 @@
 	},
 	"0x032" : {
 		"name" : "SCE_ERROR_FACILITY_SDIF",
-		"description" : "SD/MMC InterFace facility",
+		"description" : "SD/MMC Interface error code facility",
 		"errors" : {}
 	},
 	"0x033" : {
 		"name" : "SCE_ERROR_FACILITY_BBMC",
-		"description" : "BroadBand Modem Controller facility",
+		"description" : "BroadBand Modem Controller error code facility",
 		"errors" : {}
 	},
 	"0x034" : {
 		"name" : "SCE_ERROR_FACILITY_CTRL",
-		"description" : "Control (button input) facility",
+		"description" : "Controller error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_CTRL_ERROR_INVALID_ARG",
@@ -4424,7 +4451,7 @@
 	},
 	"0x035" : {
 		"name" : "SCE_ERROR_FACILITY_TOUCH",
-		"description" : "Touchscreen facility",
+		"description" : "Touch Panel error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_TOUCH_ERROR_INVALID_ARG",
@@ -4442,7 +4469,7 @@
 	},
 	"0x036" : {
 		"name" : "SCE_ERROR_FACILITY_MOTION",
-		"description" : "Motion facility",
+		"description" : "Motion error code facility",
 		"errors" : {
 			"0x0200" : {
 				"name" : "SCE_MOTION_ERROR_DATA_INVALID",
@@ -4504,7 +4531,7 @@
 	},
 	"0x03D" : {
 		"name" : "SCE_ERROR_FACILITY_MSIF",
-		"description" : "Memory Stick InterFace facility",
+		"description" : "Memory Stick Interface error code facility",
 		"errors" : {}
 	},
 	"0x03E" : {
@@ -4513,11 +4540,12 @@
 	},
 	"0x03F" : {
 		"name" : "SCE_ERROR_FACILITY_PERIPH",
+		"description" : "Peripheral error code facility",
 		"errors" : {}
 	},
 	"0x041" : {
 		"name" : "SCE_ERROR_FACILITY_NETWORK",
-		"description" : "Network facility",
+		"description" : "Network error code facility",
 		"errors" : {
 			"0x0102" : {
 				"name" : "SCE_NET_ERROR_ENOENT"
@@ -4992,7 +5020,7 @@
 	},
 	"0x042" : {
 		"name" : "SCE_ERROR_FACILITY_SAS",
-		"description" : "SAS audio library facility",
+		"description" : "SAS (audio library) error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_SAS_ERROR_NSMPL",
@@ -5086,7 +5114,7 @@
 	},
 	"0x043" : {
 		"name" : "SCE_ERROR_FACILITY_HTTP",
-		"description" : "HTTP facility",
+		"description" : "HTTP error code facility",
 		"errors" : {
 			"0x1001" : {
 				"name" : "SCE_HTTP_ERROR_BEFORE_INIT"
@@ -5261,11 +5289,12 @@
 	},
 	"0x044" : {
 		"name" : "SCE_ERROR_FACILITY_WAVE",
+		"description" : "WAVE error code facility",
 		"errors" : {}
 	},
 	"0x045" : {
 		"name" : "SCE_ERROR_FACILITY_SND",
-		"description" : "SNDP facility",
+		"description" : "SND error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_SNDP_ERROR_NOTINIT",
@@ -5347,7 +5376,7 @@
 	},
 	"0x046" : {
 		"name" : "SCE_ERROR_FACILITY_FONT",
-		"description" : "Font facility",
+		"description" : "FONT error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_FONT_ERROR_NOMEMORY",
@@ -5413,11 +5442,12 @@
 	},
 	"0x047" : {
 		"name" : "SCE_ERROR_FACILITY_P3DA",
+		"description" : "P3DA error code facility",
 		"errors" : {}
 	},
 	"0x048" : {
 		"name" : "SCE_ERROR_FACILITY_HASH",
-		"decription" : "Hash function facility",
+		"decription" : "Hash functions error code facility",
 		"errors" : {
 			"0x0100" : {
 				"name" : "SCE_MD5_ERROR_INVALID_POINTER",
@@ -5485,7 +5515,7 @@
 	},
 	"0x049" : {
 		"name" : "SCE_ERROR_FACILITY_PRNG",
-		"description" : "Pseudo-Random Number Generator facility",
+		"description" : "Pseudo-Random Number Generator error code facility",
 		"errors" : {
 			"0x0100" : {
 				"name" : "SCE_MT19937_ERROR_INVALID_POINTER"
@@ -5557,7 +5587,7 @@
 	},
 	"0x04A" : {
 		"name" : "SCE_ERROR_FACILITY_NGS",
-		"description" : "Next-Generation Sound facility",
+		"description" : "NGS error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_NGS_ERROR",
@@ -5639,20 +5669,22 @@
 	},
 	"0x04B" : {
 		"name" : "SCE_ERROR_FACILITY_ECHO",
-		"description" : "?libecho facility?",
+		"description" : "ECHO error code facility",
 		"errors" : {}
 	},
 	"0x04C" : {
 		"name" : "SCE_ERROR_FACILITY_GPU",
+		"description" : "GPU error code facility",
 		"errors" : {}
 	},
 	"0x04D" : {
 		"name" : "SCE_ERROR_FACILITY_SULPHA",
+		"description" : "SULPHA error code facility",
 		"errors" : {}
 	},
 	"0x04E" : {
 		"name" : "SCE_ERROR_FACILITY_VOICE",
-		"description" : "Voice facility",
+		"description" : "Voice error code facility",
 		"errors" : {
 			"0x0801" : {
 				"name" : "SCE_VOICE_ERROR_LIBVOICE_NOT_INIT",
@@ -5730,7 +5762,7 @@
 	},
 	"0x04F" : {
 		"name" : "SCE_ERROR_FACILITY_HEAP",
-		"description" : "Heap manager facility",
+		"description" : "Heap error code facility",
 		"blacklist" : [
 			{
 				"min" : "0x0002",
@@ -5754,19 +5786,22 @@
 	},
 	"0x052" : {
 		"name" : "SCE_ERROR_FACILITY_OPENPSID",
+		"description" : "OPENPSID error code facility",
 		"errors" : {}
 	},
 	"0x053" : {
 		"name" : "SCE_ERROR_FACILITY_DNAS",
+		"description" : "DNAS error code facility",
 		"errors" : {}
 	},
 	"0x054" : {
 		"name" : "SCE_ERROR_FACILITY_MTP",
+		"description" : "MTP error code facility",
 		"errors" : {}
 	},
 	"0x055" : {
 		"name" : "SCE_ERROR_FACILITY_NP",
-		"description" : "PlayStation® Network facility",
+		"description" : "Network Platform error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_NP_ERROR_ALREADY_INITIALIZED",
@@ -7859,7 +7894,7 @@
 	},
 	"0x056" : {
 		"name" : "SCE_ERROR_FACILITY_COMPRESSION",
-		"description" : "Compressed file libraries facility",
+		"description" : "Compression Library error code facility",
 		"errors" : {
 			"0x0100" : {
 				"name" : "SCE_DEFLATE_ERROR_INVALID_FORMAT",
@@ -7885,7 +7920,7 @@
 	},
 	"0x057" : {
 		"name" : "SCE_ERROR_FACILITY_DBGFONT",
-		"description" : "Debug Font library facility",
+		"description" : "Debug Font error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_DBGFONT_ERROR_NOT_INIT",
@@ -7923,7 +7958,7 @@
 	},
 	"0x058" : {
 		"name" : "SCE_ERROR_FACILITY_PERF",
-		"description" : "Performance tracing library facility",
+		"description" : "Performance tracing library error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_PERF_ERROR_INVALID_ARGUMENT",
@@ -7965,7 +8000,7 @@
 	},
 	"0x059" : {
 		"name" : "SCE_ERROR_FACILITY_FIBER",
-		"description" : "Fiber facility",
+		"description" : "Fiber error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_FIBER_ERROR_NULL",
@@ -7999,7 +8034,7 @@
 	},
 	"0x05A" : {
 		"name" : "SCE_ERROR_FACILITY_SYSMODULE",
-		"description" : "System modules facility",
+		"description" : "System modules error code facility",
 		"errors" : {
 			"0x1000" : {
 				"name" : "SCE_SYSMODULE_ERROR_INVALID_VALUE",
@@ -8017,7 +8052,7 @@
 	},
 	"0x05B" : {
 		"name" : "SCE_ERROR_FACILITY_GXM",
-		"description" : "SceGxm facility",
+		"description" : "GXM error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_GXM_ERROR_UNINITIALIZED",
@@ -8203,7 +8238,7 @@
 	},
 	"0x05C" : {
 		"name" : "SCE_ERROR_FACILITY_CES",
-		"decription" : "Character Encoding Scheme (CES) library",
+		"decription" : "Character Encoding Scheme (CES) error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_CES_ERROR_INVALID_PARAMETER",
@@ -8249,7 +8284,7 @@
 	},
 	"0x05D" : {
 		"name" : "SCE_ERROR_FACILITY_GXT",
-		"description" : "GXM Texture facility",
+		"description" : "GXM Texture error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_GXT_ERROR_INVALID_VALUE",
@@ -8267,11 +8302,12 @@
 	},
 	"0x05F" : {
 		"name" : "SCE_ERROR_FACILITY_LIBRARY",
+		"description" : "Library error code facility",
 		"errors" : {}
 	},
 	"0x060" : {
 		"name" : "SCE_ERROR_FACILITY_CODECENGINE",
-		"description" : "CodecEngine facility",
+		"description" : "CodecEngine error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_CODECENGINE_ERROR_INVALID_POINTER",
@@ -8329,11 +8365,12 @@
 	},
 	"0x061" : {
 		"name" : "SCE_ERROR_FACILITY_MPEG",
+		"description" : "MPEG error code facility",
 		"errors" : {}
 	},
 	"0x062" : {
 		"name" : "SCE_ERROR_FACILITY_AVC",
-		"description" : "Audio/Video codec facility",
+		"description" : "Audio/Video Codec error code facility",
 		"errors" : {
 			"0x0002" : {
 				"name" : "SCE_AVCDEC_ERROR_INVALID_PARAM",
@@ -8458,7 +8495,7 @@
 	},
 	"0x063" : {
 		"name" : "SCE_ERROR_FACILITY_ATRAC",
-		"description" : "Adaptive TRansform Acoustic Coding facility",
+		"description" : "ATRAC error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_ATRAC_ERROR_INVALID_POINTER",
@@ -8568,11 +8605,12 @@
 	},
 	"0x064" : {
 		"name" : "SCE_ERROR_FACILITY_ASF",
+		"description" : "ASF error code facility",
 		"errors" : {}
 	},
 	"0x065" : {
 		"name" : "SCE_ERROR_FACILITY_JPEG",
-		"description" : "JPEG facility",
+		"description" : "JPEG error code facility",
 		"errors" : {
 			"0x0003" : {
 				"name" : "SCE_JPEG_ERROR_IMAGE_EMPTY",
@@ -8782,21 +8820,22 @@
 	},
 	"0x066" : {
 		"name" : "SCE_ERROR_FACILITY_AVI",
-		"description" : "AVI facility",
+		"description" : "AVI error code facility",
 		"errors" : {}
 	},
 	"0x067" : {
 		"name" : "SCE_ERROR_FACILITY_MP3",
-		"description" : "MP3 faciltiy",
+		"description" : "MP3 error code faciltiy",
 		"errors" : {}
 	},
 	"0x068" : {
 		"name" : "SCE_ERROR_FACILITY_G729",
+		"description" : "G729 error code facility",
 		"errors" : {}
 	},
 	"0x069" : {
 		"name" : "SCE_ERROR_FACILITY_PNG",
-		"description" : "PNG facility",
+		"description" : "PNG error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_PNG_ERROR_INVALID_FORMAT",
@@ -8818,12 +8857,17 @@
 	},
 	"0x06A" : {
 		"name" : "SCE_ERROR_FACILITY_AVPLAYER",
-		"description" : "Audio/Video player facility",
+		"description" : "Audio/Video player error code facility",
+		"errors" : {}
+	},
+	"0x06B" : {
+		"name" : "SCE_ERROR_FACILITY_AAENC",
+		"description" : "AAENC error code facility",
 		"errors" : {}
 	},
 	"0x077" : {
 		"name" : "SCE_ERROR_FACILITY_RUDP",
-		"description" : "Reliable UDP facility",
+		"description" : "Reliable UDP error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_RUDP_ERROR_NOT_INITIALIZED",
@@ -8981,7 +9025,7 @@
 	},
 	"0x07F" : {
 		"name" : "SCE_ERROR_FACILITY_CODEC",
-		"description" : "Coding/Decoding facility",
+		"description" : "Codec error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_AUDIODEC_ERROR_API_FAIL",
@@ -9087,7 +9131,7 @@
 	},
 	"0x080" : {
 		"name" : "SCE_ERROR_FACILITY_APPMGR",
-		"description" : "Application manager facility",
+		"description" : "Application manager error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "Unknown error (0x0001)",
@@ -9139,7 +9183,7 @@
 	},
 	"0x081" : {
 		"name" : "SCE_ERROR_FACILITY_ULT",
-		"description" : "User-Level Threading facility",
+		"description" : "User-Level Threading error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_ULT_ERROR_NULL",
@@ -9181,7 +9225,7 @@
 	},
 	"0x082" : {
 		"name" : "SCE_ERROR_FACILITY_FIOS",
-		"description" : "Flexible Input/Output System facility",
+		"description" : "Flexible Input/Output System error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_FIOS_ERROR_CANT_ALLOCATE_OP / SCE_FIOS_KERNEL_ERROR_CANT_ALLOCATE_OP"
@@ -9265,7 +9309,7 @@
 	},
 	"0x083" : {
 		"name" : "SCE_ERROR_FACILITY_BASE64",
-		"description" : "Base64 facility",
+		"description" : "Base64 error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_BASE64_ERROR_INVALID_FORMAT",
@@ -9279,17 +9323,17 @@
 	},
 	"0x084" : {
 		"name" : "SCE_ERROR_FACILITY_INIFILE",
-		"description" : "INI facility",
+		"description" : "INI File Processor error code facility",
 		"errors" : {}
 	},
 	"0x085" : {
 		"name" : "SCE_ERROR_FACILITY_XML",
-		"description" : "XML facility",
+		"description" : "XML Processor error code facility",
 		"errors" : {}
 	},
 	"0x086" : {
 		"name" : "SCE_ERROR_FACILITY_AUDIOENC",
-		"description" : "Audio Encoding facility",
+		"description" : "Audio Encoding error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_AUDIOENC_ERROR_API_FAIL",
@@ -9363,12 +9407,12 @@
 	},
 	"0x087" : {
 		"name" : "SCE_ERROR_FACILITY_NPDRM",
-		"description" : "NPDRM facility",
+		"description" : "NPDRM error code facility",
 		"errors" : {}
 	},
 	"0x088" : {
 		"name" : "SCE_ERROR_FACILITY_PHYSICSEFFECTS",
-		"description" : "Physics effects facility",
+		"description" : "Physics effects error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_PFX_ERR_INVALID_VALUE"
@@ -9437,7 +9481,7 @@
 	},
 	"0x089" : {
 		"name" : "SCE_ERROR_FACILITY_SYSTEM_GESTURE",
-		"description" : "System gesture facility",
+		"description" : "System gesture error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_SYSTEM_GESTURE_ERROR_INVALID_ARGUMENT",
@@ -9463,12 +9507,12 @@
 	},
 	"0x08A" : {
 		"name" : "SCE_ERROR_FACILITY_SBL_GCAUTH",
-		"description" : "Game Card Authentification facility",
+		"description" : "Secure Block Game Card Authentification error code facility",
 		"errors" : {}
 	},
 	"0x08B" : {
 		"name" : "SCE_ERROR_FACILITY_FACE",
-		"description" : "Face recognition facility",
+		"description" : "Face recognition error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_FACE_ERROR_NO_MEMORY",
@@ -9498,7 +9542,7 @@
 	},
 	"0x08C" : {
 		"name" : "SCE_ERROR_FACILITY_SMART",
-		"description" : "libsmart/Augmented Reality facility",
+		"description" : "libsmart/Augmented Reality error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_SMART_ERROR_UNINITIALIZED",
@@ -9573,12 +9617,12 @@
 	},
 	"0x08F" : {
 		"name" : "SCE_ERROR_FACILITY_PSMKDC",
-		"description" : "?maybe PlayStation® Mobile related?",
+		"description" : "?PlayStation® Mobile related?",
 		"errors" : {}
 	},
 	"0x091" : {
-		"name" : "SCE_ERROR_FACILITY_QUICK",
-		"description" : "QuickSynth facility",
+		"name" : "SCE_ERROR_FACILITY_NGS_QUICK_SYNTH",
+		"description" : "NGS Quick Synth error code facility",
 		"errors" : {
 			"0x0001" : {
 				"name" : "SCE_QUICK_SYNTH_ERROR_INVALID_PARAM",
@@ -9644,7 +9688,7 @@
 	},
 	"0x092" : {
 		"name" : "SCE_ERROR_FACILITY_JSON",
-		"description" : "JSON facility",
+		"description" : "JSON error code facility",
 		"errors" : {}
 	},
 	"0x0A0" : {
@@ -9661,9 +9705,195 @@
             }
         }
 	},
+	"0x0EE" : {
+        "name" : "Unknown facility (0x0EE)",
+        "description" : "Reserved for diag test",
+        "errors" : {}
+    },
+	"0x0EF" : {
+        "name" : "Unknown facility (0x0EF)",
+        "description" : "Reserved for diag test",
+        "errors" : {}
+    },
+	"0x0F0" : {
+        "name" : "Reserved facility (0x0F0)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F1" : {
+        "name" : "Reserved facility (0x0F1)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F2" : {
+        "name" : "Reserved facility (0x0F2)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F3" : {
+        "name" : "Reserved facility (0x0F3)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F4" : {
+        "name" : "Reserved facility (0x0F4)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F5" : {
+        "name" : "Reserved facility (0x0F5)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F6" : {
+        "name" : "Reserved facility (0x0F6)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F7" : {
+        "name" : "Reserved facility (0x0F7)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F8" : {
+        "name" : "Reserved facility (0x0F8)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0F9" : {
+        "name" : "Reserved facility (0x0F9)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0FA" : {
+        "name" : "Reserved facility (0x0FA)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0FB" : {
+        "name" : "Reserved facility (0x0FB)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0FC" : {
+        "name" : "Reserved facility (0x0FC)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0FD" : {
+        "name" : "Reserved facility (0x0FD)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0FE" : {
+        "name" : "Reserved facility (0x0FE)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
+	"0x0FF" : {
+        "name" : "Reserved facility (0x0FF)",
+        "description" : "Reserved",
+        "blacklist": [
+            {
+                "min" : "0x0000",
+                "max" : "0xFFFF"
+            }
+        ],
+        "errors" : {}
+    },
 	"0x100" : {
 		"name" : "SCE_ERROR_FACILITY_SCREAM",
-		"description" : "SCREAM/989snd library facility - may also be NPTOOLKIT errors",
+		"description" : "SCREAM/989snd error code facility",
 		"errors" : {
 			"0x0000" : {
 				"name" : "SCE_SCREAM_SND_LOAD_ERROR_COULDNT_OPEN_FILE",
