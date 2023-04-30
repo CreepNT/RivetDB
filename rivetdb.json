@@ -589,94 +589,94 @@
                 "name" : "SCE_KERNEL_ERROR_ILLEGAL_OPEN_LIMIT",
                 "description" : "Maximum number of simultaneously referenceable items is invalid"
             },
-			"0x0401" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_BUSY",
-				"description" : "Calling another common dialog function"
-			},
-			"0x0402" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_NULL",
-				"description" : "NULL was specified as the function's argument"
-			},
-			"0x0403" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_ARGUMENT",
-				"description" : "Invalid argument specified"
-			},
-			"0x0404" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_RUNNING",
-				"description" : "Common Dialog not in status SCE_COMMON_DIALOG_STATUS_RUNNING"
-			},
-			"0x0405" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_SUPPORTED",
-				"description" : "Operation mode not supported by API"
-			},
-			"0x0406" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_ILLEGAL_CALLER_THREAD",
-				"description" : "Illegal thread called API"
-			},
-			"0x0407" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_CONFIGURED",
-				"description" : "Initialization failure due to a Common Dialog internal error"
-			},
-			"0x0410" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_FINISHED",
-				"description" : "Common dialog not in status SCE_COMMON_DIALOG_STATUS_FINISHED"
-			},
-			"0x0411" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_NOT_IN_USE",
-				"description" : "Concerned Common Dialog not currently in use - call sce*DialogInit() first"
-			},
-			"0x0420" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_COLOR_FORMAT",
-				"description" : "Invalid color format specified"
-			},
-			"0x0421" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_RESOLUTION",
-				"description" : "Invalid surface resolution specified"
-			},
-			"0x0422" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_STRIDE",
-				"description" : "Invalid surface stride specified"
-			},
-			"0x0423" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_TYPE",
-				"description" : "Invalid surface type specified"
-			},
-			"0x0424" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_WITHIN_SCENE",
-				"description" : "Tried to render Common Dialog inside a scene of the application"
-			},
-			"0x0430" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_IME_IN_USE",
-				"description" : "Cannot open Common Dialog because libime is being used"
-			},
-			"0x0431" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_LANGUAGE",
-				"description" : "Invalid language specified"
-			},
-			"0x0432" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_ENTER_BUTTON_ASSIGN",
-				"description" : "Invalid Enter button specified"
-			},
-			"0x0433" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_INFOBAR_PARAM",
-				"description" : "Invalid info bar parameter specified"
-			},
-			"0x0434" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_BG_COLOR",
-				"description" : "Invalid background color specified"
-			},
-			"0x0435" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_DIMMER_COLOR",
-				"description" : "Invalid dimmer color specified"
-			},
-			"0x0436" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_GXM_IS_UNINITIALIZED",
-				"description" : "libgxm is not initialized"
-			},
-			"0x047F" : {
-				"name" : "SCE_COMMON_DIALOG_ERROR_UNEXPECTED_FATAL",
-				"description" : "Unexpected fatal error occurred"
-			},
+	    "0x0401" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_BUSY",
+	    	"description" : "Calling another common dialog function"
+	    },
+	    "0x0402" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_NULL",
+	    	"description" : "NULL was specified as the function's argument"
+	    },
+	    "0x0403" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_ARGUMENT",
+	    	"description" : "Invalid argument specified"
+	    },
+	    "0x0404" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_NOT_RUNNING",
+	    	"description" : "Common Dialog not in status SCE_COMMON_DIALOG_STATUS_RUNNING"
+	    },
+	    "0x0405" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_NOT_SUPPORTED",
+	    	"description" : "Operation mode not supported by API"
+	    },
+	    "0x0406" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_ILLEGAL_CALLER_THREAD",
+	    	"description" : "Illegal thread called API"
+	    },
+	    "0x0407" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_NOT_CONFIGURED",
+	    	"description" : "Initialization failure due to a Common Dialog internal error"
+	    },
+	    "0x0410" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_NOT_FINISHED",
+	    	"description" : "Common dialog not in status SCE_COMMON_DIALOG_STATUS_FINISHED"
+	    },
+	    "0x0411" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_NOT_IN_USE",
+	    	"description" : "Concerned Common Dialog not currently in use - call sce*DialogInit() first"
+	    },
+	    "0x0420" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_COLOR_FORMAT",
+	    	"description" : "Invalid color format specified"
+	    },
+	    "0x0421" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_RESOLUTION",
+	    	"description" : "Invalid surface resolution specified"
+	    },
+	    "0x0422" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_STRIDE",
+	    	"description" : "Invalid surface stride specified"
+	    },
+	    "0x0423" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_SURFACE_TYPE",
+	    	"description" : "Invalid surface type specified"
+	    },
+	    "0x0424" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_WITHIN_SCENE",
+	    	"description" : "Tried to render Common Dialog inside a scene of the application"
+	    },
+	    "0x0430" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_IME_IN_USE",
+	    	"description" : "Cannot open Common Dialog because libime is being used"
+	    },
+	    "0x0431" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_LANGUAGE",
+	    	"description" : "Invalid language specified"
+	    },
+	    "0x0432" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_ENTER_BUTTON_ASSIGN",
+	    	"description" : "Invalid Enter button specified"
+	    },
+	    "0x0433" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_INFOBAR_PARAM",
+	    	"description" : "Invalid info bar parameter specified"
+	    },
+	    "0x0434" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_BG_COLOR",
+	    	"description" : "Invalid background color specified"
+	    },
+	    "0x0435" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_INVALID_DIMMER_COLOR",
+	    	"description" : "Invalid dimmer color specified"
+	    },
+	    "0x0436" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_GXM_IS_UNINITIALIZED",
+	    	"description" : "libgxm is not initialized"
+	    },
+	    "0x047F" : {
+	    	"name" : "SCE_COMMON_DIALOG_ERROR_UNEXPECTED_FATAL",
+	    	"description" : "Unexpected fatal error occurred"
+	    },
             "0x1000" : {
                 "name" : "SCE_KERNEL_ERROR_DEBUG_ERROR",
                 "description" : "Debug service error occurred"
@@ -771,1024 +771,1060 @@
             },
             "0x4302" : {
                 "name" : "SCE_KERNEL_ERROR_NO_FREE_PHYSICAL_PAGE",
-                "description" : "Cannot allocate physical page"
+                "description" : "There is no free physical page."
             },
             "0x4303" : {
                 "name" : "SCE_KERNEL_ERROR_NO_FREE_PHYSICAL_PAGE_UNIT",
-                "description" : "Cannot allocate physical page"
+                "description" : "There is no free physical page unit."
             },
             "0x4304" : {
                 "name" : "SCE_KERNEL_ERROR_PHYMEMPART_NOT_EMPTY",
                 "description" : "Physical memory partition to be deleted is not empty"
             },
-			"0x4305" : {
-				"name" : "SCE_KERNEL_ERROR_NO_PHYMEMPART_LPDDR2",
-				"description" : "Corresponding physical memory partition does not exist on LPDDR2"
-			},
-			"0x4306" : {
-				"name" : "SCE_KERNEL_ERROR_NO_PHYMEMPART_CDRAM",
-				"description" : "Corresponding physical memory partition does not exist on CDRAM"
-			},
-			"0x4307" : {
-				"name" : "SCE_KERNEL_ERROR_PHYMEMPART_OUT_OF_INDEX",
-				"description" : "Specified physical page is not included in the target partition"
-			},
-			"0x4400" : {
-				"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_ERROR",
-				"description" : "Error occurred with fixed size heap"
-			},
-			"0x4401" : {
-				"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_ILLEGAL_SIZE",
-				"description" : "Incorrect fixed heap size"
-			},
-			"0x4402" : {
-				"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_ILLEGAL_INDEX",
-				"description" : "Incorrect fixed heap index"
-			},
-			"0x4403" : {
-				"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_INDEX_OVERFLOW",
-				"description" : "Fixed heap index overflow"
-			},
-			"0x4404" : {
-				"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_NO_CHUNK",
-				"description" : "Error occurred with fixed heap"
-			},
-			"0x4500" : {
-				"name" : "SCE_KERNEL_ERROR_UID_ERROR",
-				"description" : "Resource Identifier manager error occurred"
-			},
-			"0x4501" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_UID",
-				"description" : "Format of resource identifier is invalid"
-			},
-			"0x4502" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_UID_INVALID_ARGUMENT",
-				"description" : "Argument to resource identifier is invalid"
-			},
-			"0x4503" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_INVALID_UID_RANGE",
-				"description" : "Resource identifier value out of range"
-			},
-			"0x4504" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_NO_VALID_UID",
-				"description" : "Invalid resource identifier value"
-			},
-			"0x4505" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_CANNOT_ALLOCATE_UIDENTRY",
-				"description" : "Cannot allocate resource identifier"
-			},
-			"0x4506" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_PROCESS_UID",
-				"description" : "Specified user mode identifier is invalid"
-			},
-			"0x4507" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_KERNEL_UID",
-				"description" : "Specified kernel mode identifier is invalid"
-			},
-			"0x4508" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_UID_CLASS",
-				"description" : "Not a class with a specified class corresponding to UID"
-			},
-			"0x4509" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_UID_SUBCLASS",
-				"description" : "Not a subclass with a specified class corresponding to UID"
-			},
-			"0x450A" : {
-				"name" : "SCE_KERNEL_ERROR_UID_CANNOT_FIND_BY_NAME",
-				"description" : "Obtaining UID by name is failed"
-			},
-			"0x450B" : {
-				"name" : "SCE_KERNEL_ERROR_UID_NOT_VISIBLE",
-				"description" : "Cannot access with the specified visibility level"
-			},
-			"0x450C" : {
-				"name" : "SCE_KERNEL_ERROR_UID_MAX_OPEN",
-				"description" : "The number of opened UIDs exceeds the maximum number"
-			},
-			"0x450D" : {
-				"name" : "SCE_KERNEL_ERROR_UID_RL_OVERFLOW",
-				"description" : "The number of resources exceeds the specified limitation"
-			},
-			"0x4600" : {
-				"name" : "SCE_KERNEL_ERROR_VIRPAGE_ERROR",
-				"description" : "Virtual page manager error"
-			},
-			"0x4601" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_VIRPAGE_TYPE",
-				"description" : "Invalid virtual page type"
-			},
-			"0x4700" : {
-				"name" : "SCE_KERNEL_ERROR_BLOCK_ERROR",
-				"description" : "Error occurred within memory block subsystem"
-			},
-			"0x4701" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_BLOCK_ID",
-				"description" : "Specified block identifier is invalid"
-			},
-			"0x4702" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_BLOCK_TYPE",
-				"description" : "Specified block type is invalid"
-			},
-			"0x4703" : {
-				"name" : "SCE_KERNEL_ERROR_BLOCK_IN_USE",
-				"description" : "Cannot free memory blocks in use"
-			},
-			"0x4800" : {
-				"name" : "SCE_KERNEL_ERROR_PARTITION_ERROR",
-				"description" : "Error occurred with virtual memory partition"
-			},
-			"0x4801" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_PARTITION_ID",
-				"description" : "Specified virtual memory partition identifier is invalid"
-			},
-			"0x4802" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_PARTITION_INDEX",
-				"description" : "Specified virtual partition index is invalid"
-			},
-			"0x4803" : {
-				"name" : "SCE_KERNEL_ERROR_NO_L2PAGETABLE",
-				"description" : "L2 page table corresponds to target virtual address does not exist"
-			},
-			"0x4804" : {
-				"name" : "SCE_KERNEL_ERROR_PARTITION_NO_VIRTUAL_ADDRESS",
-				"description" : "Out of virtual addresses for target virtual partition"
-			},
-			"0x4900" : {
-				"name" : "SCE_KERNEL_ERROR_HEAPLIB_ERROR",
-				"description" : "Error occurred with kernel heap subsystem"
-			},
-			"0x4901" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_HEAP_ID",
-				"description" : "Specified heap identifier is invalid"
-			},
-			"0x4902" : {
-				"name" : "SCE_KERNEL_ERROR_OUT_OF_RANG",
-				"description" : "Error found in heap structure"
-			},
-			"0x4903" : {
-				"name" : "SCE_KERNEL_ERROR_HEAPLIB_NOMEM",
-				"description" : "Insufficient memory in heap"
-			},
-			"0x4A00" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_ADDRESS_SPACE_ERROR",
-				"description" : "Address space manager error"
-			},
-			"0x4A01" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_ADDRESS_SPACE_ID",
-				"description" : "Invalid address space identifier"
-			},
-			"0x4A02" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_PARTITION_INDEX",
-				"description" : "Partition for specified index does not exist in address space"
-			},
-			"0x4A03" : {
-				"name" : "SCE_KERNEL_ERROR_ADDRESS_SPACE_CANNOT_FIND_PARTITION_BY_ADDR",
-				"description" : "Partition with specified virtual address does not exist"
-			},
-			"0x4B00" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_MEMBLOCK_ERROR",
-				"description" : "Memory block manager error"
-			},
-			"0x4B01" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_MEMBLOCK_TYPE",
-				"description" : "Invalid memory block type"
-			},
-			"0x4B02" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_MEMBLOCK_REMAP_TYPE",
-				"description" : "Block type for remap is invalid"
-			},
-			"0x4B03" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_PHY_CONT_MEMBLOCK",
-				"description" : "Not physical continuous memory block"
-			},
-			"0x4B04" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_MEMBLOCK_CODE",
-				"description" : "Invalid memory block code"
-			},
-			"0x4B05" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_MEMBLOCK_SIZE",
-				"description" : "Requested memory block size is incorrect"
-			},
-			"0x4B06" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_USERMAP_SIZE",
-				"description" : "Requested memory mapping size is incorrect"
-			},
-			"0x4B07" : {
-				"name" : "SCE_KERNEL_ERROR_MEMBLOCK_TYPE_FOR_KERNEL_PROCESS",
-				"description" : "Memory block type dedicated for kernel process was used"
-			},
-			"0x4B08" : {
-				"name" : "SCE_KERNEL_ERROR_PROCESS_CANNOT_REMAP_MEMBLOCK",
-				"description" : "Process is not allowed to remap of memory block"
-			},
-			"0x4C00" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_PHYMEMLOW_ERROR",
-				"description" : "Error within physical memory managed lower part"
-			},
-			"0x4C01" : {
-				"name" : "SCE_KERNEL_ERROR_CANNOT_ALLOC_PHYMEMLOW",
-				"description" : "Physical memory allocation within physical memory managed lower part failed"
-			},
-			"0x4C02" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_PHYMEMLOW_TYPE",
-				"description" : "Specified a physical memory low level type that does not exist"
-			},
-			"0x4D00" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_BITHEAP_ERROR",
-				"description" : "Error in BitHeap"
-			},
-			"0x4D01" : {
-				"name" : "SCE_KERNEL_ERROR_CANNOT_ALLOC_BITHEAP",
-				"description" : "Allocation from BitHeap failed"
-			},
-			"0x4E00" : {
-				"name" : "SCE_KERNEL_ERROR_SYSMEM_NAMEHEAP_ERROR",
-				"description" : "Error of the NameHeap part"
-			},
-			"0x4E01" : {
-				"name" : "SCE_KERNEL_ERROR_NO_SUCH_NAME",
-				"description" : "Such name does not exist"
-			},
-			"0x4E02" : {
-				"name" : "SCE_KERNEL_ERROR_DUPLICATE_NAME",
-				"description" : "Name to be registered already exists"
-			},
-			"0x5000" : {
-				"name" : "SCE_KERNEL_ERROR_LOADCORE_ERROR",
-				"description" : "Loader lower layer error"
-			},
-			"0x5001" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_ELF_HEADER",
-				"description" : "ELF header not supported by kernel"
-			},
-			"0x5002" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_SELF_HEADER",
-				"description" : "SELF header not supported by kernel"
-			},
-			"0x7000" : {
-				"name" : "SCE_KERNEL_ERROR_EXCPMGR_ERROR",
-				"description" : "Exception handler manager error occurred"
-			},
-			"0x7001" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_EXCPCODE",
-				"description" : "Specified exception code is invalid"
-			},
-			"0x7002" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_EXCPHANDLER",
-				"description" : "Specified exception handler is invalid"
-			},
-			"0x7003" : {
-				"name" : "SCE_KERNEL_ERROR_NOTFOUND_EXCPHANDLER",
-				"description" : "Exception handler not found"
-			},
-			"0x7004" : {
-				"name" : "SCE_KERNEL_ERROR_CANNOT_RELEASE_EXCPHANDLER",
-				"description" : "Cannot free exception handler"
-			},
-			"0x7100" : {
-				"name" : "SCE_KERNEL_ERROR_INTRMGR_ERROR",
-				"description" : "Interrupt handler manager internal error"
-			},
-			"0x7101" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_CONTEXT",
-				"description" : "Invalid context"
-			},
-			"0x7102" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRCODE",
-				"description" : "Invalid interrupt code"
-			},
-			"0x7103" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRPARAM",
-				"description" : "Invalid optional parameter"
-			},
-			"0x7104" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRPRIORITY",
-				"description" : "Invalid interrupt priority value"
-			},
-			"0x7105" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_TARGET_CPU",
-				"description" : "Target CPU value is invalid"
-			},
-			"0x7106" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRFILTER",
-				"description" : "Invalid filter value"
-			},
-			"0x7107" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRTYPE",
-				"description" : "Invalid interrupt handler value"
-			},
-			"0x7108" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_HANDLER",
-				"description" : "Invalid interrupt handler value"
-			},
-			"0x7109" : {
-				"name" : "SCE_KERNEL_ERROR_FOUND_HANDLER",
-				"description" : "Handler is already registered"
-			},
-			"0x710A" : {
-				"name" : "SCE_KERNEL_ERROR_NOTFOUND_HANDLER",
-				"description" : "Handler is not registered"
-			},
-			"0x710B" : {
-				"name" : "SCE_KERNEL_ERROR_NO_MEMORY",
-				"description" : "Insufficient memory"
-			},
-			"0x7200" : {
-				"name" : "SCE_KERNEL_ERROR_DMACMGR_ERROR",
-				"description" : "DMA service error occurred"
-			},
-			"0x7201" : {
-				"name" : "SCE_KERNEL_ERROR_ALREADY_QUEUED",
-				"description" : "Queuing"
-			},
-			"0x7202" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_QUEUED",
-				"description" : "Not queued"
-			},
-			"0x7203" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_SETUP",
-				"description" : "Not set up"
-			},
-			"0x7204" : {
-				"name" : "SCE_KERNEL_ERROR_ON_TRANSFERRING",
-				"description" : "Transferring"
-			},
-			"0x7205" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_INITIALIZED",
-				"description" : "Not initialized"
-			},
-			"0x7206" : {
-				"name" : "SCE_KERNEL_ERROR_TRANSFERRED",
-				"description" : "Have been transferred"
-			},
-			"0x7207" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_UNDER_CONTROL",
-				"description" : "Not under control"
-			},
-			"0x7300" : {
-				"name" : "SCE_KERNEL_ERROR_SYSTIMER_ERROR",
-				"description" : "System timer manager error"
-			},
-			"0x7301" : {
-				"name" : "SCE_KERNEL_ERROR_NO_FREE_TIMER",
-				"description" : "No free timer available"
-			},
-			"0x7302" : {
-				"name" : "SCE_KERNEL_ERROR_TIMER_NOT_ALLOCATED",
-				"description" : "Not allocated"
-			},
-			"0x7303" : {
-				"name" : "SCE_KERNEL_ERROR_TIMER_COUNTING",
-				"description" : "Counting"
-			},
-			"0x7304" : {
-				"name" : "SCE_KERNEL_ERROR_TIMER_STOPPED",
-				"description" : "Timer is stopped"
-			},
-			"0x8000" : {
-				"name" : "SCE_KERNEL_ERROR_THREADMGR_ERROR",
-				"description" : "Thread manager error occurred"
-			},
-			"0x8001" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_UID",
-				"description" : "UID does not exist"
-			},
-			"0x8002" : {
-				"name" : "SCE_KERNEL_ERROR_DIFFERENT_UID_CLASS",
-				"description" : "UID class is different"
-			},
-			"0x8003" : {
-				"name" : "SCE_KERNEL_ERROR_ALREADY_REGISTERED",
-				"description" : "Already registered"
-			},
-			"0x8004" : {
-				"name" : "SCE_KERNEL_ERROR_CAN_NOT_WAIT",
-				"description" : "Cannot enter wait state"
-			},
-			"0x8005" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_TIMEOUT",
-				"description" : "Wait timeout occurred"
-			},
-			"0x8006" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_DELETE",
-				"description" : "Deleted during waiting"
-			},
-			"0x8007" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_CANCEL",
-				"description" : "Waiting was canceled"
-			},
-			"0x8020" : {
-				"name" : "SCE_KERNEL_ERROR_THREAD_ERROR",
-				"description" : "Thread error"
-			},
-			"0x8021" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_THREAD_ID",
-				"description" : "Thread ID which does not exist"
-			},
-			"0x8022" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_THREAD_ID",
-				"description" : "Invalid thread ID"
-			},
-			"0x8023" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_PRIORITY",
-				"description" : "Invalid priority"
-			},
-			"0x8024" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_STACK_SIZE",
-				"description" : "Invalid stack size"
-			},
-			"0x8025" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_CPU_AFFINITY_MASK",
-				"description" : "Invalid CPU affinity mask"
-			},
-			"0x8027" : {
-				"name" : "SCE_KERNEL_ERROR_DORMANT",
-				"description" : "Thread in DORMANT state"
-			},
-			"0x8028" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_DORMANT",
-				"description" : "Thread is not in DORMANT state"
-			},
-			"0x8029" : {
-				"name" : "SCE_KERNEL_ERROR_RUNNING",
-				"description" : "Thread is in RUNNING state"
-			},
-			"0x802A" : {
-				"name" : "SCE_KERNEL_ERROR_DELETED",
-				"description" : "Thread has been deleted"
-			},
-			"0x802B" : {
-				"name" : "SCE_KERNEL_ERROR_CAN_NOT_SUSPEND",
-				"description" : "Cannot suspend thread"
-			},
-			"0x802C" : {
-				"name" : "SCE_KERNEL_ERROR_THREAD_STOPPED",
-				"description" : "Thread was forcibly stopped"
-			},
-			"0x802D" : {
-				"name" : "SCE_KERNEL_ERROR_THREAD_SUSPENDED",
-				"description" : "Thread was forcibly suspended"
-			},
-			"0x802E" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_SUSPENDED",
-				"description" : "Thread is not suspended"
-			},
-			"0x802F" : {
-				"name" : "SCE_KERNEL_ERROR_ALREADY_DEBUG_SUSPENDED",
-				"description" : "Thread is already in debug suspended state"
-			},
-			"0x8030" : {
-				"name" : "SCE_KERNEL_ERROR_NOT_DEBUG_SUSPENDED",
-				"description" : "Thread is not in debug suspended state"
-			},
-			"0x8031" : {
-				"name" : "SCE_KERNEL_ERROR_CAN_NOT_USE_VFP",
-				"description" : "VFP not available"
-			},
-			"0x8060" : {
-				"name" : "SCE_KERNEL_ERROR_THREAD_EVENT_ERROR",
-				"description" : "Thread event error"
-			},
-			"0x8061" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_THREAD_EVENT_ID",
-				"description" : "Thread event ID which does not exist"
-			},
-			"0x8080" : {
-				"name" : "SCE_KERNEL_ERROR_KERNEL_TLS_ERROR",
-				"description" : "Kernel TLS error"
-			},
-			"0x8081" : {
-				"name" : "SCE_KERNEL_ERROR_KERNEL_TLS_FULL",
-				"description" : "Kernel TLS is full"
-			},
-			"0x8082" : {
-				"name" : "SCE_KERNEL_ERROR_ILLEGAL_KERNEL_TLS_INDEX",
-				"description" : "Kernel TLS index is invalid"
-			},
-			"0x8083" : {
-				"name" : "SCE_KERNEL_ERROR_KERNEL_TLS_BUSY",
-				"description" : "There is a thread using Kernel TLS index"
-			},
-			"0x80A0" : {
-				"name" : "SCE_KERNEL_ERROR_CALLBACK_ERROR",
-				"description" : "Callback error"
-			},
-			"0x80A1" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_CALLBACK_ID",
-				"description" : "Callback ID which does not exist"
-			},
-			"0x80A2" : {
-				"name" : "SCE_KERNEL_ERROR_NOTIFY_CALLBACK",
-				"description" : "Callback has been reported"
-			},
-			"0x80A3" : {
-				"name" : "SCE_KERNEL_ERROR_CALLBACK_NOT_REGISTERED",
-				"description" : "Callback has not been registered"
-			},
-			"0x80C0" : {
-				"name" : "SCE_KERNEL_ERROR_ALARM_ERROR",
-				"description" : "Alarm error"
-			},
-			"0x80C1" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_ALARM_ID",
-				"description" : "Alarm ID which does not exist"
-			},
-			"0x80C2" : {
-				"name" : "SCE_KERNEL_ERROR_ALARM_CAN_NOT_CANCEL",
-				"description" : "Cannot cancel alarm"
-			},
-			"0x80E0" : {
-				"name" : "SCE_KERNEL_ERROR_EVF_ERROR",
-				"description" : "Event flag error"
-			},
-			"0x80E1" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_EVF_ID",
-				"description" : "Event flag ID which does not exist"
-			},
-			"0x80E2" : {
-				"name" : "SCE_KERNEL_ERROR_EVF_MULTI",
-				"description" : "Event flag is already waited for by another thread"
-			},
-			"0x80E3" : {
-				"name" : "SCE_KERNEL_ERROR_EVF_COND",
-				"description" : "Event flag wait condition was not satisfied"
-			},
-			"0x8100" : {
-				"name" : "SCE_KERNEL_ERROR_SEMA_ERROR",
-				"description" : "Semaphore error"
-			},
-			"0x8101" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_SEMA_ID",
-				"description" : "Semaphore ID which does not exist"
-			},
-			"0x8102" : {
-				"name" : "SCE_KERNEL_ERROR_SEMA_ZERO",
-				"description" : "Insufficient semaphore resources"
-			},
-			"0x8103" : {
-				"name" : "SCE_KERNEL_ERROR_SEMA_OVF",
-				"description" : "Semaphore count overflow"
-			},
-			"0x8120" : {
-				"name" : "SCE_KERNEL_ERROR_SIGNAL_ERROR",
-				"description" : "Signal error"
-			},
-			"0x8121" : {
-				"name" : "SCE_KERNEL_ERROR_ALREADY_SENT",
-				"description" : "Signal is already sent"
-			},
-			"0x8140" : {
-				"name" : "SCE_KERNEL_ERROR_MUTEX_ERROR",
-				"description" : "Mutex error"
-			},
-			"0x8141" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_MUTEX_ID",
-				"description" : "Mutex ID which does not exist"
-			},
-			"0x8142" : {
-				"name" : "SCE_KERNEL_ERROR_MUTEX_RECURSIVE",
-				"description" : "Mutex does not allow recursive locks"
-			},
-			"0x8143" : {
-				"name" : "SCE_KERNEL_ERROR_MUTEX_LOCK_OVF",
-				"description" : "Mutex lock count overflow"
-			},
-			"0x8144" : {
-				"name" : "SCE_KERNEL_ERROR_MUTEX_UNLOCK_UDF",
-				"description" : "Mutex unlock count underflow"
-			},
-			"0x8145" : {
-				"name" : "SCE_KERNEL_ERROR_MUTEX_FAILED_TO_OWN",
-				"description" : "Mutex acquisition failed"
-			},
-			"0x8146" : {
-				"name" : "SCE_KERNEL_ERROR_MUTEX_NOT_OWNED",
-				"description" : "Mutex is not owned"
-			},
-			"0x8160" : {
-				"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_ERROR",
-				"description" : "Fast mutex error"
-			},
-			"0x8161" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_FAST_MUTEX_ID",
-				"description" : "Fast mutex ID which does not exist"
-			},
-			"0x8162" : {
-				"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_RECURSIVE",
-				"description" : "Fast mutex does not allow recursive locks"
-			},
-			"0x8163" : {
-				"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_LOCK_OVF",
-				"description" : "Fast mutex lock count overflow"
-			},
-			"0x8164" : {
-				"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_FAILED_TO_OWN",
-				"description" : "Fast mutex acquisition failed"
-			},
-			"0x8165" : {
-				"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_NOT_OWNED",
-				"description" : "Fast mutex is not owned"
-			},
-			"0x8166" : {
-				"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_OWNED",
-				"description" : "Fast mutex is owned"
-			},
-			"0x8167" : {
-				"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_ALREADY_INITIALIZED",
-				"description" : "Fast mutex is already initialized"
-			},
-			"0x8168" : {
-				"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_NOT_INITIALIZED",
-				"description" : "Fast mutex is not initialized"
-			},
-			"0x8180" : {
-				"name" : "SCE_KERNEL_ERROR_LW_MUTEX_ERROR",
-				"description" : "Lightweight mutex error"
-			},
-			"0x8181" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID",
-				"description" : "Lightweight mutex ID which does not exist"
-			},
-			"0x8182" : {
-				"name" : "SCE_KERNEL_ERROR_LW_MUTEX_RECURSIVE",
-				"description" : "Lightweight mutex does not allow recursive locks"
-			},
-			"0x8183" : {
-				"name" : "SCE_KERNEL_ERROR_LW_MUTEX_LOCK_OVF",
-				"description" : "Lock count overflow of lightweight mutex"
-			},
-			"0x8184" : {
-				"name" : "SCE_KERNEL_ERROR_LW_MUTEX_UNLOCK_UDF",
-				"description" : "Lock count underflow of lightweight mutex"
-			},
-			"0x8185" : {
-				"name" : "SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN",
-				"description" : "Lightweight mutex cannot be owned"
-			},
-			"0x8186" : {
-				"name" : "SCE_KERNEL_ERROR_LW_MUTEX_NOT_OWNED",
-				"description" : "Lightweight mutex is not owned"
-			},
-			"0x81A0" : {
-				"name" : "SCE_KERNEL_ERROR_COND_ERROR",
-				"description" : "Condition variable error"
-			},
-			"0x81A1" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_COND_ID",
-				"description" : "Condition variable ID which does not exist"
-			},
-			"0x81A2" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_DELETE_MUTEX",
-				"description" : "Mutex deleted during waiting"
-			},
-			"0x81A3" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_CANCEL_MUTEX",
-				"description" : "Mutex waiting canceled"
-			},
-			"0x81A4" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_DELETE_COND",
-				"description" : "Condition variable deleted during waiting"
-			},
-			"0x81A5" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_CANCEL_COND",
-				"description" : "Condition variable waiting canceled"
-			},
-			"0x81C0" : {
-				"name" : "SCE_KERNEL_ERROR_LW_COND_ERROR",
-				"description" : "Lightweight condition variable error"
-			},
-			"0x81C1" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_LW_COND_ID",
-				"description" : "Lightweight condition variable ID which does not exist"
-			},
-			"0x81C2" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_DELETE_LW_MUTEX",
-				"description" : "Lightweight mutex deleted during waiting"
-			},
-			"0x81C3" : {
-				"name" : "SCE_KERNEL_ERROR_WAIT_DELETE_LW_COND",
-				"description" : "Lightweight condition variable  deleted during waiting"
-			},
-			"0x81E0" : {
-				"name" : "SCE_KERNEL_ERROR_RW_LOCK_ERROR",
-				"description" : "Reader/writer lock error"
-			},
-			"0x81E1" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_RW_LOCK_ID",
-				"description" : "Reader/writer lock ID which does not exist"
-			},
-			"0x81E2" : {
-				"name" : "SCE_KERNEL_ERROR_RW_LOCK_RECURSIVE",
-				"description" : "Reader/writer lock does not allow recursive locks"
-			},
-			"0x81E3" : {
-				"name" : "SCE_KERNEL_ERROR_RW_LOCK_LOCK_OVF",
-				"description" : "Reader/writer lock count overflow"
-			},
-			"0x81E4" : {
-				"name" : "SCE_KERNEL_ERROR_RW_LOCK_NOT_OWNED",
-				"description" : "Reader/writer lock is not owned"
-			},
-			"0x81E5" : {
-				"name" : "SCE_KERNEL_ERROR_RW_LOCK_UNLOCK_UDF",
-				"description" : "Reader/writer unlock count underflow"
-			},
-			"0x81E6" : {
-				"name" : "SCE_KERNEL_ERROR_RW_LOCK_FAILED_TO_LOCK",
-				"description" : "Reader/writer lock failed"
-			},
-			"0x81E7" : {
-				"name" : "SCE_KERNEL_ERROR_RW_LOCK_FAILED_TO_UNLOCK",
-				"description" : "Reader/writer unlock failed"
-			},
-			"0x8200" : {
-				"name" : "SCE_KERNEL_ERROR_EVENT_ERROR",
-				"description" : "Event error"
-			},
-			"0x8201" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_EVENT_ID",
-				"description" : "Event ID which does not exist"
-			},
-			"0x8202" : {
-				"name" : "SCE_KERNEL_ERROR_EVENT_COND",
-				"description" : "Event polling failed"
-			},
-			"0x8220" : {
-				"name" : "SCE_KERNEL_ERROR_MSG_PIPE_ERROR",
-				"description" : "Message pipe error"
-			},
-			"0x8221" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_MSG_PIPE_ID",
-				"description" : "Message pipe ID which does not exist"
-			},
-			"0x8222" : {
-				"name" : "SCE_KERNEL_ERROR_MSG_PIPE_FULL",
-				"description" : "Too many message pipes"
-			},
-			"0x8223" : {
-				"name" : "SCE_KERNEL_ERROR_MSG_PIPE_EMPTY",
-				"description" : "Message pipe is empty"
-			},
-			"0x8224" : {
-				"name" : "SCE_KERNEL_ERROR_MSG_PIPE_DELETED",
-				"description" : "Buffer of the message pipe has been deleted"
-			},
-			"0x8240" : {
-				"name" : "SCE_KERNEL_ERROR_TIMER_ERROR",
-				"description" : "Timer error"
-			},
-			"0x8241" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_TIMER_ID",
-				"description" : "Timer ID which does not exist"
-			},
-			"0x8242" : {
-				"name" : "SCE_KERNEL_ERROR_EVENT_NOT_SET",
-				"description" : "Event has not been set"
-			},
-			"0x8260" : {
-				"name" : "SCE_KERNEL_ERROR_SIMPLE_EVENT_ERROR",
-				"description" : "Simple event error"
-			},
-			"0x8261" : {
-				"name" : "SCE_KERNEL_ERROR_UNKNOWN_SIMPLE_EVENT_ID",
-				"description" : "Simple event ID which does not exist"
-			},
-			"0x8280" : {
-				"name" : "SCE_KERNEL_ERROR_PMON_ERROR",
-				"description" : "Performance monitor error"
-			},
-			"0x8281" : {
-				"name" : "SCE_KERNEL_ERROR_PMON_NOT_THREAD_MODE",
-				"description" : "PMON counter is not in thread mode"
-			},
-			"0x8282" : {
-				"name" : "SCE_KERNEL_ERROR_PMON_NOT_CPU_MODE",
-				"description" : "PMON counter is not in CPU mode"
-			},
-			"0x9000" : {
-				"name" : "SCE_KERNEL_ERROR_PROCESSMGR_ERROR",
-				"description" : "Process manager error occurred"
-			},
-			"0x9001" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_PID",
-				"description" : "Invalid process identifier provided"
-			},
-			"0x9002" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_PROCESS_TYPE",
-				"description" : "Invalid process type"
-			},
-			"0x9003" : {
-				"name" : "SCE_KERNEL_ERROR_PLS_FULL",
-				"description" : "Process-specific work area is full"
-			},
-			"0x9004" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_PROCESS_STATUS",
-				"description" : "Invalid process status"
-			},
-			"0x9005" : {
-				"name" : "SCE_KERNEL_ERROR_PROCESS_CALLBACK_NOTFOUND",
-				"description" : "Process termination callback not registered"
-			},
-			"0x9006" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_BUDGET_ID",
-				"description" : "Invalid budget UID"
-			},
-			"0x9007" : {
-				"name" : "SCE_KERNEL_ERROR_INVALID_BUDGET_SIZE",
-				"description" : "Invalid budget size"
-			},
-			"0x9008" : {
-				"name" : "SCE_KERNEL_ERROR_CP14_DISABLED",
-				"description" : "Debug Coprocessor CP14 is disabled"
-			},
-			"0x9009" : {
-				"name" : "SCE_KERNEL_ERROR_EXCEEDED_MAX_PROCESSES",
-				"description" : "Maximum number of processes for budget exceeded"
-			},
-			"0x900A" : {
-				"name" : "SCE_KERNEL_ERROR_PROCESS_REMAINING",
-				"description" : "Process is remaining"
-			},
-			"0x900B" : {
-				"name" : "SCE_KERNEL_ERROR_NO_PROCESS_DATA",
-				"description" : "Process specific data area is full"
-			},
-			"0x900C" : {
-				"name" : "SCE_KERNEL_ERROR_PROCESS_EVENT_INHIBITED",
-				"description" : "Operation in relation to process is prohibited"
-			},
-			"0xA000" : {
-				"name" : "SCE_KERNEL_ERROR_IOFILEMGR_ERROR",
-				"description" : "I/O file manager error occurred"
-			},
-			"0xA001" : {
-				"name" : "SCE_KERNEL_ERROR_IO_NAME_TOO_LONG",
-				"description" : "Path name or file name too long"
-			},
-			"0xA002" : {
-				"name" : "SCE_KERNEL_ERROR_IO_REG_DEV",
-				"description" : "Device is already registered"
-			},
-			"0xA003" : {
-				"name" : "SCE_KERNEL_ERROR_IO_ALIAS_USED",
-				"description" : "Alias already in use"
-			},
-			"0xA004" : {
-				"name" : "SCE_KERNEL_ERROR_IO_DEL_DEV",
-				"description" : "Driver has been deleted"
-			},
-			"0xA005" : {
-				"name" : "SCE_KERNEL_ERROR_IO_WOULD_BLOCK",
-				"description" : "File is already locked"
-			},
-			"0xD000" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_START_FAILED",
-				"description" : "Module start failed"
-			},
-			"0xD001" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_STOP_FAIL",
-				"description" : "Module stop failed"
-			},
-			"0xD002" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_IN_USE",
-				"description" : "Module unlinking failed"
-			},
-			"0xD003" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_LIB",
-				"description" : "Non-existent library"
-			},
-			"0xD004" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_SYSCALL_REG",
-				"description" : "Failed to register system call"
-			},
-			"0xD005" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM_LIB",
-				"description" : "Insufficient memory for library management"
-			},
-			"0xD006" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM_STUB",
-				"description" : "Insufficient memory for stub management"
-			},
-			"0xD007" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM_SELF",
-				"description" : "Insufficient memory for SELF management"
-			},
-			"0xD008" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM",
-				"description" : "Insufficient memory for module management"
-			},
-			"0xD009" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_LIB",
-				"description" : "Invalid library"
-			},
-			"0xD00A" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_STUB",
-				"description" : "Invalid stub"
-			},
-			"0xD00B" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_FUNC_NID",
-				"description" : "No function NID in corresponding library"
-			},
-			"0xD00C" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_VAR_NID",
-				"description" : "No variable NID in corresponding library"
-			},
-			"0xD00D" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_TYPE",
-				"description" : "Invalid module type"
-			},
-			"0xD00E" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_MOD_ENTRY",
-				"description" : "Module entry does not exist"
-			},
-			"0xD00F" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_PROC_PARAM",
-				"description" : "Invalid process parameter"
-			},
-			"0xD010" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_MODOBJ",
-				"description" : "Module object does not exist"
-			},
-			"0xD011" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_MOD",
-				"description" : "Module does not exist"
-			},
-			"0xD012" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_PROCESS",
-				"description" : "Process does not exist"
-			},
-			"0xD013" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_OLD_LIB",
-				"description" : "Old library registration"
-			},
-			"0xD014" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_STARTED",
-				"description" : "Module already started"
-			},
-			"0xD015" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOT_STARTED",
-				"description" : "Module not started"
-			},
-			"0xD016" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOT_STOPPED",
-				"description" : "Module not stopped"
-			},
-			"0xD017" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_PROCESS_UID",
-				"description" : "Invalid process UID"
-			},
-			"0xD018" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_CANNOT_EXPORT_LIB_TO_SHARED",
-				"description" : "Cannot export library to shared text module"
-			},
-			"0xD019" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_REL_INFO",
-				"description" : "Invalid relocation information"
-			},
-			"0xD01A" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_REF_INFO",
-				"description" : "Invalid reference table information"
-			},
-			"0xD01B" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_ELINK",
-				"description" : "Old version of library. Cannot link."
-			},
-			"0xD01C" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOENT",
-				"description" : "Object does not exist"
-			},
-			"0xD01D" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_BUSY",
-				"description" : "Object is busy"
-			},
-			"0xD01E" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOEXEC",
-				"description" : "Invalid object format"
-			},
-			"0xD01F" : {
-				"name" : "SCE_KERNEL_ERROR_MODULEMGR_NAMETOOLONG",
-				"description" : "Name too long"
-			},
-			"0xD080" : {
-				"name" : "SCE_KERNEL_ERROR_LIBRARYDB_NOENT",
-				"description" : "Library database does not exist"
-			},
-			"0xD081" : {
-				"name" : "SCE_KERNEL_ERROR_LIBRARYDB_NO_LIB",
-				"description" : "Library does not exist"
-			},
-			"0xD082" : {
-				"name" : "SCE_KERNEL_ERROR_LIBRARYDB_NO_MOD",
-				"description" : "Module does not exist"
-			},
-			"0xF000" : {
-				"name" : "SCE_KERNEL_ERROR_AUTHFAIL",
-				"description" : "SELF authentication failed"
-			},
-			"0xF001" : {
-				"name" : "SCE_KERNEL_ERROR_NO_AUTH",
-				"description" : "No privileges"
-			}
+	    "0x4305" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_PHYMEMPART_LPDDR2",
+	    	"description" : "Corresponding physical memory partition does not exist on LPDDR2"
+	    },
+	    "0x4306" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_PHYMEMPART_CDRAM",
+	    	"description" : "Corresponding physical memory partition does not exist on CDRAM"
+	    },
+	    "0x4307" : {
+	    	"name" : "SCE_KERNEL_ERROR_PHYMEMPART_OUT_OF_INDEX",
+	    	"description" : "Specified physical page is not included in the target partition"
+	    },
+	    "0x4308" : {
+	    	"name" : "SCE_KERNEL_ERROR_CANNOT_GROW_PHYMEMPART",
+	    	"description" : "Cannot grow physical memory partition."
+	    },
+	    "0x4309" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_FREE_PHYSICAL_PAGE_CDRAM",
+	    	"description" : "There is no free physical page on CDRAM."
+	    },
+	    "0x430A" : {
+		"name" : "SCE_KERNEL_ERROR_INVALID_SUBBUDGET_ID",
+		"description" : "Specified subbudget is invalid."
+	    },
+	    "0x430B" : {
+		"name" : "SCE_KERNEL_ERROR_PHYMEMPART_NOT_ACTIVE",
+		"description" : "Specified phymempart is not active."
+	    },
+	    "0x4400" : {
+	    	"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_ERROR",
+	    	"description" : "Error occurred with fixed size heap"
+	    },
+	    "0x4401" : {
+	    	"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_ILLEGAL_SIZE",
+	    	"description" : "Incorrect fixed heap size"
+	    },
+	    "0x4402" : {
+	    	"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_ILLEGAL_INDEX",
+	    	"description" : "Incorrect fixed heap index"
+	    },
+	    "0x4403" : {
+	    	"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_INDEX_OVERFLOW",
+	    	"description" : "Fixed heap index overflow"
+	    },
+	    "0x4404" : {
+	    	"name" : "SCE_KERNEL_ERROR_FIXEDHEAP_NO_CHUNK",
+	    	"description" : "Error occurred with fixed heap"
+	    },
+	    "0x4500" : {
+	    	"name" : "SCE_KERNEL_ERROR_UID_ERROR",
+	    	"description" : "Resource Identifier manager error occurred"
+	    },
+	    "0x4501" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_UID",
+	    	"description" : "Format of resource identifier is invalid"
+	    },
+	    "0x4502" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_UID_INVALID_ARGUMENT",
+	    	"description" : "Argument to resource identifier is invalid"
+	    },
+	    "0x4503" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_INVALID_UID_RANGE",
+	    	"description" : "Resource identifier value out of range"
+	    },
+	    "0x4504" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_NO_VALID_UID",
+	    	"description" : "Invalid resource identifier value"
+	    },
+	    "0x4505" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_CANNOT_ALLOCATE_UIDENTRY",
+	    	"description" : "Cannot allocate resource identifier"
+	    },
+	    "0x4506" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_PROCESS_UID",
+	    	"description" : "Specified user mode identifier is invalid"
+	    },
+	    "0x4507" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_KERNEL_UID",
+	    	"description" : "Specified kernel mode identifier is invalid"
+	    },
+	    "0x4508" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_UID_CLASS",
+	    	"description" : "Not a class with a specified class corresponding to UID"
+	    },
+	    "0x4509" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_UID_SUBCLASS",
+	    	"description" : "Not a subclass with a specified class corresponding to UID"
+	    },
+	    "0x450A" : {
+	    	"name" : "SCE_KERNEL_ERROR_UID_CANNOT_FIND_BY_NAME",
+	    	"description" : "Obtaining UID by name is failed"
+	    },
+	    "0x450B" : {
+	    	"name" : "SCE_KERNEL_ERROR_UID_NOT_VISIBLE",
+	    	"description" : "Cannot access with the specified visibility level"
+	    },
+	    "0x450C" : {
+	    	"name" : "SCE_KERNEL_ERROR_UID_MAX_OPEN",
+	    	"description" : "The number of opened UIDs exceeds the maximum number"
+	    },
+	    "0x450D" : {
+	    	"name" : "SCE_KERNEL_ERROR_UID_RL_OVERFLOW",
+	    	"description" : "The number of resources exceeds the specified limitation"
+	    },
+	    "0x4600" : {
+	    	"name" : "SCE_KERNEL_ERROR_VIRPAGE_ERROR",
+	    	"description" : "Virtual page manager error"
+	    },
+	    "0x4601" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_VIRPAGE_TYPE",
+	    	"description" : "Invalid virtual page type"
+	    },
+	    "0x4700" : {
+	    	"name" : "SCE_KERNEL_ERROR_BLOCK_ERROR",
+	    	"description" : "Error occurred within memory block subsystem"
+	    },
+	    "0x4701" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_BLOCK_ID",
+	    	"description" : "Specified block identifier is invalid"
+	    },
+	    "0x4702" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_BLOCK_TYPE",
+	    	"description" : "Specified block type is invalid"
+	    },
+	    "0x4703" : {
+	    	"name" : "SCE_KERNEL_ERROR_BLOCK_IN_USE",
+	    	"description" : "Cannot free memory blocks in use"
+	    },
+	    "0x4800" : {
+	    	"name" : "SCE_KERNEL_ERROR_PARTITION_ERROR",
+	    	"description" : "Error occurred with virtual memory partition"
+	    },
+	    "0x4801" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_PARTITION_ID",
+	    	"description" : "Specified virtual memory partition identifier is invalid"
+	    },
+	    "0x4802" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_PARTITION_INDEX",
+	    	"description" : "Specified virtual partition index is invalid"
+	    },
+	    "0x4803" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_L2PAGETABLE",
+	    	"description" : "L2 page table corresponds to target virtual address does not exist"
+	    },
+	    "0x4804" : {
+	    	"name" : "SCE_KERNEL_ERROR_PARTITION_NO_VIRTUAL_ADDRESS",
+	    	"description" : "Out of virtual addresses for target virtual partition"
+	    },
+	    "0x4900" : {
+	    	"name" : "SCE_KERNEL_ERROR_HEAPLIB_ERROR",
+	    	"description" : "Error occurred with kernel heap subsystem"
+	    },
+	    "0x4901" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_HEAP_ID",
+	    	"description" : "Specified heap identifier is invalid"
+	    },
+	    "0x4902" : {
+	    	"name" : "SCE_KERNEL_ERROR_OUT_OF_RANG",
+	    	"description" : "Error found in heap structure"
+	    },
+	    "0x4903" : {
+	    	"name" : "SCE_KERNEL_ERROR_HEAPLIB_NOMEM",
+	    	"description" : "Insufficient memory in heap"
+	    },
+	    "0x4A00" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_ADDRESS_SPACE_ERROR",
+	    	"description" : "Address space manager error"
+	    },
+	    "0x4A01" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_ADDRESS_SPACE_ID",
+	    	"description" : "Invalid address space identifier"
+	    },
+	    "0x4A02" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_PARTITION_INDEX",
+	    	"description" : "Partition for specified index does not exist in address space"
+	    },
+	    "0x4A03" : {
+	    	"name" : "SCE_KERNEL_ERROR_ADDRESS_SPACE_CANNOT_FIND_PARTITION_BY_ADDR",
+	    	"description" : "Partition with specified virtual address does not exist"
+	    },
+	    "0x4B00" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_MEMBLOCK_ERROR",
+	    	"description" : "Memory block manager error"
+	    },
+	    "0x4B01" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_MEMBLOCK_TYPE",
+	    	"description" : "Invalid memory block type"
+	    },
+	    "0x4B02" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_MEMBLOCK_REMAP_TYPE",
+	    	"description" : "Block type for remap is invalid"
+	    },
+	    "0x4B03" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_PHY_CONT_MEMBLOCK",
+	    	"description" : "Not physical continuous memory block"
+	    },
+	    "0x4B04" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_MEMBLOCK_CODE",
+	    	"description" : "Invalid memory block code"
+	    },
+	    "0x4B05" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_MEMBLOCK_SIZE",
+	    	"description" : "Requested memory block size is incorrect"
+	    },
+	    "0x4B06" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_USERMAP_SIZE",
+	    	"description" : "Requested memory mapping size is incorrect"
+	    },
+	    "0x4B07" : {
+	    	"name" : "SCE_KERNEL_ERROR_MEMBLOCK_TYPE_FOR_KERNEL_PROCESS",
+	    	"description" : "Memory block type dedicated for kernel process was used"
+	    },
+	    "0x4B08" : {
+	    	"name" : "SCE_KERNEL_ERROR_PROCESS_CANNOT_REMAP_MEMBLOCK",
+	    	"description" : "Process is not allowed to remap of memory block"
+	    },
+	    "0x4C00" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_PHYMEMLOW_ERROR",
+	    	"description" : "Error within physical memory managed lower part"
+	    },
+	    "0x4C01" : {
+	    	"name" : "SCE_KERNEL_ERROR_CANNOT_ALLOC_PHYMEMLOW",
+	    	"description" : "Physical memory allocation within physical memory managed lower part failed"
+	    },
+	    "0x4C02" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_PHYMEMLOW_TYPE",
+	    	"description" : "Specified a physical memory low level type that does not exist"
+	    },
+	    "0x4D00" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_BITHEAP_ERROR",
+	    	"description" : "Error in BitHeap"
+	    },
+	    "0x4D01" : {
+	    	"name" : "SCE_KERNEL_ERROR_CANNOT_ALLOC_BITHEAP",
+	    	"description" : "Allocation from BitHeap failed"
+	    },
+	    "0x4E00" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSMEM_NAMEHEAP_ERROR",
+	    	"description" : "Error of the NameHeap part"
+	    },
+	    "0x4E01" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_SUCH_NAME",
+	    	"description" : "Such name does not exist"
+	    },
+	    "0x4E02" : {
+	    	"name" : "SCE_KERNEL_ERROR_DUPLICATE_NAME",
+	    	"description" : "Name to be registered already exists"
+	    },
+	    "0x5000" : {
+	    	"name" : "SCE_KERNEL_ERROR_LOADCORE_ERROR",
+	    	"description" : "Loader lower layer error"
+	    },
+	    "0x5001" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_ELF_HEADER",
+	    	"description" : "ELF header not supported by kernel"
+	    },
+	    "0x5002" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_SELF_HEADER",
+	    	"description" : "SELF header not supported by kernel"
+	    },
+	    "0x7000" : {
+	    	"name" : "SCE_KERNEL_ERROR_EXCPMGR_ERROR",
+	    	"description" : "Exception handler manager error occurred"
+	    },
+	    "0x7001" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_EXCPCODE",
+	    	"description" : "Specified exception code is invalid"
+	    },
+	    "0x7002" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_EXCPHANDLER",
+	    	"description" : "Specified exception handler is invalid"
+	    },
+	    "0x7003" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOTFOUND_EXCPHANDLER",
+	    	"description" : "Exception handler not found"
+	    },
+	    "0x7004" : {
+	    	"name" : "SCE_KERNEL_ERROR_CANNOT_RELEASE_EXCPHANDLER",
+	    	"description" : "Cannot free exception handler"
+	    },
+	    "0x7100" : {
+	    	"name" : "SCE_KERNEL_ERROR_INTRMGR_ERROR",
+	    	"description" : "Interrupt handler manager internal error"
+	    },
+	    "0x7101" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_CONTEXT",
+	    	"description" : "Invalid context"
+	    },
+	    "0x7102" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRCODE",
+	    	"description" : "Invalid interrupt code"
+	    },
+	    "0x7103" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRPARAM",
+	    	"description" : "Invalid optional parameter"
+	    },
+	    "0x7104" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRPRIORITY",
+	    	"description" : "Invalid interrupt priority value"
+	    },
+	    "0x7105" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_TARGET_CPU",
+	    	"description" : "Target CPU value is invalid"
+	    },
+	    "0x7106" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRFILTER",
+	    	"description" : "Invalid filter value"
+	    },
+	    "0x7107" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_INTRTYPE",
+	    	"description" : "Invalid interrupt handler value"
+	    },
+	    "0x7108" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_HANDLER",
+	    	"description" : "Invalid interrupt handler value"
+	    },
+	    "0x7109" : {
+	    	"name" : "SCE_KERNEL_ERROR_FOUND_HANDLER",
+	    	"description" : "Handler is already registered"
+	    },
+	    "0x710A" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOTFOUND_HANDLER",
+	    	"description" : "Handler is not registered"
+	    },
+	    "0x710B" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_MEMORY",
+	    	"description" : "Insufficient memory"
+	    },
+	    "0x710C" : {
+		"name" : "SCE_KERNEL_ERROR_ILLEGAL_SYSCALL_NUMBER",
+		"description" : "Illegal syscall number"
+	    },
+	    "0x7200" : {
+	    	"name" : "SCE_KERNEL_ERROR_DMACMGR_ERROR",
+	    	"description" : "DMA service error occurred"
+	    },
+	    "0x7201" : {
+	    	"name" : "SCE_KERNEL_ERROR_ALREADY_QUEUED",
+	    	"description" : "Queuing"
+	    },
+	    "0x7202" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_QUEUED",
+	    	"description" : "Not queued"
+	    },
+	    "0x7203" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_SETUP",
+	    	"description" : "Not set up"
+	    },
+	    "0x7204" : {
+	    	"name" : "SCE_KERNEL_ERROR_ON_TRANSFERRING",
+	    	"description" : "Transferring"
+	    },
+	    "0x7205" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_INITIALIZED",
+	    	"description" : "Not initialized"
+	    },
+	    "0x7206" : {
+	    	"name" : "SCE_KERNEL_ERROR_TRANSFERRED",
+	    	"description" : "Have been transferred"
+	    },
+	    "0x7207" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_UNDER_CONTROL",
+	    	"description" : "Not under control"
+	    },
+	    "0x7300" : {
+	    	"name" : "SCE_KERNEL_ERROR_SYSTIMER_ERROR",
+	    	"description" : "System timer manager error"
+	    },
+	    "0x7301" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_FREE_TIMER",
+	    	"description" : "No free timer available"
+	    },
+	    "0x7302" : {
+	    	"name" : "SCE_KERNEL_ERROR_TIMER_NOT_ALLOCATED",
+	    	"description" : "Not allocated"
+	    },
+	    "0x7303" : {
+	    	"name" : "SCE_KERNEL_ERROR_TIMER_COUNTING",
+	    	"description" : "Counting"
+	    },
+	    "0x7304" : {
+	    	"name" : "SCE_KERNEL_ERROR_TIMER_STOPPED",
+	    	"description" : "Timer is stopped"
+	    },
+	    "0x8000" : {
+	    	"name" : "SCE_KERNEL_ERROR_THREADMGR_ERROR",
+	    	"description" : "Thread manager error occurred"
+	    },
+	    "0x8001" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_UID",
+	    	"description" : "UID does not exist"
+	    },
+	    "0x8002" : {
+	    	"name" : "SCE_KERNEL_ERROR_DIFFERENT_UID_CLASS",
+	    	"description" : "UID class is different"
+	    },
+	    "0x8003" : {
+	    	"name" : "SCE_KERNEL_ERROR_ALREADY_REGISTERED",
+	    	"description" : "Already registered"
+	    },
+	    "0x8004" : {
+	    	"name" : "SCE_KERNEL_ERROR_CAN_NOT_WAIT",
+	    	"description" : "Cannot enter wait state"
+	    },
+	    "0x8005" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_TIMEOUT",
+	    	"description" : "Wait timeout occurred"
+	    },
+	    "0x8006" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_DELETE",
+	    	"description" : "Deleted during waiting"
+	    },
+	    "0x8007" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_CANCEL",
+	    	"description" : "Waiting was canceled"
+	    },
+	    "0x8020" : {
+	    	"name" : "SCE_KERNEL_ERROR_THREAD_ERROR",
+	    	"description" : "Thread error"
+	    },
+	    "0x8021" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_THREAD_ID",
+	    	"description" : "Thread ID which does not exist"
+	    },
+	    "0x8022" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_THREAD_ID",
+	    	"description" : "Invalid thread ID"
+	    },
+	    "0x8023" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_PRIORITY",
+	    	"description" : "Invalid priority"
+	    },
+	    "0x8024" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_STACK_SIZE",
+	    	"description" : "Invalid stack size"
+	    },
+	    "0x8025" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_CPU_AFFINITY_MASK",
+	    	"description" : "Invalid CPU affinity mask"
+	    },
+	    "0x8027" : {
+	    	"name" : "SCE_KERNEL_ERROR_DORMANT",
+	    	"description" : "Thread in DORMANT state"
+	    },
+	    "0x8028" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_DORMANT",
+	    	"description" : "Thread is not in DORMANT state"
+	    },
+	    "0x8029" : {
+	    	"name" : "SCE_KERNEL_ERROR_RUNNING",
+	    	"description" : "Thread is in RUNNING state"
+	    },
+	    "0x802A" : {
+	    	"name" : "SCE_KERNEL_ERROR_DELETED",
+	    	"description" : "Thread has been deleted"
+	    },
+	    "0x802B" : {
+	    	"name" : "SCE_KERNEL_ERROR_CAN_NOT_SUSPEND",
+	    	"description" : "Cannot suspend thread"
+	    },
+	    "0x802C" : {
+	    	"name" : "SCE_KERNEL_ERROR_THREAD_STOPPED",
+	    	"description" : "Thread was forcibly stopped"
+	    },
+	    "0x802D" : {
+	    	"name" : "SCE_KERNEL_ERROR_THREAD_SUSPENDED",
+	    	"description" : "Thread was forcibly suspended"
+	    },
+	    "0x802E" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_SUSPENDED",
+	    	"description" : "Thread is not suspended"
+	    },
+	    "0x802F" : {
+	    	"name" : "SCE_KERNEL_ERROR_ALREADY_DEBUG_SUSPENDED",
+	    	"description" : "Thread is already in debug suspended state"
+	    },
+	    "0x8030" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOT_DEBUG_SUSPENDED",
+	    	"description" : "Thread is not in debug suspended state"
+	    },
+	    "0x8031" : {
+	    	"name" : "SCE_KERNEL_ERROR_CAN_NOT_USE_VFP",
+	    	"description" : "VFP not available"
+	    },
+	    "0x8060" : {
+	    	"name" : "SCE_KERNEL_ERROR_THREAD_EVENT_ERROR",
+	    	"description" : "Thread event error"
+	    },
+	    "0x8061" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_THREAD_EVENT_ID",
+	    	"description" : "Thread event ID which does not exist"
+	    },
+	    "0x8080" : {
+	    	"name" : "SCE_KERNEL_ERROR_KERNEL_TLS_ERROR",
+	    	"description" : "Kernel TLS error"
+	    },
+	    "0x8081" : {
+	    	"name" : "SCE_KERNEL_ERROR_KERNEL_TLS_FULL",
+	    	"description" : "Kernel TLS is full"
+	    },
+	    "0x8082" : {
+	    	"name" : "SCE_KERNEL_ERROR_ILLEGAL_KERNEL_TLS_INDEX",
+	    	"description" : "Kernel TLS index is invalid"
+	    },
+	    "0x8083" : {
+	    	"name" : "SCE_KERNEL_ERROR_KERNEL_TLS_BUSY",
+	    	"description" : "There is a thread using Kernel TLS index"
+	    },
+	    "0x80A0" : {
+	    	"name" : "SCE_KERNEL_ERROR_CALLBACK_ERROR",
+	    	"description" : "Callback error"
+	    },
+	    "0x80A1" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_CALLBACK_ID",
+	    	"description" : "Callback ID which does not exist"
+	    },
+	    "0x80A2" : {
+	    	"name" : "SCE_KERNEL_ERROR_NOTIFY_CALLBACK",
+	    	"description" : "Callback has been reported"
+	    },
+	    "0x80A3" : {
+	    	"name" : "SCE_KERNEL_ERROR_CALLBACK_NOT_REGISTERED",
+	    	"description" : "Callback has not been registered"
+	    },
+	    "0x80C0" : {
+	    	"name" : "SCE_KERNEL_ERROR_ALARM_ERROR",
+	    	"description" : "Alarm error"
+	    },
+	    "0x80C1" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_ALARM_ID",
+	    	"description" : "Alarm ID which does not exist"
+	    },
+	    "0x80C2" : {
+	    	"name" : "SCE_KERNEL_ERROR_ALARM_CAN_NOT_CANCEL",
+	    	"description" : "Cannot cancel alarm"
+	    },
+	    "0x80E0" : {
+	    	"name" : "SCE_KERNEL_ERROR_EVF_ERROR",
+	    	"description" : "Event flag error"
+	    },
+	    "0x80E1" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_EVF_ID",
+	    	"description" : "Event flag ID which does not exist"
+	    },
+	    "0x80E2" : {
+	    	"name" : "SCE_KERNEL_ERROR_EVF_MULTI",
+	    	"description" : "Event flag is already waited for by another thread"
+	    },
+	    "0x80E3" : {
+	    	"name" : "SCE_KERNEL_ERROR_EVF_COND",
+	    	"description" : "Event flag wait condition was not satisfied"
+	    },
+	    "0x8100" : {
+	    	"name" : "SCE_KERNEL_ERROR_SEMA_ERROR",
+	    	"description" : "Semaphore error"
+	    },
+	    "0x8101" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_SEMA_ID",
+	    	"description" : "Semaphore ID which does not exist"
+	    },
+	    "0x8102" : {
+	    	"name" : "SCE_KERNEL_ERROR_SEMA_ZERO",
+	    	"description" : "Insufficient semaphore resources"
+	    },
+	    "0x8103" : {
+	    	"name" : "SCE_KERNEL_ERROR_SEMA_OVF",
+	    	"description" : "Semaphore count overflow"
+	    },
+	    "0x8120" : {
+	    	"name" : "SCE_KERNEL_ERROR_SIGNAL_ERROR",
+	    	"description" : "Signal error"
+	    },
+	    "0x8121" : {
+	    	"name" : "SCE_KERNEL_ERROR_ALREADY_SENT",
+	    	"description" : "Signal is already sent"
+	    },
+	    "0x8140" : {
+	    	"name" : "SCE_KERNEL_ERROR_MUTEX_ERROR",
+	    	"description" : "Mutex error"
+	    },
+	    "0x8141" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_MUTEX_ID",
+	    	"description" : "Mutex ID which does not exist"
+	    },
+	    "0x8142" : {
+	    	"name" : "SCE_KERNEL_ERROR_MUTEX_RECURSIVE",
+	    	"description" : "Mutex does not allow recursive locks"
+	    },
+	    "0x8143" : {
+	    	"name" : "SCE_KERNEL_ERROR_MUTEX_LOCK_OVF",
+	    	"description" : "Mutex lock count overflow"
+	    },
+	    "0x8144" : {
+	    	"name" : "SCE_KERNEL_ERROR_MUTEX_UNLOCK_UDF",
+	    	"description" : "Mutex unlock count underflow"
+	    },
+	    "0x8145" : {
+	    	"name" : "SCE_KERNEL_ERROR_MUTEX_FAILED_TO_OWN",
+	    	"description" : "Mutex acquisition failed"
+	    },
+	    "0x8146" : {
+	    	"name" : "SCE_KERNEL_ERROR_MUTEX_NOT_OWNED",
+	    	"description" : "Mutex is not owned"
+	    },
+	    "0x8160" : {
+	    	"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_ERROR",
+	    	"description" : "Fast mutex error"
+	    },
+	    "0x8161" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_FAST_MUTEX_ID",
+	    	"description" : "Fast mutex ID which does not exist"
+	    },
+	    "0x8162" : {
+	    	"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_RECURSIVE",
+	    	"description" : "Fast mutex does not allow recursive locks"
+	    },
+	    "0x8163" : {
+	    	"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_LOCK_OVF",
+	    	"description" : "Fast mutex lock count overflow"
+	    },
+	    "0x8164" : {
+	    	"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_FAILED_TO_OWN",
+	    	"description" : "Fast mutex acquisition failed"
+	    },
+	    "0x8165" : {
+	    	"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_NOT_OWNED",
+	    	"description" : "Fast mutex is not owned"
+	    },
+	    "0x8166" : {
+	    	"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_OWNED",
+	    	"description" : "Fast mutex is owned"
+	    },
+	    "0x8167" : {
+	    	"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_ALREADY_INITIALIZED",
+	    	"description" : "Fast mutex is already initialized"
+	    },
+	    "0x8168" : {
+	    	"name" : "SCE_KERNEL_ERROR_FAST_MUTEX_NOT_INITIALIZED",
+	    	"description" : "Fast mutex is not initialized"
+	    },
+	    "0x8180" : {
+	    	"name" : "SCE_KERNEL_ERROR_LW_MUTEX_ERROR",
+	    	"description" : "Lightweight mutex error"
+	    },
+	    "0x8181" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID",
+	    	"description" : "Lightweight mutex ID which does not exist"
+	    },
+	    "0x8182" : {
+	    	"name" : "SCE_KERNEL_ERROR_LW_MUTEX_RECURSIVE",
+	    	"description" : "Lightweight mutex does not allow recursive locks"
+	    },
+	    "0x8183" : {
+	    	"name" : "SCE_KERNEL_ERROR_LW_MUTEX_LOCK_OVF",
+	    	"description" : "Lock count overflow of lightweight mutex"
+	    },
+	    "0x8184" : {
+	    	"name" : "SCE_KERNEL_ERROR_LW_MUTEX_UNLOCK_UDF",
+	    	"description" : "Lock count underflow of lightweight mutex"
+	    },
+	    "0x8185" : {
+	    	"name" : "SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN",
+	    	"description" : "Lightweight mutex cannot be owned"
+	    },
+	    "0x8186" : {
+	    	"name" : "SCE_KERNEL_ERROR_LW_MUTEX_NOT_OWNED",
+	    	"description" : "Lightweight mutex is not owned"
+	    },
+	    "0x81A0" : {
+	    	"name" : "SCE_KERNEL_ERROR_COND_ERROR",
+	    	"description" : "Condition variable error"
+	    },
+	    "0x81A1" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_COND_ID",
+	    	"description" : "Condition variable ID which does not exist"
+	    },
+	    "0x81A2" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_DELETE_MUTEX",
+	    	"description" : "Mutex deleted during waiting"
+	    },
+	    "0x81A3" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_CANCEL_MUTEX",
+	    	"description" : "Mutex waiting canceled"
+	    },
+	    "0x81A4" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_DELETE_COND",
+	    	"description" : "Condition variable deleted during waiting"
+	    },
+	    "0x81A5" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_CANCEL_COND",
+	    	"description" : "Condition variable waiting canceled"
+	    },
+	    "0x81C0" : {
+	    	"name" : "SCE_KERNEL_ERROR_LW_COND_ERROR",
+	    	"description" : "Lightweight condition variable error"
+	    },
+	    "0x81C1" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_LW_COND_ID",
+	    	"description" : "Lightweight condition variable ID which does not exist"
+	    },
+	    "0x81C2" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_DELETE_LW_MUTEX",
+	    	"description" : "Lightweight mutex deleted during waiting"
+	    },
+	    "0x81C3" : {
+	    	"name" : "SCE_KERNEL_ERROR_WAIT_DELETE_LW_COND",
+	    	"description" : "Lightweight condition variable  deleted during waiting"
+	    },
+	    "0x81E0" : {
+	    	"name" : "SCE_KERNEL_ERROR_RW_LOCK_ERROR",
+	    	"description" : "Reader/writer lock error"
+	    },
+	    "0x81E1" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_RW_LOCK_ID",
+	    	"description" : "Reader/writer lock ID which does not exist"
+	    },
+	    "0x81E2" : {
+	    	"name" : "SCE_KERNEL_ERROR_RW_LOCK_RECURSIVE",
+	    	"description" : "Reader/writer lock does not allow recursive locks"
+	    },
+	    "0x81E3" : {
+	    	"name" : "SCE_KERNEL_ERROR_RW_LOCK_LOCK_OVF",
+	    	"description" : "Reader/writer lock count overflow"
+	    },
+	    "0x81E4" : {
+	    	"name" : "SCE_KERNEL_ERROR_RW_LOCK_NOT_OWNED",
+	    	"description" : "Reader/writer lock is not owned"
+	    },
+	    "0x81E5" : {
+	    	"name" : "SCE_KERNEL_ERROR_RW_LOCK_UNLOCK_UDF",
+	    	"description" : "Reader/writer unlock count underflow"
+	    },
+	    "0x81E6" : {
+	    	"name" : "SCE_KERNEL_ERROR_RW_LOCK_FAILED_TO_LOCK",
+	    	"description" : "Reader/writer lock failed"
+	    },
+	    "0x81E7" : {
+	    	"name" : "SCE_KERNEL_ERROR_RW_LOCK_FAILED_TO_UNLOCK",
+	    	"description" : "Reader/writer unlock failed"
+	    },
+	    "0x8200" : {
+	    	"name" : "SCE_KERNEL_ERROR_EVENT_ERROR",
+	    	"description" : "Event error"
+	    },
+	    "0x8201" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_EVENT_ID",
+	    	"description" : "Event ID which does not exist"
+	    },
+	    "0x8202" : {
+	    	"name" : "SCE_KERNEL_ERROR_EVENT_COND",
+	    	"description" : "Event polling failed"
+	    },
+	    "0x8220" : {
+	    	"name" : "SCE_KERNEL_ERROR_MSG_PIPE_ERROR",
+	    	"description" : "Message pipe error"
+	    },
+	    "0x8221" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_MSG_PIPE_ID",
+	    	"description" : "Message pipe ID which does not exist"
+	    },
+	    "0x8222" : {
+	    	"name" : "SCE_KERNEL_ERROR_MSG_PIPE_FULL",
+	    	"description" : "Too many message pipes"
+	    },
+	    "0x8223" : {
+	    	"name" : "SCE_KERNEL_ERROR_MSG_PIPE_EMPTY",
+	    	"description" : "Message pipe is empty"
+	    },
+	    "0x8224" : {
+	    	"name" : "SCE_KERNEL_ERROR_MSG_PIPE_DELETED",
+	    	"description" : "Buffer of the message pipe has been deleted"
+	    },
+	    "0x8240" : {
+	    	"name" : "SCE_KERNEL_ERROR_TIMER_ERROR",
+	    	"description" : "Timer error"
+	    },
+	    "0x8241" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_TIMER_ID",
+	    	"description" : "Timer ID which does not exist"
+	    },
+	    "0x8242" : {
+	    	"name" : "SCE_KERNEL_ERROR_EVENT_NOT_SET",
+	    	"description" : "Event has not been set"
+	    },
+	    "0x8260" : {
+	    	"name" : "SCE_KERNEL_ERROR_SIMPLE_EVENT_ERROR",
+	    	"description" : "Simple event error"
+	    },
+	    "0x8261" : {
+	    	"name" : "SCE_KERNEL_ERROR_UNKNOWN_SIMPLE_EVENT_ID",
+	    	"description" : "Simple event ID which does not exist"
+	    },
+	    "0x8280" : {
+	    	"name" : "SCE_KERNEL_ERROR_PMON_ERROR",
+	    	"description" : "Performance monitor error"
+	    },
+	    "0x8281" : {
+	    	"name" : "SCE_KERNEL_ERROR_PMON_NOT_THREAD_MODE",
+	    	"description" : "PMON counter is not in thread mode"
+	    },
+	    "0x8282" : {
+	    	"name" : "SCE_KERNEL_ERROR_PMON_NOT_CPU_MODE",
+	    	"description" : "PMON counter is not in CPU mode"
+	    },
+	    "0x9000" : {
+	    	"name" : "SCE_KERNEL_ERROR_PROCESSMGR_ERROR",
+	    	"description" : "Process manager error occurred"
+	    },
+	    "0x9001" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_PID",
+	    	"description" : "Invalid process identifier provided"
+	    },
+	    "0x9002" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_PROCESS_TYPE",
+	    	"description" : "Invalid process type"
+	    },
+	    "0x9003" : {
+	    	"name" : "SCE_KERNEL_ERROR_PLS_FULL",
+	    	"description" : "Process-specific work area is full"
+	    },
+	    "0x9004" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_PROCESS_STATUS",
+	    	"description" : "Invalid process status"
+	    },
+	    "0x9005" : {
+	    	"name" : "SCE_KERNEL_ERROR_PROCESS_CALLBACK_NOTFOUND",
+	    	"description" : "Process termination callback not registered"
+	    },
+	    "0x9006" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_BUDGET_ID",
+	    	"description" : "Invalid budget UID"
+	    },
+	    "0x9007" : {
+	    	"name" : "SCE_KERNEL_ERROR_INVALID_BUDGET_SIZE",
+	    	"description" : "Invalid budget size"
+	    },
+	    "0x9008" : {
+	    	"name" : "SCE_KERNEL_ERROR_CP14_DISABLED",
+	    	"description" : "Debug Coprocessor CP14 is disabled"
+	    },
+	    "0x9009" : {
+	    	"name" : "SCE_KERNEL_ERROR_EXCEEDED_MAX_PROCESSES",
+	    	"description" : "Maximum number of processes for budget exceeded"
+	    },
+	    "0x900A" : {
+	    	"name" : "SCE_KERNEL_ERROR_PROCESS_REMAINING",
+	    	"description" : "Process is remaining"
+	    },
+	    "0x900B" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_PROCESS_DATA",
+	    	"description" : "Process specific data area is full"
+	    },
+	    "0x900C" : {
+	    	"name" : "SCE_KERNEL_ERROR_PROCESS_EVENT_INHIBITED",
+	    	"description" : "Operation in relation to process is prohibited"
+	    },
+	    "0xA000" : {
+	    	"name" : "SCE_KERNEL_ERROR_IOFILEMGR_ERROR",
+	    	"description" : "I/O file manager error occurred"
+	    },
+	    "0xA001" : {
+	    	"name" : "SCE_KERNEL_ERROR_IO_NAME_TOO_LONG",
+	    	"description" : "Path name or file name too long"
+	    },
+	    "0xA002" : {
+	    	"name" : "SCE_KERNEL_ERROR_IO_REG_DEV",
+	    	"description" : "Device is already registered"
+	    },
+	    "0xA003" : {
+	    	"name" : "SCE_KERNEL_ERROR_IO_ALIAS_USED",
+	    	"description" : "Alias already in use"
+	    },
+	    "0xA004" : {
+	    	"name" : "SCE_KERNEL_ERROR_IO_DEL_DEV",
+	    	"description" : "Driver has been deleted"
+	    },
+	    "0xA005" : {
+	    	"name" : "SCE_KERNEL_ERROR_IO_WOULD_BLOCK",
+	    	"description" : "File is already locked"
+	    },
+	    "0xD000" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_START_FAILED",
+	    	"description" : "Module start failed"
+	    },
+	    "0xD001" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_STOP_FAIL",
+	    	"description" : "Module stop failed"
+	    },
+	    "0xD002" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_IN_USE",
+	    	"description" : "Module unlinking failed"
+	    },
+	    "0xD003" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_LIB",
+	    	"description" : "Non-existent library"
+	    },
+	    "0xD004" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_SYSCALL_REG",
+	    	"description" : "Failed to register system call"
+	    },
+	    "0xD005" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM_LIB",
+	    	"description" : "Insufficient memory for library management"
+	    },
+	    "0xD006" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM_STUB",
+	    	"description" : "Insufficient memory for stub management"
+	    },
+	    "0xD007" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM_SELF",
+	    	"description" : "Insufficient memory for SELF management"
+	    },
+	    "0xD008" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOMEM",
+	    	"description" : "Insufficient memory for module management"
+	    },
+	    "0xD009" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_LIB",
+	    	"description" : "Invalid library"
+	    },
+	    "0xD00A" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_STUB",
+	    	"description" : "Invalid stub"
+	    },
+	    "0xD00B" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_FUNC_NID",
+	    	"description" : "No function NID in corresponding library"
+	    },
+	    "0xD00C" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_VAR_NID",
+	    	"description" : "No variable NID in corresponding library"
+	    },
+	    "0xD00D" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_TYPE",
+	    	"description" : "Invalid module type"
+	    },
+	    "0xD00E" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_MOD_ENTRY",
+	    	"description" : "Module entry does not exist"
+	    },
+	    "0xD00F" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_PROC_PARAM",
+	    	"description" : "Invalid process parameter"
+	    },
+	    "0xD010" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_MODOBJ",
+	    	"description" : "Module object does not exist"
+	    },
+	    "0xD011" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_MOD",
+	    	"description" : "Module does not exist"
+	    },
+	    "0xD012" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NO_PROCESS",
+	    	"description" : "Process does not exist"
+	    },
+	    "0xD013" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_OLD_LIB",
+	    	"description" : "Old library registration"
+	    },
+	    "0xD014" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_STARTED",
+	    	"description" : "Module already started"
+	    },
+	    "0xD015" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOT_STARTED",
+	    	"description" : "Module not started"
+	    },
+	    "0xD016" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOT_STOPPED",
+	    	"description" : "Module not stopped"
+	    },
+	    "0xD017" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_PROCESS_UID",
+	    	"description" : "Invalid process UID"
+	    },
+	    "0xD018" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_CANNOT_EXPORT_LIB_TO_SHARED",
+	    	"description" : "Cannot export library to shared text module"
+	    },
+	    "0xD019" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_REL_INFO",
+	    	"description" : "Invalid relocation information"
+	    },
+	    "0xD01A" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_INVALID_REF_INFO",
+	    	"description" : "Invalid reference table information"
+	    },
+	    "0xD01B" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_ELINK",
+	    	"description" : "Old version of library. Cannot link."
+	    },
+	    "0xD01C" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOENT",
+	    	"description" : "Object does not exist"
+	    },
+	    "0xD01D" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_BUSY",
+	    	"description" : "Object is busy"
+	    },
+	    "0xD01E" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOEXEC",
+	    	"description" : "Invalid object format"
+	    },
+	    "0xD01F" : {
+	    	"name" : "SCE_KERNEL_ERROR_MODULEMGR_NAMETOOLONG",
+	    	"description" : "Name too long"
+	    },
+	    "0x0D020" : {
+		"name" : "SCE_KERNEL_ERROR_MODULEMGR_CANNOT_STOP",
+		"description" : "Cannot stop module"
+	    },
+	    "0x0D021" : {
+		"name" : "SCE_KERNEL_ERROR_MODULEMGR_ALREADY_LOADED",
+		"description" : "Module has already loaded"
+	    },
+	    "0x0D022" : {
+		"name" : "SCE_KERNEL_ERROR_MODULEMGR_STOPPED",
+		"description" : "Module has already stopped"
+	    },
+	    "0x0D023" : {
+		"name" : "SCE_KERNEL_ERROR_MODULEMGR_NOT_MAIN_MODULE",
+		"description" : "Module is not main module"
+	    },
+	    "0xD080" : {
+	    	"name" : "SCE_KERNEL_ERROR_LIBRARYDB_NOENT",
+	    	"description" : "Library database does not exist"
+	    },
+	    "0xD081" : {
+	    	"name" : "SCE_KERNEL_ERROR_LIBRARYDB_NO_LIB",
+	    	"description" : "Library does not exist"
+	    },
+	    "0xD082" : {
+	    	"name" : "SCE_KERNEL_ERROR_LIBRARYDB_NO_MOD",
+	    	"description" : "Module does not exist"
+	    },
+	    "0xF000" : {
+	    	"name" : "SCE_KERNEL_ERROR_AUTHFAIL",
+	    	"description" : "SELF authentication failed"
+	    },
+	    "0xF001" : {
+	    	"name" : "SCE_KERNEL_ERROR_NO_AUTH",
+	    	"description" : "No privileges"
+	    }
         }
     },
 	"0x003" : {
@@ -1934,9 +1970,21 @@
 		"name" : "SCE_ERROR_FACILITY_SBL",
 		"description" : "Secure Block error code facility",
 		"errors" : {
+			"0x0010" : {
+				"name" : "Unknown error code (0x0010)",
+				"description" : "?SCE_SBL_ERROR_MORE_PROCESSING_REQUIRED?"
+			},
 			"0x0516" : {
 				"name": "SCE_SBL_ERROR_AM_EINVAL",
-				"description": "AuthManager - Invalid argument"
+				"description" : "AuthManager - Invalid argument"
+			},
+			"0x0537" : {
+				"name" : "Unknown error code (0x0537)",
+				"description" : "?SCE_SBL_ERROR_UNKNOWN_FIRMWARE?"
+			},
+			"0x0624" : {
+				"name" : "Unknown error code (0x0624)",
+				"description" : "fSELF not allowed - is taiHEN/henkaku running?"
 			}
 		}
 	},
@@ -4536,7 +4584,53 @@
 	},
 	"0x03E" : {
 		"name" : "SCE_ERROR_FACILITY_USBAUDIO",
-		"errors" : {}
+		"errors" : {
+			"0x0001" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_INVALID_ARGUMENT"
+			},
+			"0x0002" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_DUPLICATE_ID"
+			},
+			"0x0003" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_NO_MEMORY"
+			},
+			"0x0004" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_DEVICE_NOT_FOUND"
+			},
+			"0x0005" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_NOT_SUPPORTED"
+			},
+			"0x0006" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_CANNOT_GET_PORT_OWNERSHIP"
+			},
+			"0x0007" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_PORT_IS_ALREADY_OPENED"
+			},
+			"0x0008" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_PROCESS_HAS_NOT_A_DEVICE_OWNERSHIP"
+			},
+			"0x0009" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_FAILED_TO_READ_STREAM"
+			},
+			"0x000A" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_DEVICE_WAS_HALTED"
+			},
+			"0x000B" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_NO_DATA_TO_READ"
+			},
+			"0x000C" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_FAILED_TO_COPY_BUFFER"
+			},
+			"0x000D" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_FAILED_TO_REQUEST_ISOCHRONOUS"
+			},
+			"0x000E" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_TIMEOUT"
+			},
+			"0x000F" : {
+				"name" : "SCE_USBAUDIO_IN_ERROR_PROCESS_CANNOT_OPEN_MORE_DEVICE"
+			}
+		}
 	},
 	"0x03F" : {
 		"name" : "SCE_ERROR_FACILITY_PERIPH",
@@ -5797,7 +5891,12 @@
 	"0x054" : {
 		"name" : "SCE_ERROR_FACILITY_MTP",
 		"description" : "MTP error code facility",
-		"errors" : {}
+		"errors" : {
+			"0x0054" : {
+				"name" : "Unknown error code (0x0054)",
+				"description" : "?MTP driver is not loaded?"
+			}
+		}
 	},
 	"0x055" : {
 		"name" : "SCE_ERROR_FACILITY_NP",
@@ -7915,6 +8014,14 @@
 			"0x0104" : {
 				"name" : "SCE_DEFLATE_ERROR_INVALID_CBINFO",
 				"description" : "Invalid callback structure specification"
+			},
+			"0x0200" : {
+				"name" : "SCE_ARLZ_ERROR_INVALID_FORMAT",
+				"description" : "Invalid format"
+			},
+			"0x0201": {
+				"name" : "SCE_ARLZ_ERROR_INVALID_SIZE",
+				"description" : "Buffer overflowed during expansion"
 			}
 		}
 	},
@@ -9699,19 +9806,23 @@
 		"name" : "SCE_ERROR_FACILITY_PAF",
 		"description" : "PlayStation® Application Framework facility",
 		"errors" : {
-            "0x0702": {
-                "name" : "SCE_PAF_ERROR_THREAD_ALREADY_STARTED",
-                "description" : "Thread already started"
-            }
+            		"0x0702" : {
+            		    "name" : "SCE_PAF_ERROR_THREAD_ALREADY_STARTED",
+            		    "description" : "Thread already started"
+            		},
+			"0x5024" : {
+				"name" : "SCE_PAF_ERROR_ERRNO_ENODEV",
+				"description" : "Device does not exist" 
+			}
         }
 	},
 	"0x0EE" : {
-        "name" : "Unknown facility (0x0EE)",
+        "name" : "Facility 0x0EE",
         "description" : "Reserved for diag test",
         "errors" : {}
     },
 	"0x0EF" : {
-        "name" : "Unknown facility (0x0EF)",
+        "name" : "Facility 0x0EF",
         "description" : "Reserved for diag test",
         "errors" : {}
     },
