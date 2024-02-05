@@ -9614,7 +9614,7 @@
 	},
 	"0x08A" : {
 		"name" : "SCE_ERROR_FACILITY_SBL_GCAUTH",
-		"description" : "Secure Block Game Card Authentification error code facility",
+		"description" : "Secure Block Game Card Authentication error code facility",
 		"errors" : {}
 	},
 	"0x08B" : {
