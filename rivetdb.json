@@ -2164,6 +2164,10 @@
 				"name" : "Unknown error (0x1100)",
 				"description" : "Unknown ScePromoterUtil error"
 			},
+			"0x1127" : {
+				"name" : "SCE_VSH_PROMOTER_UTIL_BAD_FSELF_HEADER",
+				"description" : "Invalid fSELF header / not fSELF"
+			},
 			"0x1200" : {
 				"name" : "SCE_LOCATION_INFO_UNDETERMINED_LOCATION",
 				"description" : "Could not get information for location calculation"
