@@ -3880,6 +3880,45 @@
 			"0x0609": {
 				"name": "SCE_BT_ERROR_AVCTP_SEND_NOT_RUBY"
 			},
+			"0x0701": {
+				"name": "SCE_BT_ERROR_RFC_OPEN_NO_L2C"
+			},
+			"0x0702": {
+				"name": "SCE_BT_ERROR_RFC_SEND_NO_L2C"
+			},
+			"0x0703": {
+				"name": "SCE_BT_ERROR_RFC_SEND_CB_NOT_SUPPORTED"
+			},
+			"0x0801": {
+				"name": "SCE_BT_ERROR_SCO_START_NO_L2C"
+			},
+			"0x0802": {
+				"name": "SCE_BT_ERROR_SCO_START_NOT_CLOSED"
+			},
+			"0x0803": {
+				"name": "SCE_BT_ERROR_SCO_ACCEPT_NO_L2C"
+			},
+			"0x0804": {
+				"name": "SCE_BT_ERROR_SCO_ACCEPT_NOT_CLOSED"
+			},
+			"0x0805": {
+				"name": "SCE_BT_ERROR_SCO_SCO_STOP_NO_L2C"
+			},
+			"0x0806": {
+				"name": "SCE_BT_ERROR_SCO_STOP_NOT_STREAMING"
+			},
+			"0x0807": {
+				"name": "SCE_BT_ERROR_SCO_SEND_NO_L2C"
+			},
+			"0x0808": {
+				"name": "SCE_BT_ERROR_SCO_SEND_CB_NOT_SUPPORTED"
+			},
+			"0x0809": {
+				"name": "SCE_BT_ERROR_SCO_SEND_NOT_STREAMING"
+			},
+			"0x080A": {
+				"name": "SCE_BT_ERROR_SCO_SEND_INVALID_LENGTH"
+			},
 			"0x0901": {
 				"name": "SCE_BT_ERROR_HID_OPEN_NO_L2C"
 			},
@@ -4048,11 +4087,32 @@
 			"0x0E02": {
 				"name": "SCE_BT_ERROR_HID_RECV_INVALID_LENGTH"
 			},
+			"0x0F0A": {
+				"name": "SCE_BT_ERROR_BIP_NOT_SUPPORTED"
+			},
+			"0x1008": {
+				"name": "SCE_BT_ERROR_OPP_NOT_SUPPORTED"
+			},
 			"0x1201": {
 				"name": "SCE_BT_ERROR_AVRCP_TOO_LONG_TITLE"
 			},
 			"0x1202": {
 				"name": "SCE_BT_ERROR_AVRCP_INVALID_PLAY_STATUS"
+			},
+			"0x1301": {
+				"name": "SCE_BT_ERROR_HFP_NOT_SUPPORTED"
+			},
+			"0x1401": {
+				"name": "SCE_BT_ERROR_GET_INFO_NOT_CONNECTED"
+			},
+			"0x1402": {
+				"name": "SCE_BT_ERROR_L2CAP_ECHO_REQ_NOT_CONNECTED"
+			},
+			"0x1403": {
+				"name": "SCE_BT_ERROR_L2CAP_ECHO_REQ_TOO_LONG"
+			},
+			"0x1404": {
+				"name": "SCE_BT_ERROR_L2CAP_ECHO_RES_NOT_CONNECTED"
 			},
 			"0x1501": {
 				"name": "SCE_BT_ERROR_CONF_NOT_READY"
@@ -4079,16 +4139,16 @@
 				"name": "SCE_BT_ERROR_CONF_CANT_DISABLE_FUNCTION"
 			},
 			"0x1509": {
-				"name": "SCE_BT_ERROR_CONF_REGISTER_SUBINTR_HANDLER"
+				"name": "SCE_BT_ERROR_CONF_CANT_REGISTER_SUBINTR_HANDLER"
 			},
 			"0x150A": {
-				"name": "SCE_BT_ERROR_CONF_RELEASE_SUBINTR_HANDLER"
+				"name": "SCE_BT_ERROR_CONF_CANT_RELEASE_SUBINTR_HANDLER"
 			},
 			"0x150B": {
-				"name": "SCE_BT_ERROR_CONF_ENABLE_SUBINTR"
+				"name": "SCE_BT_ERROR_CONF_CANT_ENABLE_SUBINTR"
 			},
 			"0x150C": {
-				"name": "SCE_BT_ERROR_CONF_DISABLE_SUBINTR"
+				"name": "SCE_BT_ERROR_CONF_CANT_DISABLE_SUBINTR"
 			},
 			"0x150D": {
 				"name": "SCE_BT_ERROR_CONF_ON_TIMEOUT"
