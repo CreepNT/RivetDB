@@ -1985,6 +1985,18 @@
 			"0x0624" : {
 				"name" : "Unknown error code (0x0624)",
 				"description" : "fSELF not allowed - is taiHEN/henkaku running?"
+			},
+			"0x0B24" : {
+				"name" : "Unknown error code (0x0B24)",
+				"description" : "?SCE_SBL_ERROR_AC_INVALID_REVOKE_LIST?\nAttempting to load an invalid revocation list"
+			},
+			"0x0B28" : {
+				"name" : "Unknown error code (0x0B28)",
+				"description" : "?SCE_SBL_ERROR_AC_INVALID_REVOCATION?\nInvalid entry in Revocation List"
+			},
+			"0x0B30" : {
+				"name" : "Unknown error code (0x0B30)",
+				"description" : "?SCE_SBL_ERROR_AC_REVOKED_PROGRAM?\nAttempting to load a program not allowed by revocation list"
 			}
 		}
 	},
